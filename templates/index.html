@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% import "countdown_macro.html" as countdown_macro %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="has-text-centered">
+      <h1 class="title is-2">{{ section.title }}</h1>
+      <p class="subtitle is-4">{{ section.description }}</p>
+
+      {{ countdown_macro::countdown() }}
+
+      {% if config.extra.author.avatar %}
+      <figure class="image is-flex is-justify-content-center is-align-items-center">
+        <img class="is-rounded" src="{{ config.extra.author.avatar }}" style="max-width: 192px" />
+      </figure>
+      {% endif %}
+      {{ macros:: social_links( social_config=config.extra.social) }}
+    </div>
+    <div class="content">
+      {{ section.content | safe }}
+    </div>
+  </div>
+</section>
+{% endblock %}

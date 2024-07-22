@@ -36,17 +36,35 @@ For our detailed activities, please visit the [initiatives](@/initiatives/_index
 {% galleria() %}
 {
   "images": [
-    {"src": "/images/core/abhijeet.webp", "title": "Abhijeet Parida", "description": ""},
-    {"src": "/images/core/aditya.webp", "title": "Aditya Parida", "description": ""},
-    {"src": "/images/core/anjan.webp", "title": "Anjan Kumar Panda", "description": ""},
-    {"src": "/images/core/damodar.webp", "title": "Damodar Sahu", "description": ""},
-    {"src": "/images/core/kuku_das.webp", "title": "Kuku Das", "description": ""},
-    {"src": "/images/core/kumarika.webp", "title": "Kumarika Mohanty Panda", "description": ""},
-    {"src": "/images/core/pradeepta.webp", "title": "Pradeepta Mishra", "description": ""},
-    {"src": "/images/core/shyamanujan.webp", "title": "Shyamanuja Das", "description": ""},
-    {"src": "/images/core/soumendra.webp", "title": "Soumendra Kumar Sahoo", "description": ""},
-    {"src": "/images/core/subhadarshi.webp", "title": "Subhadarshi Panda", "description": ""}
+    {"src": "/images/core/abhijeet.webp", "title": "Abhijeet Parida", "description": "https://www.linkedin.com/in/a-parida/"},
+    {"src": "/images/core/aditya.webp", "title": "Aditya Parida", "description": "https://www.linkedin.com/in/ap1950/"},
+    {"src": "/images/core/anjan.webp", "title": "Anjan Kumar Panda", "description": "https://www.linkedin.com/in/anjankumarpanda"},
+    {"src": "/images/core/damodar.webp", "title": "Damodar Sahu", "description": "https://www.linkedin.com/in/damodarsahu/"},
+    {"src": "/images/core/kuku_das.webp", "title": "Kuku Das", "description": "https://www.linkedin.com/in/kuku-das-14a06223"},
+    {"src": "/images/core/kumarika.webp", "title": "Kumarika Mohanty Panda", "description": "https://www.linkedin.com/in/kumarika-mohanty-09582815"},
+    {"src": "/images/core/pradeepta.webp", "title": "Pradeepta Mishra", "description": "https://www.linkedin.com/in/pradeepta/"},
+    {"src": "/images/core/shyamanujan.webp", "title": "Shyamanuja Das", "description": "https://www.linkedin.com/in/shyamanuja/"},
+    {"src": "/images/core/soumendra.webp", "title": "Soumendra Kumar Sahoo", "description": "https://www.linkedin.com/in/soumendrak/"},
+    {"src": "/images/core/subhadarshi.webp", "title": "Subhadarshi Panda", "description": "https://www.linkedin.com/in/subhadarshi-panda-1ba5091a/"}
   ]
 }
 {% end %}
 
+## Chapter Leaders
+
+* [Kumarika Mohanty](https://www.linkedin.com/in/kumarika-mohanty-09582815) - Women’s Chapter
+* [Soumendra Kumar Sahoo](https://www.linkedin.com/in/soumendrak/) - Bengaluru Chapter
+* Manmath Sahoo - Singapore
+* Dr. Sukanta Kumar Jena - UK
+* [Col. Aditya Parida](https://www.linkedin.com/in/ap1950/) & [Neelima Mishra](https://www.linkedin.com/in/neelimamisra/) - Sweden
+* [Dr. Sofen Kumar Jena](https://www.linkedin.com/in/sofen/) - France
+* [Dr. Shantipriya Parida](https://www.linkedin.com/in/shantipriya-parida-9781a9127/) - Finland
+* [Saswat Mohanty](https://www.linkedin.com/in/ersaswatmohanty/) - Germany
+* [Saroj Mahanta](https://www.linkedin.com/in/saroj-mahanta-83a37813/) - South Africa
+* [Dr. Sitansu Sekhar Nanda](https://www.linkedin.com/in/dr-sitansu-sekhar-nanda-73b62212/) - South Korea
+* [Manas Ranjan Kar](https://www.linkedin.com/in/manas-kar/) - Canada
+* [Debendra Mahanta](https://www.linkedin.com/in/debendra-mohanta-7445423/) - Japan
+* [Shayani Parida](https://www.linkedin.com/in/shayani-parida/) - CT, USA
+* [Sudhir Sahu](https://www.linkedin.com/in/susahu/) - CA, USA
+* [Madhusmita Nayak](https://www.linkedin.com/in/madhusmita-nayak-75a0a215/) - UAE
+* [A K Mohanty](https://www.linkedin.com/in/akmohantytatwa/) - BBSR

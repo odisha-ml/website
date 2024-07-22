@@ -172,6 +172,9 @@ navbar_items = [
         { url = "$BASE_URL/posts", name = "Posts" },
         { url = "$BASE_URL/conferences", name = "Conferences" },
         { url = "$BASE_URL/tags", name = "Tags" },
+        { url = "$BASE_URL/initiatives", name = "Initiatives" },
+        { url = "$BASE_URL/about", name = "About" },
+        { url = "$BASE_URL/contact", name = "Contact" },
     ] },
 ]
 

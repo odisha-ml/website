@@ -36,6 +36,15 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
   <link href="{{ get_url(path='deep-thought.css') }}" rel="stylesheet" />
+  <style>
+    .navbar.is-fixed-top {
+      transition: transform 0.3s;
+    }
+
+    .navbar.is-fixed-top.is-hidden {
+      transform: translateY(-100%);
+    }
+  </style>
   {% block user_custom_stylesheet %}
   {% endblock %}
 
@@ -71,7 +80,7 @@
 </head>
 
 <body class="has-background-white">
-  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+  <nav aria-label="section navigation" class="navbar is-light is-fixed-top" role="navigation" id="main-navbar">
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item is-size-5 has-text-weight-bold" href="{{config.base_url}}">{{ config.title }}</a>
@@ -211,6 +220,32 @@
   {% endif %}
   <script src="{{ get_url(path='elasticlunr.min.js') }}"></script>
   <script src="{{ get_url(path='search_index.' ~ lang ~ '.js') }}"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var navbar = document.getElementById('main-navbar');
+      var lastScrollTop = 0;
+      var delta = 5;
+      var navbarHeight = navbar.offsetHeight;
+
+      window.addEventListener('scroll', function () {
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (Math.abs(lastScrollTop - scrollTop) <= delta) {
+          return;
+        }
+
+        if (scrollTop > lastScrollTop && scrollTop > navbarHeight) {
+          // Scrolling down
+          navbar.classList.add('is-hidden');
+        } else {
+          // Scrolling up
+          navbar.classList.remove('is-hidden');
+        }
+
+        lastScrollTop = scrollTop;
+      });
+    });
+  </script>
   {%- if lang != "en" -%}
   {%- block other_lang_search_js -%}
   {%- endblock -%}

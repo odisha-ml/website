@@ -1,6 +1,7 @@
 +++
 title="Children's Day 2021 Special Event"
 date=2021-11-14
+local_image = "images/initiatives/sishu_divas_2021.webp"
 
 [taxonomies]
 categories = ["Events"]

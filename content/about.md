@@ -36,11 +36,17 @@ For our detailed activities, please visit the [initiatives](@/initiatives/_index
 {% galleria() %}
 {
   "images": [
-    {
-      "src": "images/2022/speaker1.jpg",
-      "title": "Clouds & Mountains",
-      "description": "Just hanging out with each other."
-    },
+    {"src": "/images/core/abhijeet.webp", "title": "Abhijeet Parida", "description": ""},
+    {"src": "/images/core/aditya.webp", "title": "Aditya Parida", "description": ""},
+    {"src": "/images/core/anjan.webp", "title": "Anjan Kumar Panda", "description": ""},
+    {"src": "/images/core/damodar.webp", "title": "Damodar Sahu", "description": ""},
+    {"src": "/images/core/kuku_das.webp", "title": "Kuku Das", "description": ""},
+    {"src": "/images/core/kumarika.webp", "title": "Kumarika Mohanty Panda", "description": ""},
+    {"src": "/images/core/pradeepta.webp", "title": "Pradeepta Mishra", "description": ""},
+    {"src": "/images/core/shyamanujan.webp", "title": "Shyamanuja Das", "description": ""},
+    {"src": "/images/core/soumendra.webp", "title": "Soumendra Kumar Sahoo", "description": ""},
+    {"src": "/images/core/subhadarshi.webp", "title": "Subhadarshi Panda", "description": ""}
   ]
 }
 {% end %}
+

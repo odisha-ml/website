@@ -204,10 +204,6 @@
 {% macro page_publish_metadata(page) %}
 <span class="icon-text has-text-grey">
   <span class="icon">
-    <i class="fas fa-user"></i>
-  </span>
-  <span>{{ config.extra.author.name }} published on</span>
-  <span class="icon">
     <i class="far fa-calendar-alt"></i>
   </span>
   <span><time datetime="{{ page.date }}">{{ page.date | date(format='%B %d, %Y') }}</time></span>

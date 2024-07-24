@@ -42,6 +42,7 @@ For our detailed activities, please visit the [initiatives](@/initiatives/_index
     {"src": "/images/core/damodar.webp", "title": "Damodar Sahu", "description": "https://www.linkedin.com/in/damodarsahu/"},
     {"src": "/images/core/kuku_das.webp", "title": "Kuku Das", "description": "https://www.linkedin.com/in/kuku-das-14a06223"},
     {"src": "/images/core/kumarika.webp", "title": "Kumarika Mohanty Panda", "description": "https://www.linkedin.com/in/kumarika-mohanty-09582815"},
+    {"src": "/images/core/neelima.webp", "title": "Neelima Mishra", "description": "https://www.linkedin.com/in/neelimamisra/"},
     {"src": "/images/core/pradeepta.webp", "title": "Pradeepta Mishra", "description": "https://www.linkedin.com/in/pradeepta/"},
     {"src": "/images/core/shyamanujan.webp", "title": "Shyamanuja Das", "description": "https://www.linkedin.com/in/shyamanuja/"},
     {"src": "/images/core/soumendra.webp", "title": "Soumendra Kumar Sahoo", "description": "https://www.linkedin.com/in/soumendrak/"},

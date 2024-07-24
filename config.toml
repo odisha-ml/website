@@ -172,7 +172,7 @@ navbar_items = [
     { code = "en", nav_items = [
         { url = "$BASE_URL/", name = "Home" },
         { url = "$BASE_URL/conferences", name = "Conferences" },
-        { url = "$BASE_URL/tags", name = "Tags" },
+        { url = "$BASE_URL/code-of-conduct", name = "Code of Conduct" },
         { url = "$BASE_URL/initiatives", name = "Initiatives" },
         { url = "$BASE_URL/about", name = "About" },
         { url = "$BASE_URL/contact", name = "Contact" },

@@ -21,6 +21,9 @@ Odias in AI is a global initiative creating a space for idea sharing, fostering 
 Odias in AI will help leverage the power of artificial intelligence and machine learning for the overall development of Odisha and Odia language through a platform for collaboration among Odia technologists, academicians, executives, policymakers, and the broader community–working strategically with technology and thought leaders in the space.
 
 ## Activities
+
+![Journey so far](/images/OdiasInAITimeline.webp)
+
 We undertake the following activities to achieve our mission by:
 * celebrating the achievement of Odias in the field
 * helping enhance skills levels in this area
@@ -30,6 +33,11 @@ We undertake the following activities to achieve our mission by:
 * getting the best of technology leaders to work with us in the pursuit of our objective
 
 For our detailed activities, please visit the [initiatives](@/initiatives/_index.md) page.
+
+## Key Challenges Addressed
+* Shua, the spiritual predecessor of this community helped bringing Machine Translation to Odia Language.
+* United the Odias across the world in the field of AI/ML across the professional, academic, investor, entrepreneur, and policymaker levels.
+
 
 ## Core Team
 

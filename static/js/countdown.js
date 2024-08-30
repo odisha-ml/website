@@ -27,4 +27,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
     updateCountdown(); // Run once immediately
     const countdownInterval = setInterval(updateCountdown, 1000); // Then update every second
+
+    // Watch for theme changes
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.type === "attributes" && mutation.attributeName === "data-theme") {
+                // Theme has changed, update countdown styles if needed
+                const countdownTimer = document.querySelector('.countdown-timer');
+                if (countdownTimer) {
+                    countdownTimer.style.transition = 'background 0.3s ease';
+                }
+            }
+        });
+    });
+
+    observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["data-theme"]
+    });
 });

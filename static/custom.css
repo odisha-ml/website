@@ -1,12 +1,24 @@
 .countdown-timer {
     text-align: center;
-    margin: 2rem 0;
+    margin: 2rem auto;
     padding: 1.5rem;
     border-radius: 8px;
-    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-    background-color: var(--background-color);
+    max-width: 600px;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     color: var(--text-color);
     border: 1px solid var(--border-color);
+}
+
+/* Light theme gradient */
+.countdown-timer {
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme gradient */
+[data-theme="dark"] .countdown-timer {
+    background: linear-gradient(135deg, #2a2a2a, #3a3a3a);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .countdown-timer h2 {
@@ -24,7 +36,7 @@
 /* Responsive design */
 @media (max-width: 768px) {
     .countdown-timer {
-        margin: 1.5rem 0;
+        margin: 1.5rem auto;
         padding: 1rem;
     }
 

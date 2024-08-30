@@ -18,6 +18,7 @@
     {%- include "partials/home_banner.html" -%}
 {% endif -%}
 
+<!-- Move the countdown timer here, just after the header -->
 {% if section.extra.show_countdown %}
     <div id="countdown-timer" class="countdown-timer">
         <h2>{{ section.extra.countdown_title | default(value="Countdown to Next Conference") }}</h2>

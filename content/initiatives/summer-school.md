@@ -5,6 +5,9 @@ date=2022-06-18
 [taxonomies]
 categories = ["Events"]
 tags = ["event", "education"]
+
+[extra]
+social_media_card = "images/initiatives/summer_school.webp"
 +++
 
 ## AI/ML Summer School

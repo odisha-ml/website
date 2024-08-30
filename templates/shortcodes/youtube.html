@@ -1,6 +1,5 @@
-<div class="youtube is-flex is-justify-content-center is-align-items-center">
-    <iframe width="848" height="510" src="https://www.youtube.com/embed/{{id}}?rel=0&modestbranding=1" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </iframe>
+<div {% if class %}class="{{class}}" {% endif %}>
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/{{id}}{% if playlist %}?list={{playlist}}{% endif %}{% if autoplay %}?autoplay=1{% endif %}"
+        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>

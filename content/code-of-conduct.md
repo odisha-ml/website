@@ -7,8 +7,7 @@ date = 2024-07-24
 tags = ["Code of Conduct"]
 
 [extra]
-toc = false
-comments = false
+social_media_card = "images/coc.webp"
 +++
 
 Our community is committed to providing a welcoming, safe, and inclusive environment for all members, regardless of background or identity. We expect all participants to treat each other with respect and courtesy in all community interactions, including our annual conference events, special events, WhatsApp groups, and other social media channels. Harassment, discrimination, and disruptive behavior of any kind will not be tolerated.

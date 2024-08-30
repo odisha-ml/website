@@ -5,6 +5,9 @@ date=2022-10-29
 [taxonomies]
 categories = ["Events"]
 tags = ["event", "education"]
+
+[extra]
+social_media_card = "images/initiatives/fdp.webp"
 +++
 
 ## AI/ML Faculty Development Program

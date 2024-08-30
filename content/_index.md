@@ -11,6 +11,9 @@ max_posts = 3
 projects_path = "initiatives/_index.md"
 max_projects = 3
 show_projects_first = false
+show_countdown = true
+countdown_title = "Countdown to Next Conference"
+countdown_date = "2024-10-05T00:00:00"
 +++
 
 **Odias in AI/ML** is a global initiative creating a space for idea sharing, fostering collaborations, and discussing initiatives to increase the presence of Odia people in the field of AI. To this end, we run mentoring programs and maintain various fora for fostering partnerships and collaborations with industry and investors.

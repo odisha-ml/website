@@ -1,0 +1,38 @@
+.countdown-timer {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+.countdown-timer h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#countdown {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .countdown-timer {
+        margin: 1.5rem 0;
+        padding: 1rem;
+    }
+
+    .countdown-timer h2 {
+        font-size: 1.25rem;
+    }
+
+    #countdown {
+        font-size: 1.5rem;
+    }
+}

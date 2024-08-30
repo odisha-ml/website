@@ -20,8 +20,7 @@
 
 <!-- Move the countdown timer here, just after the header -->
 {% if section.extra.show_countdown %}
-    <div id="countdown-timer" class="countdown-timer">
-        <h2>{{ section.extra.countdown_title | default(value="Countdown to Next Conference") }}</h2>
+    <div id="countdown-timer" class="countdown-timer" data-title="{{ section.extra.countdown_title | default(value="Countdown to Next Conference") }}">
         <div id="countdown" data-target="{{ section.extra.countdown_date }}"></div>
     </div>
 {% endif %}

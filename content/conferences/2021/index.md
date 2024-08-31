@@ -1,7 +1,7 @@
 +++
 title="2021 Odias in AI/ML Conference"
 date=2021-10-09
-local_image = "images/2021/2021.png"
+local_image = "2021.png"
 
 [taxonomies]
 tags = ["Conference"]
@@ -11,14 +11,20 @@ social_media_card = "2021.png"
 
 +++
 
-# 2021 Odias in AI/ML Conference
+![Odias in AI/ML Conference 2021](2021.png)
+
+## 2021 Odias in AI/ML Conference
 
 On the 9th of October, 2021, Odias in AI/ML community has hosted its second global conference.
+
+**Theme**: Act! The Future is Here
 
 {{ youtube(id="iX59_YJzINs") }}
 _Entire Conference Video_
 
 ## Agenda
+
+{% wide_container() %}
 
 | Section            | Topic                                                                                 | BBSR  | London | Munich | SFO   | NY           | Speakers                                | Moderators                               |
 | ------------------ | ------------------------------------------------------------------------------------- | ----- | ------ | ------ | ----- | ------------ | --------------------------------------- | ---------------------------------------- |
@@ -61,3 +67,5 @@ _Entire Conference Video_
 | Skill to Scale     | Tapping the Market                                                                    | 22:50 | 17:20  | 18:20  | 10:20 | 13:20        | Ambika Sukla                            |                                          |
 | Concluding session | Conclusion, Session of Thanks , and Handover to open mike session                     | 23:00 | 17:30  | 18:30  | 10:30 | 13:30        | Pradeepta Mishra                        |                                          |
 | Open mike ; ଗପସପ   | 23:30                                                                                 | 18:00 | 19:00  | 11:00  | 14:00 | Damodar Sahu |                                         |
+
+{% end %}

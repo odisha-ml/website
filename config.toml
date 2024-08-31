@@ -231,7 +231,6 @@ menu = [
     { name = "Conferences", url = "conferences", trailing_slash = true },
     { name = "CoC", url = "code-of-conduct", trailing_slash = true },
     { name = "Initiatives", url = "initiatives", trailing_slash = true },
-    { name = "About", url = "about", trailing_slash = true },
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
@@ -246,7 +245,7 @@ full_content_in_feed = false
 # Protect against spambots:
 # 1. Use base64 for email (convert at https://www.base64encode.org/ or `printf 'your@email.com' | base64`).
 # 2. Or, set 'encode_plaintext_email' to true for auto-encoding (only protects on site, not in public repos).
-email = "dGFiaUBvc2MuZ2FyZGVu"
+email = "Y29udGFjdEBvZGlzaGFhaS5vcmc="
 # Decoding requires ~400 bytes of JavaScript. If JS is disabled, the email won't be displayed.
 encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 
@@ -254,18 +253,16 @@ encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 # Built-in icons: https://github.com/welpo/tabi/tree/main/static/social_icons
 # To use a custom icon, add it to your site's `static/social_icons` directory.
 socials = [
-    { name = "github", url = "https://github.com/welpo/", icon = "github" },
-    { name = "soundcloud", url = "https://soundcloud.com/oskerwyld", icon = "soundcloud" },
-    { name = "instagram", url = "https://instagram.com/oskerwyld", icon = "instagram" },
-    { name = "youtube", url = "https://youtube.com/@oskerwyld", icon = "youtube" },
-    { name = "spotify", url = "https://open.spotify.com/artist/5Hv2bYBhMp1lUHFri06xkE", icon = "spotify" },
+    { name = "github", url = "https://github.com/odisha-ml", icon = "github" },
+    { name = "twitter", url = "https://twitter.com/odias_in_ai", icon = "twitter" },
+    { name = "instagram", url = "https://www.instagram.com/odias_in_ai/", icon = "instagram" },
+    { name = "youtube", url = "https://www.youtube.com/@OdiasInML", icon = "youtube" },
+    { name = "linkedin", url = "https://www.linkedin.com/company/75029211", icon = "linkedin" },
 ]
 
 # Extra menu to show on the footer, below socials section.
 footer_menu = [
     {url = "about", name = "about", trailing_slash = true},
-    {url = "privacy", name = "privacy", trailing_slash = true},
-    {url = "https://tabi-stats.osc.garden", name = "site_statistics", trailing_slash = true},
     {url = "sitemap.xml", name = "sitemap", trailing_slash = false},
 ]
 
@@ -325,60 +322,67 @@ service = "goatcounter"
 # For Umami: Base URL like "https://umami.example.com"
 # For Plausible: Base URL like "https://plausible.example.com"
 # Leave this field empty if you're using the service's default hosting.
-self_hosted_url = "https://tabi-stats.osc.garden"
+self_hosted_url = ""
 
 # giscus support for comments. https://giscus.app
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup
-[extra.giscus]
-enabled_for_all_posts = false  # Enables giscus on all posts. It can be enabled on individual posts by setting `giscus = true` in the [extra] section of a post's front matter.
-automatic_loading = true  # If set to false, a "Load comments" button will be shown.
-repo = "welpo/tabi-comments"
-repo_id = "R_kgDOJ59Urw"  # Find this value in https://giscus.app/
-category = "Announcements"
-category_id = "DIC_kwDOJ59Ur84CX0QG"  # Find this value in https://giscus.app/
-mapping = "slug"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages.
-strict_title_matching = 1  # 1 to enable, 0 to disable. https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-strict
-enable_reactions = 1  # 1 to enable, 0 to disable.
-comment_box_above_comments = false
-light_theme = "noborder_light"
-dark_theme = "noborder_dark"
-lang = ""  # Leave blank to match the page's language.
-lazy_loading = true
+# [extra.giscus]
+# enabled_for_all_posts = false  # Enables giscus on all posts. It can be enabled on individual posts by setting `giscus = true` in the [extra] section of a post's front matter.
+# automatic_loading = true  # If set to false, a "Load comments" button will be shown.
+# repo = "welpo/tabi-comments"
+# repo_id = "R_kgDOJ59Urw"  # Find this value in https://giscus.app/
+# category = "Announcements"
+# category_id = "DIC_kwDOJ59Ur84CX0QG"  # Find this value in https://giscus.app/
+# mapping = "slug"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages.
+# strict_title_matching = 1  # 1 to enable, 0 to disable. https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-strict
+# enable_reactions = 1  # 1 to enable, 0 to disable.
+# comment_box_above_comments = false
+# light_theme = "noborder_light"
+# dark_theme = "noborder_dark"
+# lang = ""  # Leave blank to match the page's language.
+# lazy_loading = true
 
 # utterances support for comments. https://utteranc.es
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup
-[extra.utterances]
-enabled_for_all_posts = false  # Enables utterances on all posts. It can be enabled on individual posts by setting `utterances = true` in the [extra] section of a post's front matter.
-automatic_loading = true  # If set to false, a "Load comments" button will be shown.
-repo = "yourGithubUsername/yourRepo"  # https://utteranc.es/#heading-repository
-issue_term = "slug"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages. https://utteranc.es/#heading-mapping
-label = "💬"  # https://utteranc.es/#heading-issue-label
-light_theme = "github-light"  # https://utteranc.es/#heading-theme
-dark_theme = "photon-dark"  # https://utteranc.es/#heading-theme
-lazy_loading = true
+# [extra.utterances]
+# enabled_for_all_posts = false  # Enables utterances on all posts. It can be enabled on individual posts by setting `utterances = true` in the [extra] section of a post's front matter.
+# automatic_loading = true  # If set to false, a "Load comments" button will be shown.
+# repo = "yourGithubUsername/yourRepo"  # https://utteranc.es/#heading-repository
+# issue_term = "slug"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages. https://utteranc.es/#heading-mapping
+# label = "💬"  # https://utteranc.es/#heading-issue-label
+# light_theme = "github-light"  # https://utteranc.es/#heading-theme
+# dark_theme = "photon-dark"  # https://utteranc.es/#heading-theme
+# lazy_loading = true
 
 # Hyvor Talk support for comments. https://talk.hyvor.com
-[extra.hyvortalk]
-enabled_for_all_posts = false  # Enables hyvortalk on all posts. It can be enabled on individual posts by setting `hyvortalk = true` in the [extra] section of a post's front matter.
-automatic_loading = true  # If set to false, a "Load comments" button will be shown.
-website_id = "1234"
-page_id_is_slug = true  # If true, it will use the post's filename (slug) as id; this is the only way to share comments between languages. If false, it will use the entire url as id.
-lang = ""  # Leave blank to match the page's language.
-page_author = ""  # Email (or base64 encoded email) of the author.
-lazy_loading = true
+# [extra.hyvortalk]
+# enabled_for_all_posts = false  # Enables hyvortalk on all posts. It can be enabled on individual posts by setting `hyvortalk = true` in the [extra] section of a post's front matter.
+# automatic_loading = true  # If set to false, a "Load comments" button will be shown.
+# website_id = "1234"
+# page_id_is_slug = true  # If true, it will use the post's filename (slug) as id; this is the only way to share comments between languages. If false, it will use the entire url as id.
+# lang = ""  # Leave blank to match the page's language.
+# page_author = ""  # Email (or base64 encoded email) of the author.
+# lazy_loading = true
 
 # Isso support for comments. https://isso-comments.de/
 # You need to self-host the backend first: https://blog.phusion.nl/2018/08/16/isso-simple-self-hosted-commenting-system/
 # More info on some settings: https://isso-comments.de/docs/reference/client-config/
-[extra.isso]
-enabled_for_all_posts = false  # Enables Isso on all posts. It can be enabled on individual posts by setting `isso = true` in the [extra] section of a post's front matter.
-automatic_loading = true  # If set to false, a "Load comments" button will be shown.
-endpoint_url = ""  # Accepts relative paths like "/comments/" or "/isso/", as well as full urls like "https://example.com/comments/". Include the trailing slash.
-page_id_is_slug = true  # If true, it will use the relative path for the default language as id; this is the only way to share comments between languages. If false, it will use the entire url as id.
-lang = ""  # Leave blank to match the page's language.
-max_comments_top = "inf"  # Number of top level comments to show by default. If some comments are not shown, an "X Hidden" link is shown.
-max_comments_nested = "5"  # Number of nested comments to show by default. If some comments are not shown, an "X Hidden" link is shown.
-avatar = true
-voting = true
-page_author_hashes = ""  # hash (or list of hashes) of the author.
-lazy_loading = true  # Loads when the comments are in the viewport (using the Intersection Observer API).
+# [extra.isso]
+# enabled_for_all_posts = false  # Enables Isso on all posts. It can be enabled on individual posts by setting `isso = true` in the [extra] section of a post's front matter.
+# automatic_loading = true  # If set to false, a "Load comments" button will be shown.
+# endpoint_url = ""  # Accepts relative paths like "/comments/" or "/isso/", as well as full urls like "https://example.com/comments/". Include the trailing slash.
+# page_id_is_slug = true  # If true, it will use the relative path for the default language as id; this is the only way to share comments between languages. If false, it will use the entire url as id.
+# lang = ""  # Leave blank to match the page's language.
+# max_comments_top = "inf"  # Number of top level comments to show by default. If some comments are not shown, an "X Hidden" link is shown.
+# max_comments_nested = "5"  # Number of nested comments to show by default. If some comments are not shown, an "X Hidden" link is shown.
+# avatar = true
+# voting = true
+# page_author_hashes = ""  # hash (or list of hashes) of the author.
+# lazy_loading = true  # Loads when the comments are in the viewport (using the Intersection Observer API).
+# [languages.or]
+# title = "Odias in AI/ML"
+# build_search_index = false
+# taxonomies = [
+#     { name = "categories", feed = true, paginate_by = 10 },
+#     { name = "tags", feed = true, paginate_by = 10 },
+# ]

@@ -9,6 +9,10 @@ tags = ["Conference"]
 [extra]
 toc = true
 comments = false
+gallery_images = [
+    "images/logo.webp",
+    "images/index.webp"
+]
 +++
 
 ## 2022 Odias in AI/ML Conference
@@ -24,7 +28,7 @@ _Entire Conference Video_
 
 ## Invited Speakers, Quotes and Posters
 
-{{ gallery(speaker="speaker") }}
+{{ gallery() }}
 
 ## Agenda
 

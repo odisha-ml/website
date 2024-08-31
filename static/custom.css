@@ -79,3 +79,46 @@
     color: var(--background-color);
     border-color: var(--primary-color-light);
 }
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--background-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.navbar {
+    /* Add any existing navbar styles here */
+    padding: 10px 20px; /* Adjust as needed */
+}
+
+/* Remove these as they're no longer needed */
+.fixed-header,
+.header-spacer {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sticky-header {
+        position: fixed; /* Use fixed on mobile for better compatibility */
+    }
+
+    body {
+        padding-top: 60px; /* Adjust based on your navbar height */
+    }
+}
+
+/* Ensure the content below the navbar is not hidden */
+main {
+    padding-top: 20px; /* Adjust as needed */
+}
+
+/* Dark theme adjustments */
+[data-theme="dark"] .sticky-header {
+    background-color: var(--background-color);
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}

@@ -1,6 +1,6 @@
 +++
-title="Natural Language Processing in Odia"
-description="To develop tools in Odia language."
+title="OdiaNLP"
+description="To develop NLP(Natural Language Processing) tools in Odia language."
 date=2020-08-12
 updated=2024-08-31
 

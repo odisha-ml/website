@@ -183,7 +183,7 @@ previous_next_article_links_full_width = true
 # Quick navigation buttons.
 # Adds "go up" and "go to comments" buttons on the bottom right (hidden for mobile).
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-quick_navigation_buttons = false
+quick_navigation_buttons = true
 
 # Add a Table of Contents to posts, right below the title and metadata.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -208,7 +208,7 @@ compact_tags = false
 # How tags are sorted in a Tags listing based on templates/tags/list.html.
 # "name" for alphabetical, "frequency" for descending count of posts.
 # Default: "name".
-tag_sorting = "name"
+tag_sorting = "frequency"
 
 # Invert the order of the site title and page title in the browser tab.
 # Example: true => "Blog • ~/tabi", false => "~/tabi • Blog"
@@ -311,10 +311,10 @@ enable_csp = true
 # Please see https://welpo.github.io/tabi/blog/custom-font-subset/ to learn how to create this file.
 custom_subset = true
 
-[extra.analytics]
+# [extra.analytics]
 # Specify which analytics service you want to use.
 # Supported options: ["goatcounter", "umami", "plausible"]
-service = "goatcounter"
+# service = "goatcounter"
 
 # Unique identifier for tracking.
 # For GoatCounter, this is the code you choose during signup.
@@ -328,7 +328,7 @@ service = "goatcounter"
 # For Umami: Base URL like "https://umami.example.com"
 # For Plausible: Base URL like "https://plausible.example.com"
 # Leave this field empty if you're using the service's default hosting.
-self_hosted_url = ""
+# self_hosted_url = ""
 
 # giscus support for comments. https://giscus.app
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup

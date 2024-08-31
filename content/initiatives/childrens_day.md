@@ -4,7 +4,6 @@ description="Children's Day 2021 Special Event is a special event organized by O
 date=2021-11-14
 
 [taxonomies]
-categories = ["Events"]
 tags = ["event", "education"]
 
 [extra]
@@ -18,7 +17,7 @@ local_image = "images/initiatives/sishu_divas_2021.webp"
 On the 14th of November, 2021, Odias in AI/ML community has organized a special event to celebrate Children's Day.
 
 {{ youtube(id="kYCw9fpxsEk") }}
-*Children's Day 2021 Special Event*
+_Children's Day 2021 Special Event_
 
-* In this event, we educate the children about the importance of AI/ML and how it can help them in their everyday life.
-* We have expained complex concepts of AI/ML like Neural Network, Word Embedding, Natural Language Processing, Computer Vision, and Machine Learning in a simple way.
+- In this event, we educate the children about the importance of AI/ML and how it can help them in their everyday life.
+- We have expained complex concepts of AI/ML like Neural Network, Word Embedding, Natural Language Processing, Computer Vision, and Machine Learning in a simple way.

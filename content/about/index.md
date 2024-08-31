@@ -5,9 +5,11 @@ date = 2024-07-22
 
 [taxonomies]
 tags = ["About"]
+
 [extra]
 toc = true
 comments = false
+core_team_images_folder_path = "images/core_team"
 +++
 
 # About Us

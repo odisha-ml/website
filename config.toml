@@ -4,7 +4,7 @@ base_url = "https://www.odishaai.org"
 title = "Odias in AI/ML"
 description = "The Artificial Intelligence global community of Odias."
 
-author = "Soumendra Kumar Sahoo"
+author = "Odisha AI Incorporated"
 generate_feeds = false
 compile_sass = true
 minify_html = true
@@ -272,7 +272,13 @@ footer_menu = [
 # $AUTHOR will be replaced by the `author` variable.
 # $SEPARATOR will be replaced by the `separator` variable.
 # Markdown is supported (links, emphasis, etc).
-# copyright = "$TITLE © $CURRENT_YEAR $AUTHOR $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
+copyright = """
+$TITLE © $CURRENT_YEAR $AUTHOR $SEPARATOR Made by
+[Anisha](https://www.linkedin.com/in/anishaswain/),
+[Goutam](https://www.linkedin.com/in/goutam-samal/),
+[Subhadarshi](https://www.linkedin.com/in/subhadarshi-panda-1ba5091a/),
+and [Soumendra](www.soumendrak.com).
+"""
 
 # For multi-language sites, you can set a different copyright for each language.
 # The old way of setting `translated_copyright = true` and using i18n files is deprecated.

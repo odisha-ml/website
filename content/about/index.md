@@ -42,7 +42,7 @@ For our detailed activities, please visit the [initiatives](@/initiatives/_index
 
 ## Core Team
 
-TBD
+To be added
 
 ## Chapter Leaders
 

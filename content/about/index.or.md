@@ -3,8 +3,6 @@ title = "About Us"
 description = "About the Odias in AI/ML community."
 date = 2024-07-22
 
-[taxonomies]
-tags = ["About"]
 [extra]
 toc = true
 comments = false

@@ -388,10 +388,9 @@ custom_subset = true
 # voting = true
 # page_author_hashes = ""  # hash (or list of hashes) of the author.
 # lazy_loading = true  # Loads when the comments are in the viewport (using the Intersection Observer API).
-# [languages.or]
-# title = "Odias in AI/ML"
-# build_search_index = false
-# taxonomies = [
-#     { name = "categories", feed = true, paginate_by = 10 },
-#     { name = "tags", feed = true, paginate_by = 10 },
-# ]
+[languages.or]
+title = "Odias in AI/ML"
+build_search_index = false
+taxonomies = [
+    { name = "tags", feed = true, paginate_by = 10 },
+]

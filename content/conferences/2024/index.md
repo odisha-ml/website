@@ -8,7 +8,7 @@ tags = ["Conference"]
 
 [extra]
 toc = true
-social_media_card = "images/2024/2024.webp"
+social_media_card = "2024.webp"
 +++
 
 ## About

@@ -14,6 +14,7 @@ show_projects_first = false
 show_countdown = true
 countdown_title = "Countdown to the next conference"
 countdown_date = "2024-10-05T00:00:00"
+social_media_card = "images/logo.webp"
 +++
 
 **Odias in AI/ML** (*aka Odias in ML, Odias in AI, and Odisha AI*) is a not for profit global initiative creating a space for idea sharing, fostering collaborations, and discussing initiatives to increase the presence of Odia people in the field of AI. To this end, we run mentoring programs and maintain various fora for fostering partnerships and collaborations with industry and investors.

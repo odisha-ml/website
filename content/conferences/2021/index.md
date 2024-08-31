@@ -7,7 +7,7 @@ local_image = "images/2021/2021.png"
 tags = ["Conference"]
 
 [extra]
-social_media_card = "images/2021/2021.png"
+social_media_card = "2021.png"
 
 +++
 

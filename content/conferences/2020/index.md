@@ -9,6 +9,7 @@ tags = ["Conference"]
 [extra]
 toc = false
 comments = false
+social_media_card = "2020.webp"
 +++
 
 # 2020 Odias in AI/ML Conference

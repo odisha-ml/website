@@ -9,7 +9,6 @@ tags = ["About"]
 [extra]
 toc = true
 comments = false
-core_team_images_folder_path = "images/core_team"
 +++
 
 # About Us

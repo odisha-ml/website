@@ -1,5 +1,6 @@
 +++
 title="AI/ML Faculty Development Program"
+description="AI/ML Faculty Development Program is a joint collaboration of OdiaML and VSSUT bringing international experts from academics, and industries aiming to enrich faculty members of any streams with AI/ML skills."
 date=2022-10-29
 
 [taxonomies]
@@ -7,6 +8,7 @@ categories = ["Events"]
 tags = ["event", "education"]
 
 [extra]
+weight = 5
 social_media_card = "images/initiatives/fdp.webp"
 +++
 

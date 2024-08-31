@@ -1,10 +1,14 @@
 +++
 title="Twitter Spaces Series in AI/ML"
+description="Twitter Spaces Series in AI/ML is a series of discussions in AI/ML."
 date=2021-01-01
 
 [taxonomies]
 categories = ["Tutorials"]
 tags = ["event", "education", "twitter", "discussion"]
+
+[extra]
+weight = 8
 +++
 
 ## Odia Twitter Spaces Series in AI/ML

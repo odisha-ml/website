@@ -1,10 +1,17 @@
 +++
 title="Natural Language Processing in Odia"
+description="To develop tools in Odia language."
 date=2020-08-12
+updated=2024-08-31
 
 [taxonomies]
 categories = ["Projects"]
 tags = ["odia", "NLP"]
+
+[extra]
+weight = 2
+social_media_card = "images/initiatives/odianlp.webp"
+local_image = "images/initiatives/odianlp.webp"
 +++
 
 ## Natural Language Processing in Odia

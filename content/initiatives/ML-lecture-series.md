@@ -1,10 +1,14 @@
 +++
 title="AI/ML Lecture Series"
+description="Machine Learning Lecture Series is a series of lectures on Machine Learning."
 date=2021-12-12
 
 [taxonomies]
 categories = ["Tutorials"]
 tags = ["event", "education"]
+
+[extra]
+weight = 6
 +++
 
 ## Machine Learning Lecture Series

@@ -1,16 +1,15 @@
 +++
-title="Children's Day 2021 Special Event"
-description="Children's Day 2021 Special Event is a special event organized by Odias in AI/ML community to educate the children about AI/ML."
-date=2021-11-14
+title="Shua"
+description="To enable Machine Translation in Odia Language."
+date=2018-04-01
 
 [taxonomies]
-categories = ["Events"]
-tags = ["event", "education"]
+tags = ["translation"]
 
 [extra]
-weight = 4
-social_media_card = "images/initiatives/sishu_divas_2021.webp"
-local_image = "images/initiatives/sishu_divas_2021.webp"
+weight = 3
+social_media_card = "images/initiatives/shua.webp"
+local_image = "images/initiatives/shua.webp"
 +++
 
 ## Children's Day 2021 Special Event

@@ -1,10 +1,16 @@
 +++
 title="Odia Generative AI"
+description="A collaborative initiative to conduct research on GenAI and LLM for Indic Languages."
 date=2023-03-22
 
 [taxonomies]
 categories = ["Projects"]
 tags = ["odia", "genai"]
+
+[extra]
+weight = 1
+social_media_card = "images/initiatives/odiagenai.webp"
+local_image = "images/initiatives/odiagenai.webp"
 +++
 
 ## Odia Generative AI

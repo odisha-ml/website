@@ -1,5 +1,6 @@
 +++
 title="AI/ML Summer School"
+description="AI/ML Summer School to teach students about AI/ML."
 date=2022-06-18
 
 [taxonomies]
@@ -7,6 +8,7 @@ categories = ["Events"]
 tags = ["event", "education"]
 
 [extra]
+weight=7
 social_media_card = "images/initiatives/summer_school.webp"
 +++
 

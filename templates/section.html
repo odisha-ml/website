@@ -1,62 +1,51 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 
-{% block title %}
-{{ config.title }} | {{ section.title }}
-{% endblock title %}
+{% block main_content %}
 
-{% block content %}
-<section class="section">
-  <div class="container">
-    <div class="has-text-centered">
-      <h1 class="title is-2">{{ section.title }}</h1>
-      <p class="subtitle is-4">{{ section.description }}</p>
-    </div>
-    <div class="content">
-      {{ section.content | safe }}
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-9">
-        {% if paginator %}
-        {% set pages = paginator.pages %}
-        {% else %}
-        {% set pages = section.pages %}
-        {% endif %}
+{%- set show_projects_first = section.extra.show_projects_first | default(value=false) -%}
+{%- if show_projects_first -%}
+    {%- set first_section = "projects" -%}
+{%- else -%}
+    {%- set first_section = "posts" -%}
+{%- endif -%}
 
-        {% for page in pages %}
-        <article class="box">
-          <h2 class="title">
-            <a class="has-text-dark" href='{{ page.permalink }}'>
-              {{ page.title }}
-            </a>
-          </h2>
-          <p class="subtitle">{{ page.description }}</p>
-          <div class="columns is-multiline is-gapless">
-            <div class="column is-8">
-              {{ macros::page_publish_metadata(page=page) }}
-            </div>
-            <div class="column is-4 has-text-right-desktop">
-              {{ macros::page_content_metadata(page=page) }}
-            </div>
-          </div>
-          <div class="content mt-2">
-            {{ page.summary | safe }}
-          </div>
-          <div class="columns">
-            <div class="column">
-              {% if page.taxonomies.categories %}
-              {{ macros::render_categories(categories=page.taxonomies.categories) }}
-              {% endif %}
-            </div>
-            <div class="column has-text-right-desktop">
-              {% if page.taxonomies.tags %}
-              {{ macros::render_tags(tags=page.taxonomies.tags) }}
-              {% endif %}
-            </div>
-          </div>
-        </article>
-        {% endfor %}
-      </div>
+{%- if section.extra.section_path or paginator and projects_path -%}
+    {%- set more_than_one_section_shown = true -%}
+{%- endif -%}
+
+<main {% if more_than_one_section_shown %}class="{{ first_section }}-first"{% endif %}>
+{%- if section.extra.header %}
+    {%- include "partials/home_banner.html" -%}
+{% endif -%}
+
+<!-- Move the countdown timer here, just after the header -->
+{% if section.extra.show_countdown %}
+    <div id="countdown-timer" class="countdown-timer" data-title="{{ section.extra.countdown_title | default(value="Countdown to Next Conference") }}">
+        <div id="countdown" data-target="{{ section.extra.countdown_date }}"></div>
     </div>
-  </div>
-</section>
-{% endblock %}
+{% endif %}
+
+{% if section.extra.section_path -%}
+    {% set extra_section = get_section(path=section.extra.section_path) %}
+{% endif -%}
+
+{% if section.extra.section_path -%}
+    {% set path = section.extra.section_path | replace(from="/_index.md", to = "") %}
+{% else -%}
+    {% set path = section.path %}
+{% endif -%}
+
+{%- if show_projects_first -%}
+    {%- include "partials/main_page_projects_list.html" -%}
+    {%- include "partials/main_page_posts_list.html" -%}
+{%- else -%}
+    {%- include "partials/main_page_posts_list.html" -%}
+    {%- include "partials/main_page_projects_list.html" -%}
+{%- endif -%}
+</main>
+
+{% if section.extra.show_countdown %}
+<script src="{{ get_url(path="js/countdown.js") }}"></script>
+{% endif %}
+
+{% endblock main_content %}

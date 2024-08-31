@@ -1,0 +1,11 @@
+<div class="gallery">
+    {% for asset in page.assets -%}
+        {%- if asset is matching(image_type ~ ".*[.](jpg|png|webp)$") -%}
+        {% set image = resize_image(path=asset, height=600, op="fit_height") %}
+        <a href="{{ get_url(path=asset) }}" target="_blank" class="gallery-item">
+            <img src="{{ image.url }}" alt="{{ asset | split(pat="/") | last }}" />
+        </a>
+        {%- else -%}
+        {%- endif %}
+    {%- endfor %}
+</div>

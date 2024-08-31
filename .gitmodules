@@ -1,3 +1,6 @@
 [submodule "themes/DeepThought"]
 	path = themes/DeepThought
 	url = https://github.com/RatanShreshtha/DeepThought.git
+[submodule "themes/tabi"]
+	path = themes/tabi
+	url = git@github.com:welpo/tabi.git

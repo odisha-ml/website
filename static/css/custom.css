@@ -1,0 +1,124 @@
+.countdown-timer {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 600px;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+/* Light theme gradient */
+.countdown-timer {
+    background: linear-gradient(135deg, #f0f0f0, #cecaca);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme gradient */
+[data-theme="dark"] .countdown-timer {
+    background: linear-gradient(135deg, #2a2a2a, #3a3a3a);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.countdown-timer h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#countdown {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .countdown-timer {
+        margin: 1.5rem auto;
+        padding: 1rem;
+    }
+
+    .countdown-timer h2 {
+        font-size: 1.25rem;
+    }
+
+    #countdown {
+        font-size: 1.5rem;
+    }
+}
+
+.conference-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border: 2px solid var(--primary-color);
+}
+
+.conference-button:hover {
+    background-image: linear-gradient(135deg, var(--primary-color), var(--primary-color-light));
+    color: var(--background-color);
+    border-color: var(--primary-color-light);
+}
+
+/* Dark theme specific styles */
+[data-theme="dark"] .conference-button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-color: var(--primary-color);
+}
+
+[data-theme="dark"] .conference-button:hover {
+    background-image: linear-gradient(135deg, var(--primary-color), var(--primary-color-light));
+    color: var(--background-color);
+    border-color: var(--primary-color-light);
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--background-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.navbar {
+    /* Add any existing navbar styles here */
+    padding: 10px 20px; /* Adjust as needed */
+}
+
+/* Remove these as they're no longer needed */
+.fixed-header,
+.header-spacer {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sticky-header {
+        position: fixed; /* Use fixed on mobile for better compatibility */
+    }
+
+    body {
+        padding-top: 60px; /* Adjust based on your navbar height */
+    }
+}
+
+/* Ensure the content below the navbar is not hidden */
+main {
+    padding-top: 20px; /* Adjust as needed */
+}
+
+/* Dark theme adjustments */
+[data-theme="dark"] .sticky-header {
+    background-color: var(--background-color);
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}

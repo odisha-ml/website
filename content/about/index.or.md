@@ -1,6 +1,6 @@
 +++
-title = "About Us"
-description = "About the Odias in AI/ML community."
+title = "ଆମ ବିଷୟରେ"
+description = "Odias in AI/ML ଦଳ ବିଷୟରେ କିଛି"
 date = 2024-07-22
 
 [taxonomies]

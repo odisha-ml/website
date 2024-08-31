@@ -16,12 +16,24 @@ Odias in AI ML Conference 2023 is the fourth international congregation of Odias
 
 **Theme:** Inclusive Growth through AI - Building action plan 2030.
 
+## Invited Speakers, and Quotes
+<details>
+    <summary><b>Invited Speakers for the Conference</b></summary>
+    {{ gallery(image_type="speaker") }}
+</details>
+
+<details>
+    <summary><b>Quotes from the community for the conference</b></summary>
+    {{ gallery(image_type="quote") }}
+</details>
+
 ## Recordings
+
+
+### Chapters of Part-1
 
 {{ youtube(id="GPkWL-9akQc") }}
 _Conference Video Part-1_
-
-### Chapters of Part-1
 
 00:00:37 ମୁଁ ସେଇ କଳିଙ୍ଗ - Community Anthem
 
@@ -69,10 +81,11 @@ _Conference Video Part-1_
 
 05:10:52 - Col Prof Aditya Parida - Building an Action Plan 2030
 
-{{ youtube(id="KZB9bfKkLgM") }}
-_Conference Video Part-2_
 
 ### Chapters of Part-2
+
+{{ youtube(id="KZB9bfKkLgM") }}
+_Conference Video Part-2_
 
 00:00:00 - Abhijeet Sahoo - GoodMeetings
 
@@ -133,7 +146,3 @@ _Conference Video Part-2_
 05:15:15 - Open Mike and Gapa Sapa
 
 05:37:15 - Anjan Kumar Panda - Conclusion and Vote of Thanks
-
-## Invited Speakers and Quotes
-
-To be added

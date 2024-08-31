@@ -1,7 +1,6 @@
 +++
 title="2022 Odias in AI/ML Conference"
 date=2022-10-01
-local_image = "images/2022/2022.webp"
 
 [taxonomies]
 tags = ["Conference"]
@@ -9,10 +8,6 @@ tags = ["Conference"]
 [extra]
 toc = true
 comments = false
-gallery_images = [
-    "images/logo.webp",
-    "images/index.webp"
-]
 +++
 
 ## 2022 Odias in AI/ML Conference
@@ -27,8 +22,22 @@ Odias in ML Conference 2022 is the third international congregation of Odias tec
 _Entire Conference Video_
 
 ## Invited Speakers, Quotes and Posters
+<details>
+    <summary><b>Invited Speakers for the Conference</b></summary>
+    {{ gallery(image_type="speaker") }}
+</details>
 
-{{ gallery() }}
+<details>
+    <summary><b>Quotes from the community for the conference</b></summary>
+    {{ gallery(image_type="quote") }}
+</details>
+
+<details>
+    <summary><b>Posters for the conference</b></summary>
+    {{ gallery(image_type="poster") }}
+</details>
+
+
 
 ## Agenda
 

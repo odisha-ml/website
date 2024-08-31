@@ -44,7 +44,8 @@ For our detailed activities, please visit the [initiatives](@/initiatives/_index
 
 ## Core Team
 
-To be added
+{{ gallery(image_type="") }}
+
 
 ## Chapter Leaders
 

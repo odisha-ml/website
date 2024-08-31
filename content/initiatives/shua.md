@@ -12,12 +12,12 @@ social_media_card = "images/initiatives/shua.webp"
 local_image = "images/initiatives/shua.webp"
 +++
 
-## Children's Day 2021 Special Event
+## About the project
 
-On the 14th of November, 2021, Odias in AI/ML community has organized a special event to celebrate Children's Day.
+- Back in 2018, a few Odias come together across multiple backgrounds from all around the world to work on a project to enable Machine Translation in Odia Language.
+- There were volunteers actively preparing an English-Odia parallel copus, Neural Machine Translation (NMT) model development and an ecosystem to support the project.
+- Odias in AI/ML is the successor of this project.
 
-{{ youtube(id="kYCw9fpxsEk") }}
-*Children's Day 2021 Special Event*
-
-* In this event, we educate the children about the importance of AI/ML and how it can help them in their everyday life.
-* We have expained complex concepts of AI/ML like Neural Network, Word Embedding, Natural Language Processing, Computer Vision, and Machine Learning in a simple way.
+## Other Resources
+- [Twitter/X](https://x.com/mte2o)
+- [MTEnglish2Odia](https://github.com/soumendrak/MTEnglish2Odia)

@@ -13,7 +13,9 @@ social_media_card = "images/initiatives/odianlp.webp"
 local_image = "images/initiatives/odianlp.webp"
 +++
 
-## Natural Language Processing in Odia
+![Natural Language Processing in Odia](/images/initiatives/odianlp.webp)
+
+## About the project
 
 - OdiaNLP is a community of AI enthusiasts, researchers, and developers who are passionate about exploring the potential of Natural Language Processing (NLP) in Odia.
 - The project is called OdiaNLP and is a community of AI enthusiasts, researchers, and developers who are passionate about exploring the potential of NLP in Odia.

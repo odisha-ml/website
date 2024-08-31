@@ -10,7 +10,7 @@ tags = ["event", "education", "twitter", "discussion"]
 weight = 8
 +++
 
-## Odia Twitter Spaces Series in AI/ML
+## About the event
 
 - Led by community member [Dr. Aviseka](https://x.com/aviseka), we have started a series of Twitter Spaces to discuss various topics in AI/ML in local Odia language.
 - The discussions are conducted in Odia language and are open to all.

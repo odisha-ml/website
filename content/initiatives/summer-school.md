@@ -11,7 +11,9 @@ weight=7
 social_media_card = "images/initiatives/summer_school.webp"
 +++
 
-## AI/ML Summer School
+![AI/ML Summer School](/images/initiatives/summer_school.webp)
+
+## About the event
 
 - On the 18th of June, 2022, Odias in AI/ML community led by [Dr. Shantipriya Parida](https://www.linkedin.com/in/shantipriya-parida-9781a9127/) has organized a summer school to teach the students about AI/ML.
 - At AI for Global Goals, we (OCF and Odias in AI/ML) aim to provide nextGEN participants with best-in-class training on a broad range of advanced topics and developments in artificial intelligence (AI), machine learning (ML) -- including deep learning (DL).

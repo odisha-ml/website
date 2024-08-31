@@ -12,7 +12,9 @@ social_media_card = "images/initiatives/sishu_divas_2021.webp"
 local_image = "images/initiatives/sishu_divas_2021.webp"
 +++
 
-## Children's Day 2021 Special Event
+![Children's Day 2021 Special Event](/images/initiatives/sishu_divas_2021.webp)
+
+## About the event
 
 On the 14th of November, 2021, Odias in AI/ML community has organized a special event to celebrate Children's Day.
 

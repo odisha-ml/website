@@ -12,7 +12,9 @@ social_media_card = "images/initiatives/odiagenai.webp"
 local_image = "images/initiatives/odiagenai.webp"
 +++
 
-## Odia Generative AI
+![Odia Generative AI](/images/initiatives/odiagenai.webp)
+
+## About the project
 
 - Post the revolution of Generative AI by ChatGPT, a few community members led by [Dr. Shantipriya Parida](https://www.linkedin.com/in/shantipriya-parida-9781a9127/) have started a project to create a community around Generative AI in Odia.
 - The project is called Odia Generative AI (ODiaGenAI) and is a community of AI enthusiasts, researchers, and developers who are passionate about exploring the potential of Generative AI in Odia.

@@ -11,6 +11,8 @@ weight=8
 social_media_card = "images/initiatives/openodia.webp"
 +++
 
+![OpenOdia PyPi Package](/images/initiatives/openodia.webp)
+
 ## About the project
 
 - OpenOdia is an open source Python programming language package built for Odia language.

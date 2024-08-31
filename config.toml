@@ -276,7 +276,7 @@ footer_menu = [
 # $SEPARATOR will be replaced by the `separator` variable.
 # Markdown is supported (links, emphasis, etc).
 copyright = """
-$TITLE © $CURRENT_YEAR $AUTHOR $SEPARATOR Made by
+$TITLE © 2020 - $CURRENT_YEAR $AUTHOR $SEPARATOR Made by
 [Anisha](https://www.linkedin.com/in/anishaswain/),
 [Goutam](https://www.linkedin.com/in/goutam-samal/),
 [Subhadarshi](https://www.linkedin.com/in/subhadarshi-panda-1ba5091a/),

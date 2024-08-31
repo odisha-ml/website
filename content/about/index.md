@@ -22,7 +22,7 @@ Odias in AI will help leverage the power of artificial intelligence and machine 
 
 ## Activities
 
-{{ dual_theme_image(light_src="images/OdiasInAITimeline.webp", dark_src="images/OdiasInAITimelineDark.webp" alt="Journey so far") }}
+{{ invertible_image(src="images/OdiasInAITimeline.webp", alt="Invertible graph") }}
 
 
 We undertake the following activities to achieve our mission by:

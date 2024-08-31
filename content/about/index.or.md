@@ -3,6 +3,9 @@ title = "About Us"
 description = "About the Odias in AI/ML community."
 date = 2024-07-22
 
+[taxonomies]
+tags = ["About"]
+
 [extra]
 toc = true
 comments = false
@@ -20,7 +23,8 @@ Odias in AI will help leverage the power of artificial intelligence and machine 
 
 ## Activities
 
-![Journey so far](/images/OdiasInAITimeline.webp)
+{{ invertible_image(src="images/OdiasInAITimeline.webp", alt="Invertible graph") }}
+
 
 We undertake the following activities to achieve our mission by:
 * celebrating the achievement of Odias in the field
@@ -39,7 +43,8 @@ For our detailed activities, please visit the [initiatives](@/initiatives/_index
 
 ## Core Team
 
-TBD
+{{ gallery(image_type="") }}
+
 
 ## Chapter Leaders
 

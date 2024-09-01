@@ -18,6 +18,7 @@ preserve_dotfiles_in_output = false
 compile_sass = true
 minify_html = true
 generate_feeds = false
+hard_link_static = true
 build_search_index = true
 
 taxonomies = [
@@ -58,6 +59,7 @@ skip_anchor_prefixes = [
 ]
 
 [extra]
+use_cdn = false
 # Check out the documentation (or the comments below) to learn how to customise tabi:
 # https://welpo.github.io/tabi/blog/mastering-tabi-settings/
 
@@ -259,7 +261,7 @@ fancy_code = true
 dynamic_note = true           # a note that can be toggled
 mathjax = true
 mathjax_dollar_inline_enable = true
-default_og_image = "/images/logo.webp"
+default_og_image = "/images/index.webp"
 meta = [
     {property = "og:title", content = "the og title"},
     {property = "og:description", content = "the og description"},

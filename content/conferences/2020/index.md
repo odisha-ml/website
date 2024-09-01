@@ -1,7 +1,6 @@
 +++
 title="2020 Odias in AI/ML Conference"
 date=2020-10-04
-local_image = "2020.webp"
 
 [taxonomies]
 tags = ["Conference"]
@@ -9,6 +8,7 @@ tags = ["Conference"]
 [extra]
 toc = false
 comments = false
+local_image = "2020.webp"
 social_media_card = "2020.webp"
 +++
 

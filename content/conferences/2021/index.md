@@ -1,13 +1,13 @@
 +++
 title="2021 Odias in AI/ML Conference"
 date=2021-10-09
-local_image = "2021.png"
 
 [taxonomies]
 tags = ["Conference"]
 
 [extra]
 social_media_card = "2021.png"
+local_image = "2021.png"
 
 +++
 

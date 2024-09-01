@@ -9,6 +9,7 @@ tags = ["event", "education"]
 [extra]
 weight = 5
 social_media_card = "images/initiatives/fdp.webp"
+local_image = "images/initiatives/fdp.webp"
 +++
 
 ## AI/ML Faculty Development Program

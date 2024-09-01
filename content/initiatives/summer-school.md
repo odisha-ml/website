@@ -9,6 +9,7 @@ tags = ["event", "education"]
 [extra]
 weight=7
 social_media_card = "images/initiatives/summer_school.webp"
+local_image = "images/initiatives/summer_school.webp"
 +++
 
 ![AI/ML Summer School](/images/initiatives/summer_school.webp)

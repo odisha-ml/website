@@ -9,6 +9,7 @@ tags = ["tools", "python"]
 [extra]
 weight=8
 social_media_card = "images/initiatives/openodia.webp"
+local_image = "images/initiatives/openodia.webp"
 +++
 
 ![OpenOdia PyPi Package](/images/initiatives/openodia.webp)

@@ -9,6 +9,7 @@ tags = ["Conference"]
 toc = true
 comments = false
 social_media_card = "misc/cover.webp"
+local_image = "misc/cover.webp"
 +++
 
 ![Odias in AI/ML Conference 2022](misc/cover.webp)

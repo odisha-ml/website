@@ -5,10 +5,6 @@ title = "Odias in AI/ML"
 description = "The Artificial Intelligence global community of Odias."
 
 author = "Odisha AI Incorporated"
-generate_feeds = false
-compile_sass = true
-minify_html = true
-build_search_index = true
 
 # To translate the entire theme, there must be a file with the same ISO 639-1
 # (or IETF BCP 47) Code in the `i18n` folder of your site or the tabi theme
@@ -17,6 +13,12 @@ build_search_index = true
 # See https://welpo.github.io/tabi/blog/faq-languages/ for more details.
 default_language = "en"
 theme = "tabi"
+output_dir = "public"
+preserve_dotfiles_in_output = false
+compile_sass = true
+minify_html = true
+generate_feeds = false
+build_search_index = true
 
 taxonomies = [
     { name = "categories", feed = true, paginate_by = 10 },
@@ -252,6 +254,16 @@ email = "Y29udGFjdEBvZGlzaGFhaS5vcmc="
 # Decoding requires ~400 bytes of JavaScript. If JS is disabled, the email won't be displayed.
 encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 
+comment = false
+fancy_code = true
+dynamic_note = true           # a note that can be toggled
+mathjax = true
+mathjax_dollar_inline_enable = true
+default_og_image = "/images/logo.webp"
+meta = [
+    {property = "og:title", content = "the og title"},
+    {property = "og:description", content = "the og description"},
+]
 # Social media links for the footer.
 # Built-in icons: https://github.com/welpo/tabi/tree/main/static/social_icons
 # To use a custom icon, add it to your site's `static/social_icons` directory.

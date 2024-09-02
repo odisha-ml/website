@@ -34,3 +34,9 @@ There is no need to write anything on HTML, CSS, or JavaScript. The content is w
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Page Score
+### Mobile
+![Page Score Mobile](/static/images/page-score-mobile.webp)
+### Desktop
+![Page Score Desktop](/static/images/page-score-desktop.webp)

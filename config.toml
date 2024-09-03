@@ -281,6 +281,7 @@ socials = [
 footer_menu = [
     {url = "about", name = "about", trailing_slash = true},
     {url = "sitemap.xml", name = "sitemap", trailing_slash = false},
+    {url = "https://cloud.umami.is/share/YJczYOZXO6pV0kGc/www.odishaai.org", name = "site stats", trailing_slash = true},
 ]
 
 # Enable a copyright notice for the footer, shown between socials and the "Powered by" text.
@@ -328,17 +329,17 @@ enable_csp = true
 # Please see https://welpo.github.io/tabi/blog/custom-font-subset/ to learn how to create this file.
 custom_subset = true
 
-# [extra.analytics]
+[extra.analytics]
 # Specify which analytics service you want to use.
 # Supported options: ["goatcounter", "umami", "plausible"]
-# service = "goatcounter"
+service = "umami"
 
 # Unique identifier for tracking.
 # For GoatCounter, this is the code you choose during signup.
 # For Umami, this is the website ID.
 # For Plausible, this is the domain name (e.g. "example.com").
 # Note: Leave this field empty if you're self-hosting.
-# id = "yourID"
+id = "91f5c338-43bf-4116-9d53-db0b1815e144"
 
 # Optional: Specify the URL for self-hosted analytics instances.
 # For GoatCounter: Base URL like "https://stats.example.com"

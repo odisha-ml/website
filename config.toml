@@ -282,6 +282,7 @@ footer_menu = [
     {url = "about", name = "about", trailing_slash = true},
     {url = "sitemap.xml", name = "sitemap", trailing_slash = false},
     {url = "https://cloud.umami.is/share/YJczYOZXO6pV0kGc/www.odishaai.org", name = "site stats", trailing_slash = true},
+    {url = "https://venomous-cat.pikapod.net/status/odishaai", name = "site status", trailing_slash = true},
 ]
 
 # Enable a copyright notice for the footer, shown between socials and the "Powered by" text.

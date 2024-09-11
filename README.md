@@ -1,4 +1,4 @@
-# Odias in AI/ML Website
+# Odisha AI Website
 This website is built using [Tabi](https://welpo.github.io/tabi/) theme for [Zola](https://www.getzola.org/).
 
 ## Installation
@@ -25,7 +25,7 @@ To add new content, create a new file in the `content` directory with the approp
 ```markdown
 +++
 title = "About"
-description = "About the Odias in AI/ML community."
+description = "About the Odisha AI community."
 date = 2024-07-22
 +++
 ```

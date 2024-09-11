@@ -1,7 +1,7 @@
 base_url = "https://www.odishaai.org/"
 
 # The site title and description; used in feeds by default.
-title = "Odias in AI/ML"
+title = "Odisha AI"
 description = "The Artificial Intelligence global community of Odias."
 
 author = "Odisha AI Incorporated"
@@ -233,7 +233,6 @@ social_media_card = "images/index.webp"
 
 menu = [
     { name = "Conferences", url = "conferences", trailing_slash = true },
-    { name = "CoC", url = "code-of-conduct", trailing_slash = true },
     { name = "Initiatives", url = "initiatives", trailing_slash = true },
     { name = "Resources", url = "resources", trailing_slash = true },
     { name = "Join Us", url = "registration", trailing_slash = true },
@@ -279,10 +278,11 @@ socials = [
 
 # Extra menu to show on the footer, below socials section.
 footer_menu = [
-    {url = "about", name = "about", trailing_slash = true},
-    {url = "sitemap.xml", name = "sitemap", trailing_slash = false},
-    {url = "https://cloud.umami.is/share/YJczYOZXO6pV0kGc/www.odishaai.org", name = "site stats", trailing_slash = true},
-    {url = "https://status.soumendrak.com/status/odishaai", name = "site status", trailing_slash = true},
+    {url = "about", name = "About Us", trailing_slash = true},
+    {url = "code-of-conduct", name = "CoC", trailing_slash = true },
+    {url = "sitemap.xml", name = "Sitemap", trailing_slash = false},
+    {url = "https://cloud.umami.is/share/YJczYOZXO6pV0kGc/www.odishaai.org", name = "Site Analytics", trailing_slash = true},
+    {url = "https://status.soumendrak.com/status/odishaai", name = "Site Status", trailing_slash = true},
 ]
 
 # Enable a copyright notice for the footer, shown between socials and the "Powered by" text.

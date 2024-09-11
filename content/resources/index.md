@@ -1,6 +1,6 @@
 +++
 title = "Resources"
-description = "Consolidated resources for the Odias in AI/ML community."
+description = "Consolidated resources for the Odisha AI community."
 date = 2024-08-31
 
 [taxonomies]

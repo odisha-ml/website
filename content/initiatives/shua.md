@@ -18,8 +18,9 @@ local_image = "images/initiatives/shua.webp"
 
 - Back in 2018, a few Odias come together across multiple backgrounds from all around the world to work on a project to enable Machine Translation in Odia Language.
 - There were volunteers actively preparing an English-Odia parallel copus, Neural Machine Translation (NMT) model development and an ecosystem to support the project.
-- Odias in AI/ML is the successor of this project.
+- Odisha AI is the successor of this project.
 
 ## Other Resources
+
 - [Twitter/X](https://x.com/mte2o)
 - [MTEnglish2Odia](https://github.com/soumendrak/MTEnglish2Odia)

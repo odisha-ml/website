@@ -12,7 +12,7 @@ weight = 6
 
 ## Machine Learning Lecture Series
 
-On the 12th of December, 2021, Odias in AI/ML community has started a series of lectures on Machine Learning.
+On the 12th of December, 2021, Odisha AI community has started a series of lectures on Machine Learning.
 
 ### 1. Introduction to Machine Learning
 

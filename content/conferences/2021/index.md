@@ -1,21 +1,21 @@
 +++
-title="2021 Odias in AI/ML Conference"
+title="2021 Odisha AI Conference"
 date=2021-10-09
 
 [taxonomies]
 tags = ["Conference"]
 
 [extra]
-social_media_card = "2021.png"
-local_image = "2021.png"
+social_media_card = "/images/conference-covers/2021.png"
+local_image = "/images/conference-covers/2021.png"
 
 +++
 
-![Odias in AI/ML Conference 2021](2021.png)
+![Odias in AI/ML Conference 2021](/images/conference-covers/2021.png)
 
-## 2021 Odias in AI/ML Conference
+## 2021 Odisha AI Conference
 
-On the 9th of October, 2021, Odias in AI/ML community has hosted its second global conference.
+On the 9th of October, 2021, Odisha AI community has hosted its second global conference.
 
 **Theme**: Act! The Future is Here
 

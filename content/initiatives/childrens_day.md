@@ -1,6 +1,6 @@
 +++
 title="Children's Day 2021 Special Event"
-description="Children's Day 2021 Special Event is a special event organized by Odias in AI/ML community to educate the children about AI/ML."
+description="Children's Day 2021 Special Event is a special event organized by Odisha AI community to educate the children about AI/ML."
 date=2021-11-14
 
 [taxonomies]
@@ -16,7 +16,7 @@ local_image = "images/initiatives/sishu_divas_2021.webp"
 
 ## About the event
 
-On the 14th of November, 2021, Odias in AI/ML community has organized a special event to celebrate Children's Day.
+On the 14th of November, 2021, Odisha AI community has organized a special event to celebrate Children's Day.
 
 {{ youtube(id="kYCw9fpxsEk") }}
 _Children's Day 2021 Special Event_

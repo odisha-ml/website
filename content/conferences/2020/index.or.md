@@ -9,10 +9,11 @@ tags = ["Conference"]
 [extra]
 toc = false
 comments = false
-social_media_card = "2020.webp"
+local_image = "/images/conference-covers/2020.webp"
+social_media_card = "/images/conference-covers/2020.webp"
 +++
 
-![Odias in AI/ML Conference 2020](2020.webp)
+![Odias in AI/ML Conference 2020](/images/conference-covers/2020.webp)
 
 ## ରଥମ ବିଶ୍ୱ ସମ୍ମିଳନୀ
 

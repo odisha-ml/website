@@ -1,6 +1,6 @@
 +++
 title = "Registration"
-description = "Join the Odias in AI/ML community."
+description = "Join the Odisha AI community."
 date = 2024-08-31
 
 [taxonomies]

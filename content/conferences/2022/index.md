@@ -1,5 +1,5 @@
 +++
-title="2022 Odias in AI/ML Conference"
+title="2022 Odisha AI Conference"
 date=2022-10-01
 
 [taxonomies]
@@ -8,13 +8,13 @@ tags = ["Conference"]
 [extra]
 toc = true
 comments = false
-social_media_card = "misc/cover.webp"
-local_image = "misc/cover.webp"
+social_media_card = "images/conference-covers/2022.webp"
+local_image = "images/conference-covers/2022.webp"
 +++
 
-![Odias in AI/ML Conference 2022](misc/cover.webp)
+![Odias in AI/ML Conference 2022](/images/conference-covers/2022.webp)
 
-## 2022 Odias in AI/ML Conference
+## 2022 Odisha AI Conference
 
 Odias in ML Conference 2022 is the third international congregation of Odias techies in AI/ML, academicians, policymakers, linguists, business executives, investors, entrepreneurs and those working towards positively intervening in people’s lives through AI/ML.
 
@@ -26,6 +26,7 @@ Odias in ML Conference 2022 is the third international congregation of Odias tec
 _Entire Conference Video_
 
 ## Invited Speakers, Quotes and Posters
+
 <details>
     <summary><b>Invited Speakers for the Conference</b></summary>
     {{ gallery(image_type="speaker") }}
@@ -40,8 +41,6 @@ _Entire Conference Video_
     <summary><b>Posters for the conference</b></summary>
     {{ gallery(image_type="poster") }}
 </details>
-
-
 
 ## Agenda
 

@@ -1,6 +1,6 @@
 +++
 title = "Contact Us"
-description = "Contact the Odias in AI/ML community."
+description = "Contact the Odisha AI community."
 date = 2024-07-22
 
 [taxonomies]

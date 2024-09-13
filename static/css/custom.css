@@ -122,3 +122,93 @@ main {
     background-color: var(--background-color);
     box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
 }
+
+#banner-container-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem auto;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #banner-container-home {
+        display: block;
+        margin-bottom: 2rem;
+    }
+}
+
+#banner-container-home #home-banner-text {
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    font-size: 1.875rem;
+    line-height: 3rem;
+}
+
+#banner-container-home #home-banner-text li {
+    font-size: 1rem;
+}
+
+#banner-container-home #home-banner-text #home-banner-header {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-weight: 550;
+    font-size: 2.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #banner-container-home #home-banner-text #home-banner-header {
+        margin-bottom: 0;
+        font-size: 2.2rem;
+    }
+}
+
+#banner-container-home #home-banner-text #banner-home-subtitle {
+    color: var(--text-color);
+    font-weight: 250;
+    line-height: 1.75rem;
+}
+
+#banner-container-home #home-banner-text #banner-home-subtitle p {
+    font-size: 1rem;
+}
+
+#banner-container-home #home-banner-text #banner-home-subtitle a {
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    #banner-container-home #home-banner-text {
+        width: 100%;
+    }
+}
+
+#banner-container-home #image-container-home {
+    position: relative;
+    padding-left: 2rem;
+    min-width: 40%;
+    min-height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#banner-container-home #image-container-home #banner-home-img {
+    border: none;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    max-height: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #banner-container-home #image-container-home #banner-home-img {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #banner-container-home #image-container-home {
+        padding-left: 0;
+    }
+}

@@ -8,6 +8,8 @@ tags = ["event", "education", "twitter", "discussion"]
 
 [extra]
 weight = 8
+social_media_card = "images/initiatives/podcasts.webp"
+local_image = "images/initiatives/podcasts.webp"
 +++
 
 ## About the event

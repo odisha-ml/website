@@ -2,6 +2,7 @@
 title = "Conferences"
 description = "All the organized annual conferences of Odias in AI/ML"
 sort_by = "date"
+paginate_by = 9
 template = "cards.html"
 insert_anchor_links = "left"
 

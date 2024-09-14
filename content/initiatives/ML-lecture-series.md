@@ -8,6 +8,8 @@ tags = ["event", "education"]
 
 [extra]
 weight = 6
+social_media_card = "images/initiatives/lectures.webp"
+local_image = "images/initiatives/lectures.webp"
 +++
 
 ## Machine Learning Lecture Series

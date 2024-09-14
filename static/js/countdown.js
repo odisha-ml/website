@@ -16,9 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Create and add the conference button
     const conferenceButton = document.createElement('a');
-    conferenceButton.textContent = 'Go to Conference Page';
+    conferenceButton.textContent = 'Register Now';
     conferenceButton.className = 'conference-button';
-    conferenceButton.href = '/conferences/2024/'; // Adjust this URL as needed
+    conferenceButton.href = 'https://www.explarax.com/event/odishaaiconference2024/overview'; // Adjust this URL as needed
     countdownTimer.appendChild(conferenceButton);
 
     function updateCountdown() {

@@ -13,3 +13,4 @@ toc = false
 
 ## ଓଡ଼ିଆ ଭାଷା ସମ୍ପର୍କିତ ଏଆଇ ସେବା ସାଧନଗୁଡ଼ିକ 
 - [Awesome Odia AI](https://github.com/odisha-ml/Awesome-Odia-AI/): ଓଡ଼ିଆ ଭାଷା ଏଆଇ ବିଷୟରେ ଭାଷା ମଡେଲ, ଡାଟାସେଟ୍ ଏବଂ ଅନ୍ୟାନ୍ୟ ବିଷୟରେ ସମ୍ବଳର ଏକ ପ୍ରସ୍ତୁତ ତାଲିକା।
+- [AI Glossary](https://glossary.odishaai.org/): ଏଆଇ କ୍ଷେତ୍ରରେ ବ୍ୟବହୃତ ଶବ୍ଦର ଏକ ଶବ୍ଦକୋଷ ।

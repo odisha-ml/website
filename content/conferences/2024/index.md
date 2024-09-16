@@ -16,10 +16,12 @@ local_image = "images/conference-covers/2024.webp"
 
 ## About
 
-Odias in AI ML Conference 2024 is the fifth international congregation of Odias techies in AI/ML, academicians, policymakers, linguists, business executives, investors, entrepreneurs and those working towards positively intervening in people’s lives through AI/ML.
+Odisha AI Conference 2024 is the fifth international congregation of Odias techies in AI/ML, academicians, policymakers, linguists, business executives, investors, entrepreneurs and those working towards positively intervening in people’s lives through AI/ML.
 
-**Conference Date:** 5th October, 2024
+**Conference Date:** 5th October, 2024  
 **Theme:** GenAI Now. What's next?
+
+Tweet with hashtag: **#[OAIMLConf2024](https://x.com/hashtag/OAIMLConf2024)**
 
 ## Registration
 

@@ -12,6 +12,8 @@ local_image = "images/conference-covers/2023.webp"
 social_media_card = "images/conference-covers/2023.webp"
 +++
 
+![Odias in AI/ML Conference 2023](/images/conference-covers/2023.webp)
+
 ## 2023 Odisha AI Conference
 
 Odias in AI ML Conference 2023 is the fourth international congregation of Odias techies in AI/ML, academicians, policymakers, linguists, business executives, investors, entrepreneurs and those working towards positively intervening in people’s lives through AI/ML.

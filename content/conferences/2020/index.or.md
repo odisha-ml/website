@@ -19,7 +19,7 @@ social_media_card = "/images/conference-covers/2020.webp"
 
 ଅକ୍ଟୋବର ୪ ତାରିଖରେ ୨୦୨୦ରେ, Odias in AI/MLରେ ଓଡ଼ିଆମାନଙ୍କ ପ୍ରଥମ ବିଶ୍ୱ ସମ୍ମିଳନୀ ଆୟୋଜିତ ହୋଇଥିଲା।
 
-**Theme**: The Future is Now: Are you Ready?
+**Theme**: ଭବିଷ୍ୟତ ଏବେ ହିଁ। ଆପଣ ପ୍ରସ୍ତୁତ ଅଛନ୍ତି ତ?
 
 {{ youtube(id="PF5DScCr5SI") }}
 _Entire Conference Video_

@@ -27,6 +27,11 @@ Tweet with hashtag: **#[OAIMLConf2024](https://x.com/hashtag/OAIMLConf2024)**
 
 [Register Here](https://www.explarax.com/event/odishaaiconference2024/overview) to attend the conference.
 
+
+## Invitations
+{{ youtube(id="y1El_fSDuhM") }}
+{{ youtube(id="yL6BWxbmC9w") }}
+
 ## Agenda
 
 {% wide_container() %}
@@ -38,15 +43,10 @@ Tweet with hashtag: **#[OAIMLConf2024](https://x.com/hashtag/OAIMLConf2024)**
 
 ## Speakers
 
-Coming Soon...
-
-## Sponsors
-
-Coming Soon...
-
-## Partners
-
-Coming Soon...
+<details>
+    <summary><b>Invited Speakers for the Conference</b></summary>
+    {{ gallery(image_type="speaker") }}
+</details>
 
 ## Quotes from the community
 
@@ -54,8 +54,25 @@ Coming Soon...
 
 ## Posters
 
-Coming Soon...
+<details>
+    <summary><b>Posters for the conference</b></summary>
+    {{ gallery(image_type="poster") }}
+</details>
 
 ## Volunteers
 
-Coming Soon...
+<details>
+    <summary>Design Team for the Conference</summary>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/ashish-paikray/">Ashish Paikray</a></li>
+        <li><a href="https://www.princep.me/">Prince Pious Omm Prakash</a></li>
+        <li><a href="https://saswatsamal.com">Saswat Samal</a></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Website Team for the Conference</summary>
+    <ul>
+        <li><a href="https://www.soumendrak.com">Soumendra Kumar Sahoo</a></li>
+    </ul>
+</details>

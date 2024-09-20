@@ -170,7 +170,7 @@ Coming Soon...
 ## Posters
 
 <details>
-    <summary><b>Posters for the conference</b></summary>
+    <summary>Posters for the conference</summary>
     {{ gallery(image_type="poster") }}
 </details>
 

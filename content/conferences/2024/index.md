@@ -7,12 +7,17 @@ updated=2024-09-20
 tags = ["Conference"]
 
 [extra]
-toc = true
+toc = false
 social_media_card = "images/conference-covers/2024.webp"
 local_image = "images/conference-covers/2024.webp"
 +++
 
 ![Odias in AI/ML Conference 2024](/images/conference-covers/2024.webp)
+
+
+<summary><b>Table of Contents</b></summary>
+<!-- toc -->
+
 
 ## About
 

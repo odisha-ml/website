@@ -1,7 +1,7 @@
 +++
 title="2024 Odisha AI Conference"
 date=2024-10-05
-updated=2024-08-31
+updated=2024-09-20
 
 [taxonomies]
 tags = ["Conference"]

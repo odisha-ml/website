@@ -180,6 +180,7 @@ Coming Soon...
     <summary>Design Team for the Conference</summary>
     <ul>
         <li><a href="https://www.linkedin.com/in/ashish-paikray/">Ashish Paikray</a></li>
+        <li><a href="https://www.linkedin.com/in/b-swapnil-505a85251/">B.Swapnil</a></li>
         <li><a href="https://www.princep.me/">Prince Pious Omm Prakash</a></li>
         <li><a href="https://saswatsamal.com">Saswat Samal</a></li>
     </ul>
@@ -188,6 +189,17 @@ Coming Soon...
 <details>
     <summary>Website Team for the Conference</summary>
     <ul>
+        <li><a href="https://www.soumendrak.com">Soumendra Kumar Sahoo</a></li>
+    </ul>
+</details>
+
+<details>
+    <summary>Social Media Team for the Conference</summary>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/a-parida/">Abhijeet Parida</a></li>
+        <li><a href="https://www.linkedin.com/in/anjankumarpanda/">Anjan Kumar Panda</a></li>
+        <li><a href="https://www.linkedin.com/in/b-swapnil-505a85251/">B.Swapnil</a></li>
+        <li><a href="https://www.linkedin.com/in/kumarika-mohanty-09582815">Kumarika Mohanty</a></li>
         <li><a href="https://www.soumendrak.com">Soumendra Kumar Sahoo</a></li>
     </ul>
 </details>

@@ -2,6 +2,7 @@
 title="Twitter Spaces Series in AI/ML"
 description="Twitter Spaces Series in AI/ML is a series of discussions in AI/ML."
 date=2021-01-01
+updated=2024-09-23
 
 [taxonomies]
 tags = ["event", "education", "twitter", "discussion"]
@@ -23,3 +24,9 @@ local_image = "images/initiatives/podcasts.webp"
 ## Major Contributions
 
 - [Shabdarasa](https://www.shabdarasa.com), a wordle game in Odia language
+
+## Posters
+
+Posters created for the series:
+
+{{ gallery(image_type="poster") }}

@@ -45,8 +45,13 @@ For our detailed activities, please visit the [initiatives](@/initiatives/_index
 
 ## Core Team
 
-{{ gallery(image_type="") }}
+### Task Force Members:
 
+{{ gallery(image_type="taskForce") }}
+
+### Advisors:
+
+{{ gallery(image_type="advisor") }}
 
 ## Chapter Leaders
 

@@ -2,6 +2,7 @@
 title = "About Us"
 description = "About the Odisha AI community."
 date = 2024-07-22
+updated = 2024-09-23
 
 [taxonomies]
 tags = ["About"]

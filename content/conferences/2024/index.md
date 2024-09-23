@@ -163,18 +163,18 @@ Day 1: 6th October, 2024, Sunday as per IST (GMT+5:30)
 
 ## Speakers
 
-<details>
-    <summary>Invited Speakers for the Conference</summary>
-    {{ gallery(image_type="speaker") }}
-</details>
+Invited Speakers for the Conference:
+
+{{ gallery(image_type="speaker") }}
+
 
 
 ## Posters
 
-<details>
-    <summary>Posters for the conference</summary>
-    {{ gallery(image_type="poster") }}
-</details>
+Posters for the conference:
+
+{{ gallery(image_type="poster") }}
+
 
 ## Volunteers
 

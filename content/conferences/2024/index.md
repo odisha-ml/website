@@ -168,9 +168,6 @@ Day 1: 6th October, 2024, Sunday as per IST (GMT+5:30)
     {{ gallery(image_type="speaker") }}
 </details>
 
-## Quotes from the community
-
-Coming Soon...
 
 ## Posters
 

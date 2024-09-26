@@ -12,5 +12,7 @@ toc = false
 +++
 
 ## Odia language AI resources
-- [Awesome Odia AI](https://github.com/odisha-ml/Awesome-Odia-AI/): A curated list of awesome resources about Odia language AI like Language Models, Datasets, and more.
+- [Awesome Odia AI](https://github.com/odisha-ml/Awesome-Odia-AI/): A curated list of awesome resources (text, audio, images, and more) about Odia language AI like Language Models, Datasets, and more.
+
+## Miscellaneous
 - [AI Glossary](https://glossary.odishaai.org/): A glossary of terms used in the field of AI.

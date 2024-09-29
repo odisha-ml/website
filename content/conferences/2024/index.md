@@ -40,6 +40,21 @@ Tweet with hashtag: **#[OAIMLConf2024](https://x.com/hashtag/OAIMLConf2024)**
 {{ youtube(id="6cTxfxWiJjE") }}
 {{ youtube(id="uwuCWSehoG8") }}
 
+
+## Speakers
+
+Invited Speakers for the Conference:
+
+{{ gallery(image_type="speaker") }}
+
+
+
+## Posters
+
+Posters for the conference:
+
+{{ gallery(image_type="poster") }}
+
 ## Probable Schedule
 
 *This is a probable schedule, please check the final schedule before the conference.*  
@@ -163,21 +178,6 @@ Day 1: 6th October, 2024, Sunday as per IST (GMT+5:30)
 
 
 {% end %}
-
-## Speakers
-
-Invited Speakers for the Conference:
-
-{{ gallery(image_type="speaker") }}
-
-
-
-## Posters
-
-Posters for the conference:
-
-{{ gallery(image_type="poster") }}
-
 
 ## Volunteers
 

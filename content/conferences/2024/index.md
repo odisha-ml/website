@@ -36,6 +36,9 @@ Tweet with hashtag: **#[OAIMLConf2024](https://x.com/hashtag/OAIMLConf2024)**
 ## Invitations
 {{ youtube(id="y1El_fSDuhM") }}
 {{ youtube(id="yL6BWxbmC9w") }}
+{{ youtube(id="cieaPJJLT40") }}
+{{ youtube(id="6cTxfxWiJjE") }}
+{{ youtube(id="uwuCWSehoG8") }}
 
 ## Probable Schedule
 

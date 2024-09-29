@@ -28,6 +28,13 @@ Odisha AI Conference 2024 is the fifth international congregation of Odias techi
 
 Tweet with hashtag: **#[OAIMLConf2024](https://x.com/hashtag/OAIMLConf2024)**
 
+## Local Chapters
+
+<iframe src="https://www.google.com/maps/d/embed?mid=18HnTkrpOwig-gijEt-AfvKXwrI6ELCg&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+
+*Local chapter conferences of Odisha AI Conference 2024 across the world.*  
+In addition to the main virtual conference, there will be simultaneous local chapters physical conferences in the above cities. To join the Odisha AI Conference 2024 in your city, please mention your interest while registering for the conference below.
+
 ## Registration
 
 [Register Here](https://www.explarax.com/event/odishaaiconference2024/overview) to attend the conference.
@@ -55,126 +62,135 @@ Posters for the conference:
 
 {{ gallery(image_type="poster") }}
 
-## Probable Schedule
+## Tentative Schedule
 
 *This is a probable schedule, please check the final schedule before the conference.*  
 
-Day 0: 5th October, 2024, Saturday as per IST (GMT+5:30)  
-Day 1: 6th October, 2024, Sunday as per IST (GMT+5:30)
+Day 1: 5th October, 2024, Saturday as per IST (GMT+5:30)  
+Day 2: 6th October, 2024, Sunday as per IST (GMT+5:30)
 {% wide_container() %}
 
 | Day | Time (IST) |           Host(s)           |         Speaker(s)          |                     Topic                      |
 |:---:|:----------:|:---------------------------:|:---------------------------:|:----------------------------------------------:|
-|  0  |   03:00    |      Kumarika Mohanty       |  Col. Prof. Aditya Parida   |         Welcome and Opening Remarks            |
-|  0  |   03:10    | Abhijeet Parida, Debendra Mohanta | Debendra Mohanta and Team |                      TBD                      |
-|  0  |   04:00    |   Soumendra Kumar Sahoo     | Debendra Mohanta and Team   |                      TBD                      |
-|  0  |   05:00    |   Soumendra Kumar Sahoo     |     Ratanlal Mohanta        |         Open Source Financial LLMs             |
-|  0  |   05:10    |      Anjan Kumar Panda      |         From Seol           |                      TBD                      |
-|  0  |   05:30    |      Anjan Kumar Panda      |       From Melbourne        |                      TBD                      |
-|  0  |   06:00    |      Anjan Kumar Panda      |        From Aukland         |                      TBD                      |
-|  0  |   07:00    |      Kumarika Mohanty       |            DM               |                      TBD                      |
-|  0  |   07:10    |      Kumarika Mohanty       |            DM               |                      TBD                      |
-|  0  |   07:20    |      Kumarika Mohanty       |            DM               |                      TBD                      |
-|  0  |   07:30    |      Kumarika Mohanty       |            DM               |                      TBD                      |
-|  0  |   07:40    |      Kumarika Mohanty       |            DM               |                      TBD                      |
-|  0  |   07:50    |      Kumarika Mohanty       |            DM               |                      TBD                      |
-|  0  |   08:00    |      Kumarika Mohanty       |            DM               |                      TBD                      |
-|  0  |   08:10    |      Kumarika Mohanty       |     Anjan Kumar Panda       | The dancing landscape and the new frontiers    |
-|  0  |   08:20    |      Anjan Kumar Panda      |    Dr. Swaroop Mishra       |   Inventing the field of Instruction Tuning    |
-|  0  |   08:35    |     Dr. Swaroop Mishra      |    Dr. Swaroop Mishra       |           Intro to next speaker                |
-|  0  |   08:40    |     Dr. Swaroop Mishra      |          Speaker            | Keynote: Generative AI now, What's next        |
-|  0  |   08:55    |     Dr. Swaroop Mishra      |    Dr. Swaroop Mishra       |                     QnA                        |
-|  0  |   09:15    |     Dr. Swaroop Mishra      |    TBD       |                     TBD                        |
-|  0  |   09:30    |     Dr. Swaroop Mishra      |    Anjan Kumar Panda        |      AI : Made in Odisha, Made by Odias        |
-|  0  |   09:35    |     Sitansu Mishra      |    TBD        |      TBD        |
-|  0  |   09:45    |     Sitansu Mishra      |    TBD        |      TBD        |
-|  0  |   09:55    |     Sitansu Mishra      |    TBD        |      TBD        |
-|  0  |   10:05    |     Sitansu Mishra      |    TBD        |      TBD        |
-|  0  |   10:15    |     Sitansu Mishra, Bishnu Mohan Adhikari      |    TBD        |      TBD        |
-|  0  |   10:25    |     Sitansu Mishra, Bishnu Mohan Adhikari      |    TBD        |      TBD        |
-|  0  |   10:35    |     Sitansu Mishra, Bishnu Mohan Adhikari      |    TBD        |      TBD        |
-|  0  |   10:45    |     Kumarika Mohanty      |    TBD        |      TBD        |
-|  0  |   10:55    |     Ashok Rath      |    TBD        |      TBD        |
-|  0  |   11:05    |     Santosh Kumar Parichha , Bishnu Mohan Adhikari      |    TBD        |      TBD        |
-|  0  |   11:15    |     Ashribad Pradhan      |    TBD        |      TBD        |
-|  0  |   11:25    |     Ankit Nayak      |    TBD        |      TBD        |
-|  0  |   11:35    |     Manoj Panigrahi      |    TBD        |      TBD        |
-|  0  |   11:45    |     Bishnu Mohan Adhikari      |    TBD        |      TBD        |
-|  0  |   11:55    |     Bishnu Mohan Adhikari      |    TBD        |      TBD        |
-|  0  |   12:05    |     Bishnu Mohan Adhikari      |    TBD        |      TBD        |
-|  0  |   12:15    |     Bishnu Mohan Adhikari      |    TBD        |      TBD        |
-|  0  |   12:25    |     Shantanoo Patnaik , Prabhudatta Mishra      |    TBD        |      TBD        |
-|  0  |   12:35    |     Bishnu Mohan Adhikari      |    TBD        |      TBD        |
-|  0  |   12:45    |     Kumarika Mohanty      |    TBD        |      TBD        |
-|  0  |   12:55    |     Amarendra Sahu      |    TBD        |      TBD        |
-|  0  |   13:05    |     Swapnil      |    TBD        |      TBD        |
-|  0  |   13:15    |     Kumarika Mohanty      |    TBD        |      TBD        |
-|  0  |   13:25    |     Kumarika Mohanty      |    TBD        |      TBD        |
-|  0  |   13:35    |     Kumarika Mohanty      |    TBD        |      TBD        |
-|  0  |   13:45    |     Kumarika Mohanty      |    TBD        |      TBD        |
-|  0  |   13:55    |     Col. Prof. Aditya Parida      |    TBD        |      TBD        |
-|  0  |   14:00    |     Col. Prof. Aditya Parida      |    TBD        |      TBD        |
-|  0  |   14:05    |     Col. Prof. Aditya Parida      |    TBD        |      TBD        |
-|  0  |   14:15    |     Col. Prof. Aditya Parida      |    TBD        |      TBD        |
-|  0  |   14:30    |     Col. Prof. Aditya Parida      |    TBD        |      TBD        |
-|  0  |   14:40    |     Om      |    TBD        |      TBD        |
-|  0  |   15:00    |     Om      |    TBD        |      TBD        |
-|  0  |   15:10    |     Om      |    TBD        |      TBD        |
-|  0  |   15:25    |     Kumarika Mohanty      |    TBD        |      TBD        |
-|  0  |   15:40    |     Kumarika Mohanty      |    TBD        |      TBD        |
-|  0  |   15:50    |     Kumarika Mohanty      |    TBD        |      TBD        |
-|  0  |   16:00    |     Kumarika Mohanty      |    TBD        |      TBD        |
-|  0  |   16:10    |     Kumarika Mohanty      |    TBD        |      TBD        |
-|  0  |   16:15    |     TBD      |    TBD        |      TBD        |
-|  0  |   16:30    |     TBD      |    TBD        |      TBD        |
-|  0  |   16:45    |     TBD      |    TBD        |      TBD        |
-|  0  |   16:50    |     TBD      |    TBD        |      TBD        |
-|  0  |   16:55    |     TBD      |    TBD        |      TBD        |
-|  0  |   17:10    |     TBD      |    TBD        |      TBD        |
-|  0  |   17:15    |     TBD      |    TBD        |      TBD        |
-|  0  |   17:20    |     TBD      |    TBD        |      TBD        |
-|  0  |   17:25    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
-|  0  |   17:40    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
-|  0  |   18:00    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
-|  0  |   18:05    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
-|  0  |   18:25    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
-|  0  |   18:40    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
-|  0  |   18:45    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
-|  0  |   18:50    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
-|  0  |   18:55    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
-|  0  |   19:00    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
-|  0  |   19:05    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
-|  0  |   19:10    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
-|  0  |   19:15    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
-|  0  |   19:20    |     Amarendra sahu       |    TBD        |      TBD        |
-|  0  |   19:25    |     Amarendra sahu       |    TBD        |      TBD        |
-|  0  |   19:30    |     Amarendra sahu       |    TBD        |      TBD        |
-|  0  |   19:35    |     Amarendra sahu       |    TBD        |      TBD        |
-|  0  |   19:40    |     Amarendra sahu       |    TBD        |      TBD        |
-|  0  |   19:50    |     Amarendra sahu       |    TBD        |      TBD        |
-|  0  |   19:55    |     Sukant sahu       |    TBD        |      TBD        |
-|  0  |   20:00    |     Sukant sahu       |    TBD        |      TBD        |
-|  0  |   20:05    |     Sukant sahu       |    TBD        |      TBD        |
-|  0  |   20:25    |     Sukant sahu       |    TBD        |      TBD        |
-|  0  |   20:30    |     Sukant sahu       |    TBD        |      TBD        |
-|  0  |   20:35    |     Sakya Singha Mohapatra       |    TBD        |      TBD        |
-|  0  |   20:40    |     Prachee Behera       |    TBD        |      TBD        |
-|  0  |   20:55    |     Prachee Behera       |    TBD        |      TBD        |
-|  0  |   21:00    |     Prachee Behera       |    TBD        |      TBD        |
-|  0  |   21:10    |     Prachee Behera       |    TBD        |      TBD        |
-|  0  |   21:15    |     Prachee Behera       |    TBD        |      TBD        |
-|  0  |   21:25    |     Prachee Behera       |    TBD        |      TBD        |
-|  0  |   21:30    |     Prachee Behera       |    TBD        |      TBD        |
-|  0  |   21:40    |     Santosh Kumar Panda       |    TBD        |      TBD        |
-|  0  |   21:45    |     Santosh Kumar Panda       |    TBD        |      TBD        |
-|  0  |   21:50    |     Santosh Kumar Panda       |    TBD        |      TBD        |
-|  0  |   21:55    |     Santosh Kumar Panda       |    TBD        |      TBD        |
-|  0  |   22:00    |     Santosh Kumar Panda       |    TBD        |      TBD        |
-|  0  |   22:05    |     Santosh Kumar Panda       |    TBD        |      TBD        |
-
-
-
-
+|  1  |   03:00    |      Kumarika Mohanty       |  Col. Prof. Aditya Parida   |         Welcome and Opening Remarks            |
+|  1  |   03:10    | Abhijeet Parida, Debendra Mohanta | Debendra Mohanta and Team |                      TBD                      |
+|  1  |   04:00    |   Soumendra Kumar Sahoo     | Debendra Mohanta and Team   |                      TBD                      |
+|  1  |   05:00    |   Soumendra Kumar Sahoo     |     Ratanlal Mohanta        |         Open Source Financial LLMs             |
+|  1  |   05:10    |      Anjan Kumar Panda      |         From Seol           |                      TBD                      |
+|  1  |   05:30    |      Anjan Kumar Panda      |       From Melbourne        |                      TBD                      |
+|  1  |   06:00    |      Anjan Kumar Panda      |        From Aukland         |                      TBD                      |
+|  1  |   07:00    |      Kumarika Mohanty       |            DM               |                      TBD                      |
+|  1  |   07:10    |      Kumarika Mohanty       |            DM               |                      TBD                      |
+|  1  |   07:20    |      Kumarika Mohanty       |            DM               |                      TBD                      |
+|  1  |   07:30    |      Kumarika Mohanty       |            DM               |                      TBD                      |
+|  1  |   07:40    |      Kumarika Mohanty       |            DM               |                      TBD                      |
+|  1  |   07:50    |      Kumarika Mohanty       |            DM               |                      TBD                      |
+|  1  |   08:00    |      Kumarika Mohanty       |            DM               |                      TBD                      |
+|  1  |   08:10    |      Kumarika Mohanty       |     Anjan Kumar Panda       | The dancing landscape and the new frontiers    |
+|  1  |   08:20    |      Anjan Kumar Panda      |    Dr. Swaroop Mishra       |   Inventing the field of Instruction Tuning    |
+|  1  |   08:35    |     Dr. Swaroop Mishra      |    Dr. Swaroop Mishra       |           Intro to next speaker                |
+|  1  |   08:40    |     Dr. Swaroop Mishra      |          Speaker            | Keynote: Generative AI now, What's next        |
+|  1  |   08:55    |     Dr. Swaroop Mishra      |    Dr. Swaroop Mishra       |                     QnA                        |
+|  1  |   09:15    |     Dr. Swaroop Mishra      |    TBD       |                     TBD                        |
+|  1  |   09:30    |     Dr. Swaroop Mishra      |    Anjan Kumar Panda        |      AI : Made in Odisha, Made by Odias        |
+|  1  |   09:35    |     Sitansu Mishra      |    TBD        |      TBD        |
+|  1  |   09:45    |     Sitansu Mishra      |    TBD        |      TBD        |
+|  1  |   09:55    |     Sitansu Mishra      |    TBD        |      TBD        |
+|  1  |   10:05    |     Sitansu Mishra      |    TBD        |      TBD        |
+|  1  |   10:15    |     Sitansu Mishra, Bishnu Mohan Adhikari      |    TBD        |      TBD        |
+|  1  |   10:25    |     Sitansu Mishra, Bishnu Mohan Adhikari      |    TBD        |      TBD        |
+|  1  |   10:35    |     Sitansu Mishra, Bishnu Mohan Adhikari      |    TBD        |      TBD        |
+|  1  |   10:45    |     Kumarika Mohanty      |    TBD        |      TBD        |
+|  1  |   10:55    |     Ashok Rath      |    TBD        |      TBD        |
+|  1  |   11:05    |     Santosh Kumar Parichha , Bishnu Mohan Adhikari      |    TBD        |      TBD        |
+|  1  |   11:15    |     Ashribad Pradhan      |    TBD        |      TBD        |
+|  1  |   11:25    |     Ankit Nayak      |    TBD        |      TBD        |
+|  1  |   11:35    |     Manoj Panigrahi      |    TBD        |      TBD        |
+|  1  |   11:45    |     Bishnu Mohan Adhikari      |    TBD        |      TBD        |
+|  1  |   11:55    |     Bishnu Mohan Adhikari      |    TBD        |      TBD        |
+|  1  |   12:05    |     Bishnu Mohan Adhikari      |    TBD        |      TBD        |
+|  1  |   12:15    |     Bishnu Mohan Adhikari      |    TBD        |      TBD        |
+|  1  |   12:25    |     Shantanoo Patnaik , Prabhudatta Mishra      |    TBD        |      TBD        |
+|  1  |   12:35    |     Bishnu Mohan Adhikari      |    TBD        |      TBD        |
+|  1  |   12:45    |     Kumarika Mohanty      |    TBD        |      TBD        |
+|  1  |   12:55    |     Amarendra Sahu      |    TBD        |      TBD        |
+|  1  |   13:05    |     Swapnil      |    TBD        |      TBD        |
+|  1  |   13:15    |     Kumarika Mohanty      |    TBD        |      TBD        |
+|  1  |   13:25    |     Kumarika Mohanty      |    TBD        |      TBD        |
+|  1  |   13:35    |     Kumarika Mohanty      |    TBD        |      TBD        |
+|  1  |   13:45    |     Kumarika Mohanty      |    TBD        |      TBD        |
+|  1  |   13:55    |     Col. Prof. Aditya Parida      |    TBD        |      TBD        |
+|  1  |   14:00    |     Col. Prof. Aditya Parida      |    TBD        |      TBD        |
+|  1  |   14:05    |     Col. Prof. Aditya Parida      |    TBD        |      TBD        |
+|  1  |   14:15    |     Col. Prof. Aditya Parida      |    TBD        |      TBD        |
+|  1  |   14:30    |     Col. Prof. Aditya Parida      |    TBD        |      TBD        |
+|  1  |   14:40    |     Om      |    TBD        |      TBD        |
+|  1  |   15:00    |     Om      |    TBD        |      TBD        |
+|  1  |   15:10    |     Om      |    TBD        |      TBD        |
+|  1  |   15:25    |     Kumarika Mohanty      |    TBD        |      TBD        |
+|  1  |   15:40    |     Kumarika Mohanty      |    TBD        |      TBD        |
+|  1  |   15:50    |     Kumarika Mohanty      |    TBD        |      TBD        |
+|  1  |   16:00    |     Kumarika Mohanty      |    TBD        |      TBD        |
+|  1  |   16:10    |     Kumarika Mohanty      |    TBD        |      TBD        |
+|  1  |   16:15    |     TBD      |    TBD        |      TBD        |
+|  1  |   16:30    |     TBD      |    TBD        |      TBD        |
+|  1  |   16:45    |     TBD      |    TBD        |      TBD        |
+|  1  |   16:50    |     TBD      |    TBD        |      TBD        |
+|  1  |   16:55    |     TBD      |    TBD        |      TBD        |
+|  1  |   17:10    |     TBD      |    TBD        |      TBD        |
+|  1  |   17:15    |     TBD      |    TBD        |      TBD        |
+|  1  |   17:20    |     TBD      |    TBD        |      TBD        |
+|  1  |   17:25    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
+|  1  |   17:40    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
+|  1  |   18:00    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
+|  1  |   18:05    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
+|  1  |   18:25    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
+|  1  |   18:40    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
+|  1  |   18:45    |     Col. Prof. Aditya Parida, Dr. Debendra Rout      |    TBD        |      TBD        |
+|  1  |   18:50    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
+|  1  |   18:55    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
+|  1  |   19:00    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
+|  1  |   19:05    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
+|  1  |   19:10    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
+|  1  |   19:15    |     Bodhisattwa Sanghapriya       |    TBD        |      TBD        |
+|  1  |   19:20    |     Amarendra sahu       |    TBD        |      TBD        |
+|  1  |   19:25    |     Amarendra sahu       |    TBD        |      TBD        |
+|  1  |   19:30    |     Amarendra sahu       |    TBD        |      TBD        |
+|  1  |   19:35    |     Amarendra sahu       |    TBD        |      TBD        |
+|  1  |   19:40    |     Amarendra sahu       |    TBD        |      TBD        |
+|  1  |   19:50    |     Amarendra sahu       |    TBD        |      TBD        |
+|  1  |   19:55    |     Sukant sahu       |    TBD        |      TBD        |
+|  1  |   20:00    |     Sukant sahu       |    TBD        |      TBD        |
+|  1  |   20:05    |     Sukant sahu       |    TBD        |      TBD        |
+|  1  |   20:25    |     Sukant sahu       |    TBD        |      TBD        |
+|  1  |   20:30    |     Sukant sahu       |    TBD        |      TBD        |
+|  1  |   20:35    |     Sakya Singha Mohapatra       |    TBD        |      TBD        |
+|  1  |   20:40    |     Prachee Behera       |    TBD        |      TBD        |
+|  1  |   20:55    |     Prachee Behera       |    TBD        |      TBD        |
+|  1  |   21:00    |     Prachee Behera       |    TBD        |      TBD        |
+|  1  |   21:10    |     Prachee Behera       |    TBD        |      TBD        |
+|  1  |   21:15    |     Prachee Behera       |    TBD        |      TBD        |
+|  1  |   21:25    |     Prachee Behera       |    TBD        |      TBD        |
+|  1  |   21:30    |     Prachee Behera       |    TBD        |      TBD        |
+|  1  |   21:40    |     Santosh Kumar Panda       |    TBD        |      TBD        |
+|  1  |   21:45    |     Santosh Kumar Panda       |    TBD        |      TBD        |
+|  1  |   21:50    |     Santosh Kumar Panda       |    TBD        |      TBD        |
+|  1  |   21:55    |     Santosh Kumar Panda       |    TBD        |      TBD        |
+|  1  |   22:00    |     Santosh Kumar Panda       |    TBD        |      TBD        |
+|  1  |   22:05    |     Santosh Kumar Panda       |    TBD        |      TBD        |
+|  1  |   22:05    |     Santosh Kumar Panda, Sarthak Pattnayak       |    TBD        |      TBD        | 
+|  1  |   23:05    |     Santosh Kumar Panda, Sarthak Pattnayak       |    TBD        |      TBD        | 
+|  1  |   23:20    |     Anjan Kumar Panda       |    TBD        |      TBD        | 
+|  1  |   23:40    |     Col.Prof Aditya Parida       |    TBD        |      TBD        | 
+|  2  |   00:40    |     Akshya Ray       |    TBD        |      TBD        | 
+|  2  |   01:20    |     Sunil Sabat       |    TBD        |      TBD        | 
+|  2  |   02:30    |     Anjan Kumar Panda       |    TBD        |      TBD        | 
+|  2  |   03:30    |     Col.Prof Aditya Parida      |    TBD        |      TBD        | 
+|  2  |   04:00    |     Dr. Shantipriya Parida      |    TBD        |      TBD        | 
+|  2  |   06:00    |     Soumendra Kumar Sahoo      |    TBD        |      TBD        | 
+|  2  |   08:00    |     Dr. Shantipriya Parida, Dr. Niila Madhab Padhi, Dr. Brojo Kishore Mishra, Sh. Debu Panda      |    TBD        |      TBD        | 
+|  2  |   10:00    |     Anjan Kumar Panda      |    TBD        |      TBD        | 
+|  2  |   10:44    |     Debu Panda      |    TBD        |      TBD        | 
 
 
 {% end %}

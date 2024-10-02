@@ -281,7 +281,7 @@ footer_menu = [
     {url = "about", name = "About Us", trailing_slash = true},
     {url = "code-of-conduct", name = "CoC", trailing_slash = true },
     {url = "sitemap.xml", name = "Sitemap", trailing_slash = false},
-    {url = "https://cloud.umami.is/share/YJczYOZXO6pV0kGc/www.odishaai.org", name = "Site Analytics", trailing_slash = true},
+    {url = "https://analytics.soumendrak.com/websites/5d1accd4-ed41-4843-b95c-77a0e7364e1c", name = "Site Analytics", trailing_slash = true},
     {url = "https://status.soumendrak.com/status/odishaai", name = "Site Status", trailing_slash = true},
 ]
 
@@ -340,14 +340,14 @@ service = "umami"
 # For Umami, this is the website ID.
 # For Plausible, this is the domain name (e.g. "example.com").
 # Note: Leave this field empty if you're self-hosting.
-id = "91f5c338-43bf-4116-9d53-db0b1815e144"
+id = "5d1accd4-ed41-4843-b95c-77a0e7364e1c"
 
 # Optional: Specify the URL for self-hosted analytics instances.
 # For GoatCounter: Base URL like "https://stats.example.com"
 # For Umami: Base URL like "https://umami.example.com"
 # For Plausible: Base URL like "https://plausible.example.com"
 # Leave this field empty if you're using the service's default hosting.
-# self_hosted_url = ""
+self_hosted_url = "https://analytics.soumendrak.com"
 
 # giscus support for comments. https://giscus.app
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup

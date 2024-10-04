@@ -74,7 +74,7 @@ Day 2: 6th October, 2024, Sunday as per IST (GMT+5:30)
 |:---:|:----------:|:---------------------------:|:---------------------------:|:----------------------------------------------:|
 |  1  |   03:00    |      Kumarika Mohanty       |  Col. Prof. Aditya Parida   |         Welcome and Opening Remarks            |
 |  1  |   03:05    |      Kumarika Mohanty       |       Swaroop Mishra        |                      Convenor Note                      |
-|  1  |   03:10    | Abhijeet Parida,Debendra Mohanta | Debendra Mohanta and Team (Japan) | The first light of the Day: What's Next : An Odia-Japanese Perspective |
+|  1  |   03:10    | Abhijeet Parida,Debendra Mohanta |Anup Sahu and Team (Japan) | The first light of the Day: What's Next : An Odia-Japanese Perspective |
 |  1  |   03:40    |       Swaroop Mishra        |         Raj Dabre           |                      TBD                      |
 |  1  |   04:00    |   Soumendra Kumar Sahoo     |    Anup Sahu and Team       |What's Next : Another Odia-Japanese Perspective|
 |  1  |   04:40    |   Soumendra Kumar Sahoo     |    Madhusmita Mohanty       |Upholding academic integrity in the age of Generative AI|

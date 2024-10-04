@@ -13,7 +13,7 @@ max_projects = 3
 show_projects_first = false
 show_countdown = true
 countdown_title = "Countdown to the next conference"
-countdown_date = "2024-10-05T00:00:00"
+countdown_date = "2024-10-05T03:00:00"
 social_media_card = "images/logo.webp"
 +++
 

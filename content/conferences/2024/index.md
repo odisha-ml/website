@@ -125,7 +125,7 @@ Day 2: 6th October, 2024, Sunday as per IST (GMT+5:30)
 |  1  |   20:40    |Prachee Behera, Col Prof Aditya Parida, Rabindra Jena|Kuku Das|AI in NA Odia Community : The beginning|
 |  1  |   20:50    |Prachee Behera, Col Prof Aditya Parida, Rabindra Jena|Delhi, Bengaluru, Mumbai , Ahmedabad, Balangir, Brahmapur, Rourkela, Gunupur| Indo Pacific AI chapter presentations |
 |  1  |   21:30    |     Santosh Kumar Panda       |Bodhisattwa|Starting IG Drones and taking it into the future|
-|  1  |   21:50    |     Santosh Kumar Panda       |Pratyush Ranjan Panda |Starting Sarvam.ai  and charting new paths |
+|  1  |   21:50    |     Santosh Kumar Panda       |Pratyush Kumar Panda |Starting Sarvam.ai  and charting new paths |
 |  1  |   22:35    |     Santosh Kumar Panda, Sarthak Pattnayak       |Sarthak Pujari|ମୋ ବୋଉ : an AI agent for B2B lead generation| 
 |  1  |   22:55    |     Santosh Kumar Panda, Sarthak Pattnayak       |Santosh Kumar Panda|The Foundership Model| 
 |  1  |   23:10    |     Anjan Kumar Panda       |Nishikanta Sahoo|How AI will change Odisha's Public Library Infrastructure | 

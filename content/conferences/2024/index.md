@@ -1,7 +1,7 @@
 +++
 title="2024 Odisha AI Conference"
 date=2024-10-05
-updated=2024-10-04
+updated=2024-10-06
 
 [taxonomies]
 tags = ["Conference"]
@@ -39,13 +39,24 @@ In addition to the main virtual conference, there will be simultaneous local cha
 
 [Register Here](https://www.explarax.com/event/odishaaiconference2024/overview) to attend the conference.
 
+## Recordings
 
-## Invitations
-{{ youtube(id="y1El_fSDuhM") }}
-{{ youtube(id="yL6BWxbmC9w") }}
-{{ youtube(id="cieaPJJLT40") }}
-{{ youtube(id="6cTxfxWiJjE") }}
-{{ youtube(id="uwuCWSehoG8") }}
+### Session Clips
+{{ youtube(id="u47fGmDOyms") }}
+
+
+### Invitations
+
+<details>
+    <summary>Invitations for the Conference</summary>
+    {{ youtube(id="y1El_fSDuhM") }}
+    {{ youtube(id="yL6BWxbmC9w") }}
+    {{ youtube(id="cieaPJJLT40") }}
+    {{ youtube(id="6cTxfxWiJjE") }}
+    {{ youtube(id="uwuCWSehoG8") }}
+</details>
+
+
 
 
 ## Speakers

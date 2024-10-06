@@ -35,10 +35,6 @@ Tweet with hashtag: **#[OAIMLConf2024](https://x.com/hashtag/OAIMLConf2024)**
 *Local chapter conferences of Odisha AI Conference 2024 across the world.*  
 In addition to the main virtual conference, there will be simultaneous local chapters physical conferences in the above cities. To join the Odisha AI Conference 2024 in your city, please mention your interest while registering for the conference below.
 
-## Registration
-
-[Register Here](https://www.explarax.com/event/odishaaiconference2024/overview) to attend the conference.
-
 ## Recordings
 
 ### Session Clips

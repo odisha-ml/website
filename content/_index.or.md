@@ -11,7 +11,7 @@ max_posts = 3
 projects_path = "initiatives/_index.or.md"
 max_projects = 3
 show_projects_first = false
-show_countdown = true
+show_countdown = false
 countdown_title = "ପରବର୍ତ୍ତୀ ସମ୍ମିଳନୀର ଅବଗଣନା"
 countdown_date = "2024-10-05T00:00:00"
 +++

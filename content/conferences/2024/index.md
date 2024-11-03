@@ -34,6 +34,8 @@ Tweet with hashtag: **#[OAIMLConf2024](https://x.com/hashtag/OAIMLConf2024)**
 *Local chapter conferences of Odisha AI Conference 2024 across the world.*  
 In addition to the main virtual conference, there will be simultaneous local chapters physical conferences in the above cities. To join the Odisha AI Conference 2024 in your city, please mention your interest while registering for the conference below.
 
+{{ gallery(image_type="local") }}
+
 ## Recordings
 
 ### Conference Invitations
@@ -61,7 +63,6 @@ In addition to the main virtual conference, there will be simultaneous local cha
 
 {{ youtube(id="4HenBmblz_E") }}
 
-#### Timestamps
 
 | Timestamp | Topic |
 |-----------|-------|
@@ -90,7 +91,6 @@ In addition to the main virtual conference, there will be simultaneous local cha
 #### Part-2/9
 {{ youtube(id="nEUBZBw1HE8") }}
 
-#### Timestamps
 
 | Timestamp | Topic |
 |-----------|-------|
@@ -109,7 +109,6 @@ In addition to the main virtual conference, there will be simultaneous local cha
 #### Part-3/9
 {{ youtube(id="vp0CgiSJrU8") }}
 
-#### Timestamps
 | Timestamp | Topic |
 |-----------|-------|
 |00:08:18 | Professor Jay Lee, Clark Distinguished Professor, Director of Industrial Al Center, Univ. of Maryland College Park |
@@ -136,7 +135,6 @@ In addition to the main virtual conference, there will be simultaneous local cha
 
 {{ youtube(id="xpu6GeubiOM") }}
 
-#### Timestamps
 | Timestamp | Topic |
 |-----------|-------|
 |00:00:00 | Modern Public Library in Every Gram Panchayat(GP) of Odisha by Nishikanta Sahoo |

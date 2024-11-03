@@ -14,7 +14,6 @@ local_image = "images/conference-covers/2024.webp"
 
 ![Odias in AI/ML Conference 2024](/images/conference-covers/2024.webp)
 
-
 <summary><b>Table of Contents</b></summary>
 <!-- toc -->
 
@@ -37,11 +36,7 @@ In addition to the main virtual conference, there will be simultaneous local cha
 
 ## Recordings
 
-### Session Clips
-{{ youtube(id="u47fGmDOyms") }}
-
-
-### Invitations
+### Conference Invitations
 
 <details>
     <summary>Invitations for the Conference</summary>
@@ -52,16 +47,131 @@ In addition to the main virtual conference, there will be simultaneous local cha
     {{ youtube(id="uwuCWSehoG8") }}
 </details>
 
+### Session Clips
 
+{{ youtube(id="u47fGmDOyms") }}
+{{ youtube(id="gwxRutWJ7bY") }}
+{{ youtube(id="HZ-PSaCtC7g") }}
+{{ youtube(id="rYJ9C_d3LuA") }}
+{{ youtube(id="DXHj80hhxQM") }}
+
+### Conference Videos
+
+#### Part-1/9
+
+{{ youtube(id="4HenBmblz_E") }}
+
+#### Timestamps
+
+| Timestamp | Topic |
+|-----------|-------|
+| 00:00:00 | Theme Song: Mun Sei Kalinga |
+| 00:04:32 | Welcome Note by Kumarika Mohanty Panda |
+| 00:06:00 | Opening Remarks by Col Prof Aditya Parida |
+| 00:12:20 | Tribute to late Shyamanuja Dash by Kumarika |
+| 00:13:25 | The first light of the Day Anup Sahu and Tomoya Suzuki from Tokyo, Japan |
+| 00:16:20 | Evolution and Future of AI on theme What's Next |
+| 00:36:30 | Angel Investing in AI by Raj Murtinty |
+| 01:38:01 | Open Source Financial LLMs by Ratanlal Mahanta |
+| 01:52:10 | Upholding Academic Integrity in the age of GenAI by Madhusmita Mohanty |
+| 02:55:15 | Addressing the Data and Modeling Challenges in NLG for Indian Languages by Raj Dabre |
+| 03:31:55 | Empowering Change: The Good Samaritans Network & the Role of Al by Aklilu Mandefro Messele from Ethiopia |
+| 03:44:04 | Balaram Panda from NewZealand |
+| 03:49:01 | Priyadarshi S from Melbourne, Australia |
+| 05:24:47 | Dr. Swaroop Mishra |
+| 05:58:20 | Jeff Dean's insights |
+| 06:06:30 | Professor Chitta Baral's insights |
+| 06:25:50 | Interconnects for Power-Efficient Performance in the Al Era by Dr. Debendra Das Sharma |
+| 06:58:39 | Vision for My Research Lab "DSML": From Generation to Innovation: The Future of Al Creativity by Prof. (Dr.) Sujata Chakravarty |
+| 07:19:12 | AI and HR management by Chinmayee and Bobby Patnaik |
+| 07:37:35 | Transforming District of Rayagada using AI by Swarnalata Rout and Komal Singh |
+| 07:54:35 | Curiosity to Concern: Navigating the Future of Gen Al by Dr. Satyabrata Dash (continued in part-2) |
+
+#### Part-2/9
+{{ youtube(id="nEUBZBw1HE8") }}
+
+#### Timestamps
+
+| Timestamp | Topic |
+|-----------|-------|
+|00:00:00 | Curiosity to Concern: Navigating the Future of Gen Al by Dr. Satyabrata Dash continued from [1/9] |
+|00:41:57 | How does Transformers Work by Sujit Panda |
+|01:06:15 | What's Next : from an NIC point of view by Niladri Mohanty |
+|01:36:36 | Model Monitoring from MLOps point of view by Soumendra Kumar Sahoo |
+|02:32:25 | Odisha: Next Gen Skills for an AI first Time by Ajit Sarangi |
+|02:56:45 | Application of Al in Medical Imaging: Issues and Challenges by Prof. Banshidhar Majhi |
+|03:31:26 | Odia Media : Into an AI first future by Tanaya Patnayak |
+|03:52:36 | First AI generated Odia Music Video by Abinash Nanda    • Tu Kahin Laguchu | The First Ever AI ...   |
+|04:02:55 | AI in music : Possibilities for Odisha by Manaswi Mishra |
+|04:18:05 | Susant Mallick |
+|04:53:18 | By Dr Rabindra Narayan Behera, MP, Rayagada |
+
+#### Part-3/9
+{{ youtube(id="vp0CgiSJrU8") }}
+
+#### Timestamps
+| Timestamp | Topic |
+|-----------|-------|
+|00:08:18 | Professor Jay Lee, Clark Distinguished Professor, Director of Industrial Al Center, Univ. of Maryland College Park |
+|00:44:01 | Dr. Sukanta Mohapatra, Chairman, NIST |
+|01:20:20 | Rashmita Panda, CEO, OSDA (Odisha Skill Development Authority) |
+|01:52:04 | Subramanyam Sahoo |
+|02:00:15 | Dr AVNL Sharma, VC, GIET |
+|02:23:44 | Nikunja Dash |
+|02:37:50 | Dr. Priyadarshan Patra |
+|02:56:20 | Lohit Kumar Das |
+|03:17:15 | Malay Rout |
+|03:32:45 | Om Mahapatra, Folk Culture |
+|03:48:08 | Saroj Mahanta, from South Africa |
+|03:56:01 | Tapas Raj |
+|04:40:30 | Debendra Nath Rout |
+|04:45:15 | Pravat Ranjan Jena and Upendra Jena, from Bengaluru |
+|04:53:35 | Brojo Kishore Mishra, from Brahmapur |
+|05:03:08 | Upendra Jena |
+|05:21:45 | Kuku Das |
+|05:30:01 | Anil Pradhan |
+|05:45:55 | Pratyush Kumar Panda, Founder, SarvamAI |
+
+#### Part-4/9 
+
+{{ youtube(id="xpu6GeubiOM") }}
+
+#### Timestamps
+| Timestamp | Topic |
+|-----------|-------|
+|00:00:00 | Modern Public Library in Every Gram Panchayat(GP) of Odisha by Nishikanta Sahoo |
+|00:42:48 | by Demo of Fully automated bar driven by AI by Vedprakash Behera from Las Vegas |
+|01:04:02 | Chennai Chapter by Amit Kumar Mallick |
+|01:09:30 | Vijayawada Chapter by Supriya Kumar Mishra |
+|01:27:50 | Al in Telco by Pranab Das |
+|01:34:20 | UK Chapter by Sukant Sahu |
+|01:35:21 | Misc |
+
+#### Part-5/9
+{{ youtube(id="uQrEzgDPJqg") }}
+
+#### Part-6/9
+{{ youtube(id="bto0uYLz4qU") }}
+
+#### Part-7/9
+{{ youtube(id="sKymcQkJtH0") }}
+
+#### Part-8/9
+{{ youtube(id="roY6YqKBCw8") }}
+
+#### Part-9/9
+{{ youtube(id="j6kse1PKgtg") }}
 
 
 ## Speakers
 
+<details>
+    <summary>Click to see the invited speakers</summary>
 Invited Speakers for the Conference:
 
 {{ gallery(image_type="speaker") }}
 
-
+</details>
 
 ## Posters
 
@@ -69,7 +179,10 @@ Posters for the conference:
 
 {{ gallery(image_type="poster") }}
 
-## Tentative Schedule
+## Schedule
+
+<details>
+    <summary>Click to see the schedule</summary>
 
 *This is a probable schedule, please check the final schedule before the conference.*  
 
@@ -152,8 +265,9 @@ Day 2: 6th October, 2024, Sunday as per IST (GMT+5:30)
 |  2  |   10:00    |     Anjan Kumar Panda|Anjan Kumar Panda|Toward the last ray of the day| 
 |  2  |   10:34    |     Debu Panda      | Debu Panda |The Last Ray| 
 
-
 {% end %}
+
+</details>
 
 ## Volunteers
 

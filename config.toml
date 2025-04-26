@@ -317,8 +317,7 @@ allowed_domains = [
     { directive = "font-src", domains = ["'self'", "data:", "https://*.website-3m7.pages.dev"] },
     { directive = "img-src", domains = ["'self'", "https://*", "data:", "https://*.website-3m7.pages.dev"] },
     { directive = "media-src", domains = ["'self'", "https://cdn.jsdelivr.net/", "https://*.website-3m7.pages.dev"] },
-    { directive = "script-src", domains = ["'self'", "https://*.website-3m7.pages.dev"] },
-    { directive = "script-src", domains = ["https://analytics.soumendrak.com"] },
+    { directive = "script-src", domains = ["'self'", "https://*.website-3m7.pages.dev", "https://analytics.soumendrak.com"] },
     { directive = "style-src", domains = ["'self'", "https://*.website-3m7.pages.dev"] },
     { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com", "https://www.google.com"] },
 ]

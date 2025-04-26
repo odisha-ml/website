@@ -7,9 +7,11 @@ This website is built using [Tabi](https://welpo.github.io/tabi/) theme for [Zol
 2. Clone this repository.
     ```bash
     git clone https://github.com/odisha-ml/website.git
+    cd website
+    git clone https://github.com/welpo/tabi.git themes/tabi
     ```
 3. Run `zola serve` to start the development server.
-4. Open `localhost:1111` in your browser.
+4. Open `127.0.0.1:1111` in your browser. Note that `localhost` is not supported.
 
 ## Contributing
 

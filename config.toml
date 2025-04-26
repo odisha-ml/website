@@ -240,7 +240,7 @@ menu = [
     { name = "Conferences", url = "conferences", trailing_slash = true },
     { name = "Initiatives", url = "initiatives", trailing_slash = true },
     { name = "Resources", url = "resources", trailing_slash = true },
-    { name = "Join Us", url = "registration", trailing_slash = true },
+    { name = "About Us", url = "about", trailing_slash = true },
 
 ]
 

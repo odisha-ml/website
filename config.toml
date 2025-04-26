@@ -232,6 +232,7 @@ favicon = "icons/favicon.ico"
 social_media_card = "images/index.webp"
 
 menu = [
+    { name = "Blogs", url = "blogs", trailing_slash = true },
     { name = "Conferences", url = "conferences", trailing_slash = true },
     { name = "Initiatives", url = "initiatives", trailing_slash = true },
     { name = "Resources", url = "resources", trailing_slash = true },
@@ -274,6 +275,7 @@ socials = [
     { name = "instagram", url = "https://www.instagram.com/odias_in_ai/", icon = "instagram" },
     { name = "youtube", url = "https://www.youtube.com/@OdiasInML", icon = "youtube" },
     { name = "linkedin", url = "https://www.linkedin.com/company/75029211", icon = "linkedin" },
+    { name = "rss", url = "/blogs/atom.xml", icon = "rss" },
 ]
 
 # Extra menu to show on the footer, below socials section.
@@ -312,11 +314,11 @@ and [Soumendra](https://www.soumendrak.com).
 # This configuration (along with the right webserver settings) gets an A+ in Mozilla's Observatory: https://observatory.mozilla.org
 # Note: to use a Zola built-in syntax highlighting theme, allow unsafe-inline for style-src.
 allowed_domains = [
-    { directive = "font-src", domains = ["'self'", "data:"] },
-    { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
-    { directive = "media-src", domains = ["'self'", "https://cdn.jsdelivr.net/"] },
-    { directive = "script-src", domains = ["'self'"] },
-    { directive = "style-src", domains = ["'self'"] },
+    { directive = "font-src", domains = ["'self'", "data:", "https://*.website-3m7.pages.dev"] },
+    { directive = "img-src", domains = ["'self'", "https://*", "data:", "https://*.website-3m7.pages.dev"] },
+    { directive = "media-src", domains = ["'self'", "https://cdn.jsdelivr.net/", "https://*.website-3m7.pages.dev"] },
+    { directive = "script-src", domains = ["'self'", "https://*.website-3m7.pages.dev", "https://analytics.soumendrak.com"] },
+    { directive = "style-src", domains = ["'self'", "https://*.website-3m7.pages.dev"] },
     { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com", "https://www.google.com"] },
 ]
 
@@ -409,4 +411,5 @@ title = "Odias in AI/ML"
 build_search_index = false
 taxonomies = [
     { name = "tags", feed = true, paginate_by = 10 },
+    { name = "blogs", feed = true, paginate_by = 10 },
 ]

@@ -314,13 +314,13 @@ and [Soumendra](https://www.soumendrak.com).
 # This configuration (along with the right webserver settings) gets an A+ in Mozilla's Observatory: https://observatory.mozilla.org
 # Note: to use a Zola built-in syntax highlighting theme, allow unsafe-inline for style-src.
 allowed_domains = [
-    { directive = "font-src", domains = ["'self'", "data:"] },
-    { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
-    { directive = "media-src", domains = ["'self'", "https://cdn.jsdelivr.net/"] },
-    { directive = "script-src", domains = ["'self'"] },
-    { directive = "style-src", domains = ["'self'"] },
+    { directive = "font-src", domains = ["'self'", "data:", "https://*.website-3m7.pages.dev"] },
+    { directive = "img-src", domains = ["'self'", "https://*", "data:", "https://*.website-3m7.pages.dev"] },
+    { directive = "media-src", domains = ["'self'", "https://cdn.jsdelivr.net/", "https://*.website-3m7.pages.dev"] },
+    { directive = "script-src", domains = ["'self'", "https://*.website-3m7.pages.dev"] },
+    { directive = "script-src", domains = ["https://analytics.soumendrak.com"] },
+    { directive = "style-src", domains = ["'self'", "https://*.website-3m7.pages.dev"] },
     { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com", "https://www.google.com"] },
-    { directive = "connect-src", domains = ["https://*.website-3m7.pages.dev"] },
 ]
 
 # Enable the CSP directives configured (or default).

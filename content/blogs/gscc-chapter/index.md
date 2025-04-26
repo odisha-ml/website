@@ -1,7 +1,7 @@
 +++
 title="GSCC Chapter"
 description="Inauguration of GSCC Chapter of Odisha AI."
-date=2025-01-16
+date=2025-04-26
 
 [taxonomies]
 tags = ["chapter", "education"]

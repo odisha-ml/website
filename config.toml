@@ -26,6 +26,10 @@ taxonomies = [
     { name = "tags", feed = true, paginate_by = 10 },
 ]
 
+ignored_content = [
+    "*/dup-and-rename-this.md"
+]
+
 [search]
 # Whether to include the title of the page/section in the index.
 include_title = true

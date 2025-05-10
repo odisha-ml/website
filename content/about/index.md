@@ -58,7 +58,7 @@ For our detailed activities, please visit the [initiatives](@/initiatives/_index
 - [Pradeepta Mishra](https://www.linkedin.com/in/pradeepta/)
 - [Santosh Panda](https://www.linkedin.com/in/santoshpanda/)
 - [Soumendra Kumar Sahoo](https://www.linkedin.com/in/soumendrak/)
-- [Subhendu Dash](https://about.me/subhendubiswal)
+- [Subhendu Biswal](https://about.me/subhendubiswal)
 - [Swaroop Mishra](https://www.linkedin.com/in/swarooprm7/)
 
 ### Advisors:

@@ -48,18 +48,34 @@ For our detailed activities, please visit the [initiatives](@/initiatives/_index
 
 ### Task Force Members:
 
-{{ gallery(image_type="taskForce") }}
+<!-- {{ gallery(image_type="taskForce") }} -->
+*In Alphabetical Order*
+- [Abhijeet Parida](https://www.linkedin.com/in/a-parida/)
+- [Col. Aditya Parida](https://www.linkedin.com/in/ap1950/)
+- [Anjan Kumar Panda](https://www.linkedin.com/in/anjankumarpanda/)
+- [Kuku Das](https://www.linkedin.com/in/kuku-das-14a06223/)
+- [Kumarika Mohanty](https://www.linkedin.com/in/kumarika/)
+- [Pradeepta Mishra](https://www.linkedin.com/in/pradeepta/)
+- [Santosh Panda](https://www.linkedin.com/in/santoshpanda/)
+- [Soumendra Kumar Sahoo](https://www.linkedin.com/in/soumendrak/)
+- [Subhendu Biswal](https://about.me/subhendubiswal)
+- [Swaroop Mishra](https://www.linkedin.com/in/swarooprm7/)
 
 ### Advisors:
 
-{{ gallery(image_type="advisor") }}
+<!-- {{ gallery(image_type="advisor") }} -->
+*In Alphabetical Order*
+- [Dr. Damodar Sahu](https://www.linkedin.com/in/damodarsahu/)
+- [Neelima Mishra](https://www.linkedin.com/in/neelimamisra/)
+- [Dr. Subhadarshi Panda](https://www.linkedin.com/in/subhadarshi-panda-1ba5091a/)
+
 
 ## Chapter Leaders
 
 - [Kumarika Mohanty](https://www.linkedin.com/in/kumarika-mohanty-09582815) - Women’s Chapter
 - [Soumendra Kumar Sahoo](https://www.linkedin.com/in/soumendrak/) - Bengaluru Chapter
 - Manmath Sahoo - Singapore
-- Dr. Sukanta Kumar Jena - UK
+- [Dr. Sukanta Kumar Jena](https://www.linkedin.com/in/drsukantakumarjena/) - UK
 - [Col. Aditya Parida](https://www.linkedin.com/in/ap1950/) & [Neelima Mishra](https://www.linkedin.com/in/neelimamisra/) - Sweden
 - [Dr. Sofen Kumar Jena](https://www.linkedin.com/in/sofen/) - France
 - [Dr. Shantipriya Parida](https://www.linkedin.com/in/shantipriya-parida-9781a9127/) - Finland

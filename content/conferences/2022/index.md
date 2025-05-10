@@ -37,10 +37,8 @@ _Entire Conference Video_
     {{ gallery(image_type="quote") }}
 </details>
 
-<details>
-    <summary><b>Posters for the conference</b></summary>
-    {{ gallery(image_type="poster") }}
-</details>
+<summary><b>Posters for the conference</b></summary>
+{{ gallery(image_type="poster") }}
 
 ## Agenda
 

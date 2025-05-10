@@ -10,4 +10,5 @@ tags = ["odia", "registration"]
 toc = false
 +++
 
-## Coming Soon...
+## WhatsApp Group
+Join our [WhatsApp group](https://chat.whatsapp.com/I5lG1GiGBboGjaD9P6c87t) to get in touch with us.

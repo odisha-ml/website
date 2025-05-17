@@ -289,7 +289,7 @@ footer_menu = [
     {url = "code-of-conduct", name = "CoC", trailing_slash = true },
     {url = "sitemap.xml", name = "Sitemap", trailing_slash = false},
     {url = "https://umami.cfy.soumendra.org/share/HLgEr8ARvuAGQONa/www.odishaai.org", name = "Site Analytics", trailing_slash = true},
-    {url = "https://status.soumendrak.com/status/odishaai", name = "Site Status", trailing_slash = true},
+    {url = "https://uptime.cfy.soumendra.org/status/oai", name = "Site Status", trailing_slash = true},
 ]
 
 # Enable a copyright notice for the footer, shown between socials and the "Powered by" text.

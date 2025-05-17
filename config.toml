@@ -288,7 +288,7 @@ footer_menu = [
     {url = "about", name = "About Us", trailing_slash = true},
     {url = "code-of-conduct", name = "CoC", trailing_slash = true },
     {url = "sitemap.xml", name = "Sitemap", trailing_slash = false},
-    {url = "https://analytics.soumendrak.com/websites/5d1accd4-ed41-4843-b95c-77a0e7364e1c", name = "Site Analytics", trailing_slash = true},
+    {url = "https://umami.cfy.soumendra.org/share/HLgEr8ARvuAGQONa/www.odishaai.org", name = "Site Analytics", trailing_slash = true},
     {url = "https://status.soumendrak.com/status/odishaai", name = "Site Status", trailing_slash = true},
 ]
 

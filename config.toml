@@ -322,7 +322,7 @@ allowed_domains = [
     { directive = "font-src", domains = ["'self'", "data:", "https://*.website-3m7.pages.dev"] },
     { directive = "img-src", domains = ["'self'", "https://*", "data:", "https://*.website-3m7.pages.dev"] },
     { directive = "media-src", domains = ["'self'", "https://cdn.jsdelivr.net/", "https://*.website-3m7.pages.dev"] },
-    { directive = "script-src", domains = ["'self'", "https://*.website-3m7.pages.dev", "https://analytics.soumendrak.com"] },
+    { directive = "script-src", domains = ["'self'", "https://*.website-3m7.pages.dev", "https://umami.cfy.soumendra.org"] },
     { directive = "style-src", domains = ["'self'", "https://*.website-3m7.pages.dev"] },
     { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com", "https://www.google.com"] },
 ]
@@ -347,14 +347,14 @@ service = "umami"
 # For Umami, this is the website ID.
 # For Plausible, this is the domain name (e.g. "example.com").
 # Note: Leave this field empty if you're self-hosting.
-id = "5d1accd4-ed41-4843-b95c-77a0e7364e1c"
+id = "c3c0e5dd-e28e-4ef9-9da9-aca136c5f009"
 
 # Optional: Specify the URL for self-hosted analytics instances.
 # For GoatCounter: Base URL like "https://stats.example.com"
 # For Umami: Base URL like "https://umami.example.com"
 # For Plausible: Base URL like "https://plausible.example.com"
 # Leave this field empty if you're using the service's default hosting.
-self_hosted_url = "https://analytics.soumendrak.com"
+self_hosted_url = "https://umami.cfy.soumendra.org"
 
 # giscus support for comments. https://giscus.app
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup

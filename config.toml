@@ -17,7 +17,6 @@ output_dir = "public"
 preserve_dotfiles_in_output = false
 compile_sass = true
 minify_html = false
-generate_feeds = false
 hard_link_static = true
 build_search_index = true
 
@@ -29,6 +28,19 @@ taxonomies = [
 ignored_content = [
     "*/dup-and-rename-this.md"
 ]
+
+# Similar to ignored_content, a list of glob patterns specifying asset files to
+# ignore when the static directory is processed. Defaults to none, which means
+# that all asset files are copied over to the `public` directory
+ignored_static = []
+
+# When set to "true", a feed is automatically generated.
+generate_feeds = false
+
+# The filenames to use for the feeds. Used as the template filenames, too.
+# Defaults to ["atom.xml"], which has a built-in template that renders an Atom 1.0 feed.
+# There is also a built-in template "rss.xml" that renders an RSS 2.0 feed.
+feed_filenames = ["atom.xml"]
 
 [search]
 # Whether to include the title of the page/section in the index.
@@ -138,7 +150,7 @@ add_src_to_code_block = false
 
 # Show the author(s) of a page.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-show_author = false
+show_author = true
 
 # Show the reading time of a page.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -167,7 +179,7 @@ katex = false
 # Enable Mermaid diagrams for all posts.
 # Loads ~2.5MB of JavaScript.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-mermaid = false
+mermaid = true
 
 # Serve Mermaid JavaScript locally. Version bundled with tabi.
 # If set to false, it will load the latest version from JSDelivr.
@@ -247,7 +259,7 @@ menu = [
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
 # Note for Zola 0.19.X users: when `feed_filenames` has two filenames, only the first one will be linked in the footer.
-feed_icon = true
+feed_icon = false
 
 # Show the full post content in the Atom feed.
 # If it's set to false, only the description or summary will be shown.
@@ -324,7 +336,7 @@ allowed_domains = [
     { directive = "media-src", domains = ["'self'", "https://cdn.jsdelivr.net/", "https://*.website-3m7.pages.dev"] },
     { directive = "script-src", domains = ["'self'", "https://*.website-3m7.pages.dev", "https://umami.cfy.soumendra.org"] },
     { directive = "style-src", domains = ["'self'", "https://*.website-3m7.pages.dev"] },
-    { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com", "https://www.google.com"] },
+    { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com", "https://www.google.com", "http://127.0.0.1:1025/"] },
 ]
 
 # Enable the CSP directives configured (or default).

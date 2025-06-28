@@ -296,3 +296,8 @@ Day 2: 6th October, 2024, Sunday as per IST (GMT+5:30)
         <li><a href="https://www.soumendrak.com">Soumendra Kumar Sahoo</a></li>
     </ul>
 </details>
+
+## Media Coverage
+
+- https://www.varindia.com/news/the-odisha-ai-conference-2024
+- https://www.iaicenter.com/news/2024/9/30/prof-lee-will-give-an-invited-keynote-speech-for-recent-advances-of-industrial-ai-and-large-knowledge-model-for-domain-driven-llm-transformation-on-oct-5

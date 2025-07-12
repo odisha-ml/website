@@ -127,16 +127,28 @@ svc.fit(X, y)
 
 ### 3.4 IBM Deep Blue (1997)
 
-Deep Blue’s 32-node RS/6000 SP supercomputer evaluated 200 M positions/s ([ibm.com][7]).  After losing Game 1, it defeated Kasparov 3½-2½, a watershed media moment for AI ([wired.com][8]).
+Deep Blue's 32-node RS/6000 SP supercomputer evaluated 200 M positions/s [^7].  After losing Game 1, it defeated Kasparov 3½-2½, a watershed media moment for AI [^8].
+
+**Mathematical insight**: The **margin** in SVM is the distance between the decision boundary and the nearest data points (support vectors). Maximizing this margin improves generalization to unseen data.
 
 
 {% mermaid(invertible=true, full_width=false) %}
-graph LR
-    A((+)) ---|support| H[Hyper-plane] --- B((-))
+graph TD
+    subgraph "SVM Classification"
+        A["● Class +1"] 
+        B["○ Class -1"]
+        C[Decision Boundary]
+        D["Support Vectors"]
+        E["Maximum Margin"]
+    end
+    
+    A -.-> D
+    B -.-> D
+    D --> C
+    C --> E
 {% end %}
 
-*SVM margin diagram (Two-class points, widest separating hyper-plane)*
-
+*SVM concept diagram (Shows class separation with maximum margin decision boundary)*
 
 ---
 

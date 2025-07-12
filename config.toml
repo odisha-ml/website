@@ -288,8 +288,8 @@ footer_menu = [
     {url = "about", name = "About Us", trailing_slash = true},
     {url = "code-of-conduct", name = "CoC", trailing_slash = true },
     {url = "sitemap.xml", name = "Sitemap", trailing_slash = false},
-    {url = "https://umami.cfy.soumendra.org/share/HLgEr8ARvuAGQONa/www.odishaai.org", name = "Site Analytics", trailing_slash = true},
-    {url = "https://uptime.cfy.soumendra.org/status/oai", name = "Site Status", trailing_slash = true},
+    {url = "https://umami.soumendra.org/share/HLgEr8ARvuAGQONa/www.odishaai.org", name = "Site Analytics", trailing_slash = true},
+    {url = "https://uptime.soumendra.org/status/oai", name = "Site Status", trailing_slash = true},
 ]
 
 # Enable a copyright notice for the footer, shown between socials and the "Powered by" text.
@@ -322,7 +322,7 @@ allowed_domains = [
     { directive = "font-src", domains = ["'self'", "data:", "https://*.website-3m7.pages.dev"] },
     { directive = "img-src", domains = ["'self'", "https://*", "data:", "https://*.website-3m7.pages.dev"] },
     { directive = "media-src", domains = ["'self'", "https://cdn.jsdelivr.net/", "https://*.website-3m7.pages.dev"] },
-    { directive = "script-src", domains = ["'self'", "https://*.website-3m7.pages.dev", "https://umami.cfy.soumendra.org"] },
+    { directive = "script-src", domains = ["'self'", "https://*.website-3m7.pages.dev", "https://umami.soumendra.org"] },
     { directive = "style-src", domains = ["'self'", "https://*.website-3m7.pages.dev"] },
     { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com", "https://www.google.com"] },
 ]
@@ -354,7 +354,7 @@ id = "c3c0e5dd-e28e-4ef9-9da9-aca136c5f009"
 # For Umami: Base URL like "https://umami.example.com"
 # For Plausible: Base URL like "https://plausible.example.com"
 # Leave this field empty if you're using the service's default hosting.
-self_hosted_url = "https://umami.cfy.soumendra.org"
+self_hosted_url = "https://umami.soumendra.org"
 
 # giscus support for comments. https://giscus.app
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup

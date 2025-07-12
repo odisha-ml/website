@@ -1,7 +1,7 @@
 +++
-title = "The Dawn of AI – From Turing’s Vision to the 1956 Dartmouth Workshop"
+title = "1-The Dawn of AI – From Turing's Vision to the 1956 Dartmouth Workshop"
 date = 2025-06-17
-description = "Explore how Alan Turing’s 1950 Imitation Game and the 1956 Dartmouth Workshop ignited Artificial Intelligence, laying the groundwork for today’s LLMs and agents."
+description = "Explore how Alan Turing's 1950 Imitation Game and the 1956 Dartmouth Workshop ignited Artificial Intelligence, laying the groundwork for today's LLMs and agents."
 weight = 1
 
 [taxonomies]
@@ -16,43 +16,42 @@ position = "first"
 topic = "Dawn of AI"
 difficulty = "Beginner"
 +++
-
 <!-- series_intro -->
 
 ### Summary
 
-From Alan Turing’s provocative 1950 question *“Can machines think?”* to the eight-week Dartmouth Workshop that officially christened **Artificial Intelligence** in 1956, this article traces the technical, philosophical, and human currents that sparked the AI revolution. You’ll meet the first electronic computers, unpack the famed **Turing Test**, step inside the “Constitutional Convention of AI,” and re-create 1950s-style programs in Python. By the end, you’ll see why those early dreams still underlie every prompt you write in 2025.
+From Alan Turing's provocative 1950 question *"Can machines think?"* to the eight-week Dartmouth Workshop that officially christened **Artificial Intelligence** in 1956, this article traces the technical, philosophical, and human currents that sparked the AI revolution. You'll meet the first electronic computers, unpack the famed **Turing Test**, step inside the "Constitutional Convention of AI," and re-create 1950s-style programs in Python. By the end, you'll see why those early dreams still underlie every prompt you write in 2025.
 
 ---
 
 ## Opening Hook
 
-> *London, 1950.* A young mathematician named **Alan Turing** publishes a daring essay asking whether a machine could ever convince us it is human. Fast-forward to *Bhubaneswar, 2025*: an Odia developer pings GPT-4o’s API and gets a production-ready React scaffold in seconds. The seamless 21-st-century interaction flows directly from Turing’s “imitation game,” proving that yesterday’s thought experiment is today’s workflow.([en.wikipedia.org][1])
+> *London, 1950.* A young mathematician named **Alan Turing** publishes a daring essay asking whether a machine could ever convince us it is human. Fast-forward to *Bhubaneswar, 2025*: an Odia developer pings GPT-4o's API and gets a production-ready React scaffold in seconds. The seamless 21-st-century interaction flows directly from Turing's "imitation game," proving that yesterday's thought experiment is today's workflow.[^1]
 
-Those six short years between **1950 and 1956**—filled with glowing vacuum tubes, punch cards, and bold conjectures—seeded the entire field we now call AI. Let’s rewind and watch the sparks fly.
+Those six short years between **1950 and 1956**—filled with glowing vacuum tubes, punch cards, and bold conjectures—seeded the entire field we now call AI. Let's rewind and watch the sparks fly.
 
 ---
 
-## Alan Turing and the “Thinking Machine” (1950)
+## Alan Turing and the "Thinking Machine" (1950)
 
-### “Computing Machinery and Intelligence”
+### "Computing Machinery and Intelligence"
 
-In October 1950, Turing published *Computing Machinery and Intelligence* in **Mind**. He sidestepped definitional squabbles—*What is thinking?*—by proposing a behavioral benchmark: the **Imitation Game**, later dubbed the **Turing Test**.([en.wikipedia.org][1])
+In October 1950, Turing published *Computing Machinery and Intelligence* in **Mind**. He sidestepped definitional squabbles—*What is thinking?*—by proposing a behavioral benchmark: the **Imitation Game**, later dubbed the **Turing Test**.[^1]
 
-> “*Are there imaginable digital computers which would do well in the imitation game?*” —A. M. Turing, 1950.
+> "*Are there imaginable digital computers which would do well in the imitation game?*" —A. M. Turing, 1950.
 
 #### The Test, Reimagined for Developers
 
-Picture a black-box API test: you send JSON requests, inspect responses, and decide whether the endpoint is human- or machine-powered. That’s the Turing Test in spirit. Modern red-team evaluations of LLMs still follow this template, swapping telegram paper for chat logs. A 2025 UC San Diego study found **GPT-4.5** fooled judges **73 %** of the time—outscoring real humans.([arxiv.org][2], [nypost.com][3])
+Picture a black-box API test: you send JSON requests, inspect responses, and decide whether the endpoint is human- or machine-powered. That's the Turing Test in spirit. Modern red-team evaluations of LLMs still follow this template, swapping telegram paper for chat logs. A 2025 UC San Diego study found **GPT-4.5** fooled judges **73 %** of the time—outscoring real humans [^2] [^3].
 
 #### Why It Was Revolutionary
 
 * **Behavior over biology** – intelligence became what a system *does*, not what it *is*.
 * **Quantifiable goal** – a testable milestone that researchers (and grant committees) could rally around.
-* **Enduring relevance** – every model leaderboard today measures some flavor of “indistinguishability.”
+* **Enduring relevance** – every model leaderboard today measures some flavor of "indistinguishability."
 
 > **Call-out — *Why the Turing Test Still Matters***
-> LLM benchmarks like **MT-Bench** and **MMLU** often boil down to one question: *Does this model’s answer feel convincingly human?* The Imitation Game lives on.
+> LLM benchmarks like **MT-Bench** and **MMLU** often boil down to one question: *Does this model's answer feel convincingly human?* The Imitation Game lives on.
 
 ---
 
@@ -62,13 +61,13 @@ Picture a black-box API test: you send JSON requests, inspect responses, and dec
 
 | Machine            | Year | Key Feature                                    | AI Relevance                                                                      |
 | ------------------ | ---- | ---------------------------------------------- | --------------------------------------------------------------------------------- |
-| **ENIAC**          | 1946 | 18 000 vacuum tubes; programmed by cable swaps | Weeks to rewire = slow AI experimentation ([en.wikipedia.org][4])                 |
-| **EDVAC (design)** | 1945 | **Stored-program** concept (Von Neumann)       | Logic could be changed in software → cradle of AI ([historyofinformation.com][5]) |
+| **ENIAC**          | 1946 | 18 000 vacuum tubes; programmed by cable swaps | Weeks to rewire = slow AI experimentation [^4]                                    |
+| **EDVAC (design)** | 1945 | **Stored-program** concept (Von Neumann)       | Logic could be changed in software → cradle of AI [^5]                            |
 
-The **von Neumann architecture**—one memory for instructions *and* data—let researchers iterate on symbolic logic without touching soldering irons, a prerequisite for AI’s quick evolution.
+The **von Neumann architecture**—one memory for instructions *and* data—let researchers iterate on symbolic logic without touching soldering irons, a prerequisite for AI's quick evolution.
 
 > **Sidebar — Von Neumann in Plain English**
-> Imagine if your laptop’s code lived on a USB stick you had to swap for every function call. That was ENIAC. EDVAC’s stored-program idea shoved code and data onto the same SSD, unlocking `while` loops, recursion, and, eventually, AI.
+> Imagine if your laptop's code lived on a USB stick you had to swap for every function call. That was ENIAC. EDVAC's stored-program idea shoved code and data onto the same SSD, unlocking `while` loops, recursion, and, eventually, AI.
 
 ---
 
@@ -109,22 +108,22 @@ graph TD
 
 ### Birthplace of **Artificial Intelligence**
 
-In summer 1956, four visionaries—**John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon**—hosted the **Dartmouth Summer Research Project on Artificial Intelligence**. McCarthy’s proposal declared:
+In summer 1956, four visionaries—**John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon**—hosted the **Dartmouth Summer Research Project on Artificial Intelligence**. McCarthy's proposal declared:
 
-> “*Every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it.*”([jmc.stanford.edu][6], [home.dartmouth.edu][7])
+> "*Every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it.*"[^6] [^7]
 
-The eight-week workshop gathered mathematicians, psychologists, and engineers in Hanover, New Hampshire. Historians call it AI’s **“Constitutional Convention.”**([en.wikipedia.org][8])
+The eight-week workshop gathered mathematicians, psychologists, and engineers in Hanover, New Hampshire. Historians call it AI's **"Constitutional Convention."**[^8]
 
 #### Key Personalities
 
 | Name                    | Notable Later Achievements                                            |
 | ----------------------- | --------------------------------------------------------------------- |
-| **John McCarthy**       | Coins “AI,” invents **Lisp**, wins Turing Award ([teneo.ai][9])       |
-| **Marvin Minsky**       | Co-founder MIT AI Lab, author *Perceptrons* ([spectrum.ieee.org][10]) |
+| **John McCarthy**       | Coins "AI," invents **Lisp**, wins Turing Award [^9]                  |
+| **Marvin Minsky**       | Co-founder MIT AI Lab, author *Perceptrons* [^10]                    |
 | **Claude Shannon**      | Father of Information Theory; chess-playing algorithms                |
-| **Nathaniel Rochester** | Architect of IBM 701; pushed AI on mainframes                         |
+| **Nathaniel Rochester** | Architect of IBM 701; pushed AI on mainframes                        |
 
-The mood was exuberant: some predicted human-level AI in a decade. That optimism set research agendas—and funding expectations—for years to come.([council.science][11], [computerhistory.org][12])
+The mood was exuberant: some predicted human-level AI in a decade. That optimism set research agendas—and funding expectations—for years to come.[^11] [^12]
 
 ---
 
@@ -132,7 +131,7 @@ The mood was exuberant: some predicted human-level AI in a decade. That optimism
 
 ### The Logic Theorist (1956)
 
-Developed at RAND by **Allen Newell, Herbert Simon, and Cliff Shaw**, the **Logic Theorist** proved **38 of 52** theorems in *Principia Mathematica*, even discovering a shorter proof of Theorem 2.85.([historyofinformation.com][13])
+Developed at RAND by **Allen Newell, Herbert Simon, and Cliff Shaw**, the **Logic Theorist** proved **38 of 52** theorems in *Principia Mathematica*, even discovering a shorter proof of Theorem 2.85.[^13]
 
 #### How It Worked – State-Space Search
 
@@ -204,16 +203,15 @@ while True:
     print("Therapist-Bot:", reply(user))
 ```
 
-> **Challenge:** Add a pattern that recognises “because …I” explanations and probes deeper.
+> **Challenge:** Add a pattern that recognises "because …I" explanations and probes deeper.
 
 ---
 
 ## Indian & Regional Threads
 
-* **Ramanujan’s** explorations of infinite series and formal reasoning seeded a culture of mathematical rigor later echoed in Indian logic research.
-* **TIFRAC**—commissioned 1960—was India’s first indigenous computer, based on the IAS design and boasting ferrite-core memory.([en.wikipedia.org][14])
+* **Ramanujan's** explorations of infinite series and formal reasoning seeded a culture of mathematical rigor later echoed in Indian logic research.
+* **TIFRAC**—commissioned 1960—was India's first indigenous computer, based on the IAS design and boasting ferrite-core memory.[^14]
 * Today, IITs and IIIT-Hyderabad carry that torch, hosting centers for **Responsible AI** and multilingual LLM research.
-
 
 ## Timeline Diagram
 
@@ -242,36 +240,35 @@ timeline
 
 ## Further Reading
 
-1. **Alan Turing**, *Computing Machinery and Intelligence* (1950).([en.wikipedia.org][1])
-2. **McCarthy, Minsky, Rochester & Shannon**, *Dartmouth Proposal* (1955).([jmc.stanford.edu][6])
-3. **Newell & Simon**, *The Logic Theory Machine* (1956).([historyofinformation.com][13])
+1. **Alan Turing**, *Computing Machinery and Intelligence* (1950).[^1]
+2. **McCarthy, Minsky, Rochester & Shannon**, *Dartmouth Proposal* (1955).[^6]
+3. **Newell & Simon**, *The Logic Theory Machine* (1956).[^13]
 
 ---
 
 ## Conclusion – Toward the Golden Age (≈200 words)
 
-The six-year sprint from Turing’s philosophical puzzle to Dartmouth’s optimism birthed a discipline. By proving theorems faster than humans and coining a name that still frames billion-dollar debates, early pioneers showed that machines could manipulate symbols—ideas—rather than mere numbers. Their exuberance launched the **symbolic AI boom** of the 1960s, where rule-based systems, game-playing programs, and even robots chased the dream of human-level thought.
+The six-year sprint from Turing's philosophical puzzle to Dartmouth's optimism birthed a discipline. By proving theorems faster than humans and coining a name that still frames billion-dollar debates, early pioneers showed that machines could manipulate symbols—ideas—rather than mere numbers. Their exuberance launched the **symbolic AI boom** of the 1960s, where rule-based systems, game-playing programs, and even robots chased the dream of human-level thought.
 
-In **Part 2** we’ll enter that golden age, watching SHRDLU stack virtual blocks, ELIZA console patients, and chess programs eye grandmaster titles—until reality bites and the first **AI Winter** descends. Follow the series as we navigate triumph, backlash, and the relentless march toward today’s deep-learning era.
+In **Part 2** we'll enter that golden age, watching SHRDLU stack virtual blocks, ELIZA console patients, and chess programs eye grandmaster titles—until reality bites and the first **AI Winter** descends. Follow the series as we navigate triumph, backlash, and the relentless march toward today's deep-learning era.
 
 ---
 
 <!-- series_outro -->
 
-
 **Enjoyed the journey?** Subscribe or follow Odisha AI to catch **Part 2: The Golden Age of Symbolic AI**!
 
-[1]: https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence?utm_source=odishaai.org "Computing Machinery and Intelligence - Wikipedia"
-[2]: https://arxiv.org/abs/2503.23674?utm_source=odishaai.org "Large Language Models Pass the Turing Test"
-[3]: https://nypost.com/2025/04/04/tech/terrifying-study-reveals-ai-robots-have-passed-turing-test-and-are-now-indistinguishable-from-humans-scientists-say/?utm_source=odishaai.org "Terrifying study reveals AI robots have passed 'Turing test' - and are now indistinguishable from humans, scientists say"
-[4]: https://en.wikipedia.org/wiki/ENIAC?utm_source=odishaai.org "ENIAC - Wikipedia"
-[5]: https://www.historyofinformation.com/detail.php?id=644&utm_source=odishaai.org "Von Neumann Privately Circulates the First Theoretical Description ..."
-[6]: https://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf?utm_source=odishaai.org "[PDF] A Proposal for the Dartmouth Summer Research Project on Artificial ..."
-[7]: https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth?utm_source=odishaai.org "Artificial Intelligence (AI) Coined at Dartmouth"
-[8]: https://en.wikipedia.org/wiki/Dartmouth_workshop?utm_source=odishaai.org "Dartmouth workshop - Wikipedia"
-[9]: https://www.teneo.ai/blog/homage-to-john-mccarthy-the-father-of-artificial-intelligence-ai?utm_source=odishaai.org "Homage to John McCarthy, the father of Artificial Intelligence (AI) - Teneo.Ai"
-[10]: https://spectrum.ieee.org/dartmouth-ai-workshop?utm_source=odishaai.org "The Meeting of the Minds That Launched AI - IEEE Spectrum"
-[11]: https://council.science/blog/ai-was-born-at-a-us-summer-camp-68-years-ago-heres-why-that-event-still-matters-today/?utm_source=odishaai.org "AI was born at a US summer camp 68 years ago. Here's why that ..."
-[12]: https://computerhistory.org/events/1956-dartmouth-workshop-its-immediate/?utm_source=odishaai.org "The 1956 Dartmouth Workshop and its Immediate Consequences"
-[13]: https://www.historyofinformation.com/detail.php?id=742&utm_source=odishaai.org "Newell, Simon & Shaw Develop the First Artificial Intelligence Program"
-[14]: https://en.wikipedia.org/wiki/TIFRAC?utm_source=odishaai.org "TIFRAC"
+[^1]: https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence?utm_source=odishaai.org "Computing Machinery and Intelligence - Wikipedia"
+[^2]: https://arxiv.org/abs/2503.23674?utm_source=odishaai.org "Large Language Models Pass the Turing Test"
+[^3]: https://nypost.com/2025/04/04/tech/terrifying-study-reveals-ai-robots-have-passed-turing-test-and-are-now-indistinguishable-from-humans-scientists-say/?utm_source=odishaai.org "Terrifying study reveals AI robots have passed 'Turing test' - and are now indistinguishable from humans, scientists say"
+[^4]: https://en.wikipedia.org/wiki/ENIAC?utm_source=odishaai.org "ENIAC - Wikipedia"
+[^5]: https://www.historyofinformation.com/detail.php?id=644&utm_source=odishaai.org "Von Neumann Privately Circulates the First Theoretical Description ..."
+[^6]: https://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf?utm_source=odishaai.org "[PDF] A Proposal for the Dartmouth Summer Research Project on Artificial ..."
+[^7]: https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth?utm_source=odishaai.org "Artificial Intelligence (AI) Coined at Dartmouth"
+[^8]: https://en.wikipedia.org/wiki/Dartmouth_workshop?utm_source=odishaai.org "Dartmouth workshop - Wikipedia"
+[^9]: https://www.teneo.ai/blog/homage-to-john-mccarthy-the-father-of-artificial-intelligence-ai?utm_source=odishaai.org "Homage to John McCarthy, the father of Artificial Intelligence (AI) - Teneo.Ai"
+[^10]: https://spectrum.ieee.org/dartmouth-ai-workshop?utm_source=odishaai.org "The Meeting of the Minds That Launched AI - IEEE Spectrum"
+[^11]: https://council.science/blog/ai-was-born-at-a-us-summer-camp-68-years-ago-heres-why-that-event-still-matters-today/?utm_source=odishaai.org "AI was born at a US summer camp 68 years ago. Here's why that ..."
+[^12]: https://computerhistory.org/events/1956-dartmouth-workshop-its-immediate/?utm_source=odishaai.org "The 1956 Dartmouth Workshop and its Immediate Consequences"
+[^13]: https://www.historyofinformation.com/detail.php?id=742&utm_source=odishaai.org "Newell, Simon & Shaw Develop the First Artificial Intelligence Program"
+[^14]: https://en.wikipedia.org/wiki/TIFRAC?utm_source=odishaai.org "TIFRAC"

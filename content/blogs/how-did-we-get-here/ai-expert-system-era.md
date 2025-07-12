@@ -1,5 +1,5 @@
 +++
-title = "The Expert System Era – Knowledge is Power (1980s)"
+title = "4-The Expert System Era – Knowledge is Power (1980s)"
 description = "Deep dive into 1980s expert systems: XCON, DENDRAL, Fifth Generation, Prolog, Lisp, and the second AI winter."
 date = 2025-06-17
 weight = 4
@@ -46,12 +46,12 @@ flowchart TD
 
 | Metric                     | Value         | Source                  |
 | -------------------------- | ------------- | ----------------------- |
-| Rule base size             | \~2,500 rules | ([en.wikipedia.org][3]) |
-| Orders processed (by 1986) | 80 000        | ([en.wikipedia.org][3]) |
-| Configuration accuracy     | 95-98 %       | ([en.wikipedia.org][3]) |
-| Annual savings             | \$25 million  | ([en.wikipedia.org][3]) |
+| Rule base size             | \~2,500 rules | [^3] |
+| Orders processed (by 1986) | 80 000        | [^3] |
+| Configuration accuracy     | 95-98 %       | [^3] |
+| Annual savings             | \$25 million  | [^3] |
 
-XCON used OPS-style forward chaining to translate a sales order into an error-free VAX hardware configuration.  Its success spawned XSEL (for sales teams) and XSITE (for data-centre layout) ([en.wikipedia.org][3]), proving expert systems could slash costs and boost customer satisfaction at scale.
+XCON used OPS-style forward chaining to translate a sales order into an error-free VAX hardware configuration.  Its success spawned XSEL (for sales teams) and XSITE (for data-centre layout) [^3], proving expert systems could slash costs and boost customer satisfaction at scale.
 
 ### 2.3 Other Landmark Systems
 
@@ -135,9 +135,9 @@ Prolog’s declarative semantics mapped naturally onto first-order logic, attrac
 
 | Shell  | Year | Vendor          | Notable Feature                 | Source                  |
 | ------ | ---- | --------------- | ------------------------------- | ----------------------- |
-| EMYCIN | 1978 | Stanford        | Domain-agnostic MYCIN engine    | ([en.wikipedia.org][8]) |
-| KEE    | 1983 | IntelliCorp     | Frame + rule hybrid             | ([en.wikipedia.org][9]) |
-| ART    | 1984 | Inference Corp. | Object-oriented rules, rapid UI | ([cs.cmu.edu][10])      |
+| EMYCIN | 1978 | Stanford        | Domain-agnostic MYCIN engine    | [^8] |
+| KEE    | 1983 | IntelliCorp     | Frame + rule hybrid             | [^9] |
+| ART    | 1984 | Inference Corp. | Object-oriented rules, rapid UI | [^10] |
 
 > **Try This:** Download CLIPS or PyCLIPS and encode five MYCIN-style rules for diagnosing network outages.
 
@@ -148,9 +148,9 @@ Prolog’s declarative semantics mapped naturally onto first-order logic, attrac
 ### 4.1 Japan’s Fifth-Generation Computer Project (FGCP)
 
 * **Launch:** 1982, 10-year plan.
-* **Budget:** ¥53 billion (\~\$400 million 1980s USD) ([sjsu.edu][11]).
+* **Budget:** ¥53 billion (\~\$400 million 1980s USD) [^11].
 * **Goal:** Massively parallel logic machines running Prolog-like languages at 10⁶ LIPS.
-* **Outcome:** Delivered experimental Parallel Inference Machine; software offered free by 1992 after limited industry uptake ([sjsu.edu][11], [nature.com][12]).
+* **Outcome:** Delivered experimental Parallel Inference Machine; software offered free by 1992 after limited industry uptake [^11] [^12].
 
 {% mermaid(invertible=true, full_width=false) %}
 timeline
@@ -165,9 +165,9 @@ timeline
 
 | Program                             | Years   | Budget                     | Focus                                   | Source                                            |
 | ----------------------------------- | ------- | -------------------------- | --------------------------------------- | ------------------------------------------------- |
-| US *Strategic Computing Initiative* | 1983-93 | \$1 billion                | Chips ➜ autonomous vehicles ➜ logistics | ([en.wikipedia.org][13], [warontherocks.com][14]) |
-| EU *ESPRIT*                         | 1983-98 | €3.7 billion (five phases) | IT & AI collaboration                   | ([en.wikipedia.org][15], [ehne.fr][16])           |
-| UK *Alvey*                          | 1983-87 | £350 million               | Parallel AI hardware                    | ([en.wikipedia.org][13])                          |
+| US *Strategic Computing Initiative* | 1983-93 | \$1 billion                | Chips ➜ autonomous vehicles ➜ logistics | [^13] [^14] |
+| EU *ESPRIT*                         | 1983-98 | €3.7 billion (five phases) | IT & AI collaboration                   | [^15] [^16] |
+| UK *Alvey*                          | 1983-87 | £350 million               | Parallel AI hardware                    | [^13] |
 
 {% mermaid(invertible=true, full_width=false) %}
 flowchart LR
@@ -180,8 +180,8 @@ flowchart LR
 
 ### 4.3 India’s Early Adoption
 
-* **Banking:** fuzzy expert systems for loan approvals piloted at public-sector banks in late 1980s; early prototypes evolved into credit-scoring DSS in the 1990s ([researchgate.net][17]).
-* **Agriculture:** ICAR-funded crop-diagnosis shells in Tamil, Kannada, Malayalam showed >85 % agreement with agronomists ([agritech.tnau.ac.in][18], [manage.gov.in][19]).
+* **Banking:** fuzzy expert systems for loan approvals piloted at public-sector banks in late 1980s; early prototypes evolved into credit-scoring DSS in the 1990s [^17].
+* **Agriculture:** ICAR-funded crop-diagnosis shells in Tamil, Kannada, Malayalam showed >85 % agreement with agronomists [^18] [^19].
 * **Academia:** IITs and IISc partnered with NIC to translate CLIPS rule bases into Indian languages.
 
 ---
@@ -268,7 +268,7 @@ disease(flu) :- symptom(patient, fever), symptom(patient, cough).
 
 * Feigenbaum & Buchanan – *Rule-Based Expert Systems*
 * Alex Roland & Philip Shiman – *Strategic Computing*
-* Edward A. Feigenbaum interview (ResearchGate) ([researchgate.net][25])
+* Edward A. Feigenbaum interview (ResearchGate) [^25]
 * HP Newquist – *The Brain Makers*
 * CACM article “How the AI Boom Went Bust” ([cacm.acm.org][26])
 
@@ -298,30 +298,30 @@ disease(flu) :- symptom(patient, fever), symptom(patient, cough).
 - ART shell ([cs.cmu.edu][10])
 
 
-[1]: https://computerhistory.org/profile/edward-feigenbaum/?utm_source=odishaai.org "Edward Feigenbaum - CHM - Computer History Museum"
-[2]: https://www.washingtonpost.com/archive/lifestyle/1983/08/25/where-the-smarts-start/3b3fa332-c19a-4a57-9c48-27e817b4d5c9/?utm_source=odishaai.org "Where the Smarts Start - The Washington Post"
-[3]: https://en.wikipedia.org/wiki/Xcon?utm_source=odishaai.org "Xcon - Wikipedia"
-[4]: https://en.wikipedia.org/wiki/Dendral?utm_source=odishaai.org "Dendral"
-[5]: https://web.mit.edu/6.034/www/6.s966/dendral-history.pdf?utm_source=odishaai.org "[PDF] DENDRAL: a case study of the first expert system for scientific ... - MIT"
-[6]: https://web.cs.wpi.edu/~dcb/courses/CS538/documents/2002/Prospector-profile.pdf?utm_source=odishaai.org "[PDF] Profile of PROSPECTOR"
-[7]: https://aitopics.org/download/classics%3AF1F7B500?utm_source=odishaai.org "[PDF] Application of the PROSPECTOR system to geological exploration ..."
-[8]: https://en.wikipedia.org/wiki/Mycin?utm_source=odishaai.org "Mycin"
-[9]: https://en.wikipedia.org/wiki/Knowledge_Engineering_Environment?utm_source=odishaai.org "Knowledge Engineering Environment"
-[10]: https://www.cs.cmu.edu/afs/cs/Web/Groups/AI/util/html/faqs/ai/expert/part1/faq-doc-7.html?utm_source=odishaai.org "[1-6] Commercial Expert System Shells"
-[11]: https://www.sjsu.edu/faculty/watkins/5thgen.htm?utm_source=odishaai.org "The Fifth Generation Project in Japan"
-[12]: https://www.nature.com/articles/356273b0.pdf?utm_source=odishaai.org "Japan stubs its toes on fifth-generation computer - Nature"
-[13]: https://en.wikipedia.org/wiki/Strategic_Computing_Initiative?utm_source=odishaai.org "Strategic Computing Initiative"
-[14]: https://warontherocks.com/2020/05/cautionary-tale-on-ambitious-feats-of-ai-the-strategic-computing-program/?utm_source=odishaai.org "A Cautionary Tale on Ambitious Feats of AI - War on the Rocks"
-[15]: https://en.wikipedia.org/wiki/European_Strategic_Programme_on_Research_in_Information_Technology?utm_source=odishaai.org "European Strategic Programme on Research in Information Technology"
-[16]: https://ehne.fr/en/encyclopedia/themes/material-civilization/digital-europe/artificial-intelligence-research-in-europe-1950s-1980s?utm_source=odishaai.org "Artificial Intelligence Research in Europe, 1950s-1980s - EHNE"
-[17]: https://www.researchgate.net/publication/224329371_Expert_System_for_Banking_Credit_Decision?utm_source=odishaai.org "(PDF) Expert System for Banking Credit Decision - ResearchGate"
-[18]: https://agritech.tnau.ac.in/pdf/14.pdf?utm_source=odishaai.org "[PDF] Expert system for Decision support in Agriculture"
-[19]: https://www.manage.gov.in/publications/resArticles/saravanan/31_Expert%20systems_Agriculture.pdf?utm_source=odishaai.org "[PDF] Expert Systems in Agriculture: A Review - MANAGE"
-[20]: https://www.sci.brooklyn.cuny.edu/~dzhu/cis718/preview01.pdf?utm_source=odishaai.org "[PDF] CHAPTER 1 - Introduction to Expert Systems"
-[21]: https://www.sciencedirect.com/science/article/pii/B9780444871374500291?utm_source=odishaai.org "Of Brittleness and Bottlenecks: Challenges in the Creation of Pattern ..."
-[22]: https://aiws.net/the-history-of-ai/this-week-in-the-history-of-ai-at-aiws-net-the-market-for-specialised-ai-hardware-collapsed-in-1987/?utm_source=odishaai.org "The market for specialised AI hardware collapsed in 1987 - AIWS.net"
-[23]: https://www.holloway.com/g/making-things-think/sections/the-second-ai-winter-19871993?utm_source=odishaai.org "The Second AI Winter (1987–1993) — Making Things Think"
-[24]: https://en.wikipedia.org/wiki/AI_winter?utm_source=odishaai.org "AI winter"
-[25]: https://www.researchgate.net/publication/236904576_An_Interview_with_Edward_A_Feigenbaum?utm_source=odishaai.org "(PDF) An Interview with Edward A. Feigenbaum - ResearchGate"
-[26]: https://cacm.acm.org/opinion/how-the-ai-boom-went-bust/?utm_source=odishaai.org "How the AI Boom Went Bust - Communications of the ACM"
+[^1]: https://computerhistory.org/profile/edward-feigenbaum/?utm_source=odishaai.org "Edward Feigenbaum - CHM - Computer History Museum"
+[^2]: https://www.washingtonpost.com/archive/lifestyle/1983/08/25/where-the-smarts-start/3b3fa332-c19a-4a57-9c48-27e817b4d5c9/?utm_source=odishaai.org "Where the Smarts Start - The Washington Post"
+[^3]: https://en.wikipedia.org/wiki/Xcon?utm_source=odishaai.org "Xcon - Wikipedia"
+[^4]: https://en.wikipedia.org/wiki/Dendral?utm_source=odishaai.org "Dendral"
+[^5]: https://web.mit.edu/6.034/www/6.s966/dendral-history.pdf?utm_source=odishaai.org "[PDF] DENDRAL: a case study of the first expert system for scientific ... - MIT"
+[^6]: https://web.cs.wpi.edu/~dcb/courses/CS538/documents/2002/Prospector-profile.pdf?utm_source=odishaai.org "[PDF] Profile of PROSPECTOR"
+[^7]: https://aitopics.org/download/classics%3AF1F7B500?utm_source=odishaai.org "[PDF] Application of the PROSPECTOR system to geological exploration ..."
+[^8]: https://en.wikipedia.org/wiki/Mycin?utm_source=odishaai.org "Mycin"
+[^9]: https://en.wikipedia.org/wiki/Knowledge_Engineering_Environment?utm_source=odishaai.org "Knowledge Engineering Environment"
+[^10]: https://www.cs.cmu.edu/afs/cs/Web/Groups/AI/util/html/faqs/ai/expert/part1/faq-doc-7.html?utm_source=odishaai.org "[1-6] Commercial Expert System Shells"
+[^11]: https://www.sjsu.edu/faculty/watkins/5thgen.htm?utm_source=odishaai.org "The Fifth Generation Project in Japan"
+[^12]: https://www.nature.com/articles/356273b0.pdf?utm_source=odishaai.org "Japan stubs its toes on fifth-generation computer - Nature"
+[^13]: https://en.wikipedia.org/wiki/Strategic_Computing_Initiative?utm_source=odishaai.org "Strategic Computing Initiative"
+[^14]: https://warontherocks.com/2020/05/cautionary-tale-on-ambitious-feats-of-ai-the-strategic-computing-program/?utm_source=odishaai.org "A Cautionary Tale on Ambitious Feats of AI - War on the Rocks"
+[^15]: https://en.wikipedia.org/wiki/European_Strategic_Programme_on_Research_in_Information_Technology?utm_source=odishaai.org "European Strategic Programme on Research in Information Technology"
+[^16]: https://ehne.fr/en/encyclopedia/themes/material-civilization/digital-europe/artificial-intelligence-research-in-europe-1950s-1980s?utm_source=odishaai.org "Artificial Intelligence Research in Europe, 1950s-1980s - EHNE"
+[^17]: https://www.researchgate.net/publication/224329371_Expert_System_for_Banking_Credit_Decision?utm_source=odishaai.org "(PDF) Expert System for Banking Credit Decision - ResearchGate"
+[^18]: https://agritech.tnau.ac.in/pdf/14.pdf?utm_source=odishaai.org "[PDF] Expert system for Decision support in Agriculture"
+[^19]: https://www.manage.gov.in/publications/resArticles/saravanan/31_Expert%20systems_Agriculture.pdf?utm_source=odishaai.org "[PDF] Expert Systems in Agriculture: A Review - MANAGE"
+[^20]: https://www.sci.brooklyn.cuny.edu/~dzhu/cis718/preview01.pdf?utm_source=odishaai.org "[PDF] CHAPTER 1 - Introduction to Expert Systems"
+[^21]: https://www.sciencedirect.com/science/article/pii/B9780444871374500291?utm_source=odishaai.org "Of Brittleness and Bottlenecks: Challenges in the Creation of Pattern ..."
+[^22]: https://aiws.net/the-history-of-ai/this-week-in-the-history-of-ai-at-aiws-net-the-market-for-specialised-ai-hardware-collapsed-in-1987/?utm_source=odishaai.org "The market for specialised AI hardware collapsed in 1987 - AIWS.net"
+[^23]: https://www.holloway.com/g/making-things-think/sections/the-second-ai-winter-19871993?utm_source=odishaai.org "The Second AI Winter (1987–1993) — Making Things Think"
+[^24]: https://en.wikipedia.org/wiki/AI_winter?utm_source=odishaai.org "AI winter"
+[^25]: https://www.researchgate.net/publication/236904576_An_Interview_with_Edward_A_Feigenbaum?utm_source=odishaai.org "(PDF) An Interview with Edward A. Feigenbaum - ResearchGate"
+[^26]: https://cacm.acm.org/opinion/how-the-ai-boom-went-bust/?utm_source=odishaai.org "How the AI Boom Went Bust - Communications of the ACM"
 

@@ -1,5 +1,5 @@
 +++
-title = "Trials, Tribulations, and the First AI Winter (1970s)"
+title = "3-Trials, Tribulations, and the First AI Winter (1970s)"
 date = 2025-06-17
 description = "Part 3 of OdishaAI.org’s history series explores the 1970s AI Winter—Lighthill’s critique, SHRDLU’s limits, MYCIN’s rule power—and gives you code to try."
 weight = 3
@@ -36,7 +36,7 @@ Below is **Part 3** of the "AI Through the Ages" series—an in-depth guide to t
 
 ## 1  Introduction (1970's: From Moon-shot to Meltdown)
 
-The 1960's closed with robots navigating corridors and chatbots charming psychologists, yet by **1974** governments were slashing grants and "artificial intelligence" had become a punch-line.  What happened?  This article unpacks broken promises, stark government reports, and the strategic pivot toward **knowledge-based expert systems** that set the stage for the 1980's boom. ([historyofdatascience.com][1], [en.wikipedia.org][2])
+The 1960's closed with robots navigating corridors and chatbots charming psychologists, yet by **1974** governments were slashing grants and "artificial intelligence" had become a punch-line.  What happened?  This article unpacks broken promises, stark government reports, and the strategic pivot toward **knowledge-based expert systems** that set the stage for the 1980's boom. [^1] [^2]
 
 ---
 
@@ -44,9 +44,9 @@ The 1960's closed with robots navigating corridors and chatbots charming psychol
 
 ### 2.1 Forecasts vs. Reality
 
-* **1965 (Minsky):** "Within a generation … machines will be capable of doing any work a man can do." ([wired.com][3])
-* **1968 (Kubrick & Clarke):** *HAL 9000* promised by **1997**. ([wired.com][4])
-* **1970 (DARPA internal memo):** Fully-automatic battlefield assistants by **1980**. (source: DARPA anniversary mag) ([darpa.mil][5])
+* **1965 (Minsky):** "Within a generation … machines will be capable of doing any work a man can do." [^3]
+* **1968 (Kubrick & Clarke):** *HAL 9000* promised by **1997**. [^4]
+* **1970 (DARPA internal memo):** Fully-automatic battlefield assistants by **1980**. (source: DARPA anniversary mag) [^5]
 
 None materialised: natural-language systems stalled outside labs, mobile robots hit sensor limits, and theorem provers drowned in combinatorial search.
 
@@ -56,14 +56,14 @@ Sir **James Lighthill** submitted a blistering review to the UK Science Research
 
 1. Real-world AI problems exhibit **"combinatorial explosion."**
 2. Progress is "markedly slower than forecast."
-3. Recommend **drastic concentration** on a handful of basic-science lines. ([en.wikipedia.org][6])
+3. Recommend **drastic concentration** on a handful of basic-science lines. [^6]
 
-> **Impact:** UK funding for AI plummeted from \~£1.3 M in 1973 to £0.25 M by 1975—a >80 % cut. ([rodsmith.nz][7])
+> **Impact:** UK funding for AI plummeted from \~£1.3 M in 1973 to £0.25 M by 1975—a >80 % cut. [^7]
 
 ### 2.3 Other Critiques
 
-* **ALPAC Report (1966)** killed US machine-translation grants. ([en.wikipedia.org][8])
-* **Minsky & Papert (1969)** exposed single-layer perceptron limits. ([en.wikipedia.org][8])
+* **ALPAC Report (1966)** killed US machine-translation grants. [^8]
+* **Minsky & Papert (1969)** exposed single-layer perceptron limits. [^8]
 
 {% mermaid(invertible=true, full_width=true) %}
 timeline
@@ -75,7 +75,7 @@ timeline
     1980 : Expert-system boom restarts funding
 {% end %}
 
-*Figure 1: Funding collapse across the decade (estimates from SRC minutes and DARPA budgets).* ([rodsmith.nz][7], [techtarget.com][9])
+*Figure 1: Funding collapse across the decade (estimates from SRC minutes and DARPA budgets).* [^7] [^9]
 
 ---
 
@@ -105,7 +105,7 @@ Person: What does the box contain?
 Computer: THE BLUE PYRAMID AND THE BLUE BLOCK.
 ```
 
-([en.wikipedia.org][10], [gist.github.com][11])
+[^10] [^11]
 
 ### 3.3 Why It Impressed
 
@@ -116,7 +116,7 @@ Computer: THE BLUE PYRAMID AND THE BLUE BLOCK.
 
 | Strengths                              | Weaknesses                                                      |
 | -------------------------------------- | --------------------------------------------------------------- |
-| Real-time interaction in 1970 hardware | **Toy domain:** 15 blocks, zero noise ([users.cs.cf.ac.uk][12]) |
+| Real-time interaction in 1970 hardware | **Toy domain:** 15 blocks, zero noise [^12] |
 | Deterministic planner                  | No sensor uncertainty                                           |
 | Rule transparency                      | Hard-coded vocabulary                                           |
 
@@ -129,7 +129,7 @@ Computer: THE BLUE PYRAMID AND THE BLUE BLOCK.
 
 ### 4.1 Definition
 
-An **AI Winter** is a multi-year era of dwindling funding, public trust, and researcher morale. ([en.wikipedia.org][2], [en.wikipedia.org][8])
+An **AI Winter** is a multi-year era of dwindling funding, public trust, and researcher morale. [^2] [^8]
 
 {% mermaid(invertible=true, full_width=true) %}
 mindmap
@@ -146,9 +146,9 @@ mindmap
 
 ### 4.2 Consequences
 
-* **DARPA** cut "free-form" AI budgets by \~70 % between 1970-76. ([en.wikipedia.org][2])
-* Several UK university AI labs shuttered or merged. ([rodsmith.nz][7])
-* Researchers re-branded as "pattern recognition" or migrated to private industry. ([en.wikipedia.org][8])
+* **DARPA** cut "free-form" AI budgets by \~70 % between 1970-76. [^2]
+* Several UK university AI labs shuttered or merged. [^7]
+* Researchers re-branded as "pattern recognition" or migrated to private industry. [^8]
 
 {% mermaid(invertible=true, full_width=true) %}
 timeline
@@ -166,7 +166,7 @@ timeline
 ### 5.1 Stanford’s MYCIN (1974)
 
 * \~600 **IF…THEN** rules diagnose bacterial infections.
-* Achieved **65 % therapeutic acceptability vs. 62 % average human expert.** ([en.wikipedia.org][13], [forbes.com][14])
+* Achieved **65 % therapeutic acceptability vs. 62 % average human expert.** [^13] [^14]
 
 {% mermaid(invertible=true, full_width=true) %}
 flowchart LR
@@ -315,20 +315,20 @@ Part 4 explores the **1980's expert-system boom**—from corporate shells to Jap
 ---
 <!-- series outro -->
 
-[1]: https://www.historyofdatascience.com/ai-winter-the-highs-and-lows-of-artificial-intelligence/?utm_source=odishaai.org "AI Winter: The Highs and Lows of Artificial Intelligence"
-[2]: https://en.wikipedia.org/wiki/AI_winter?utm_source=odishaai.org "AI winter - Wikipedia"
-[3]: https://www.wired.com/2012/10/dead-media-beat-early-artificial-intelligence-projects?utm_source=odishaai.org "Dead Media Beat: Early Artificial Intelligence Projects"
-[4]: https://www.wired.com/1997/01/ffhal?utm_source=odishaai.org "Happy Birthday, Hal"
-[5]: https://www.darpa.mil/sites/default/files/attachment/2025-02/magazine-darpa-60th-anniversary.pdf?utm_source=odishaai.org "[PDF] magazine-darpa-60th-anniversary.pdf"
-[6]: https://en.wikipedia.org/wiki/Lighthill_report "Lighthill report - Wikipedia"
-[7]: https://rodsmith.nz/wp-content/uploads/Lighthill_1973_Report.pdf?utm_source=odishaai.org "[PDF] Lighthill Report: Artificial Intelligence: a paper symposium"
-[8]: https://en.wikipedia.org/wiki/AI_winter "AI winter - Wikipedia"
-[9]: https://www.techtarget.com/searchenterpriseai/definition/AI-winter?utm_source=odishaai.org "What is AI Winter? Definition, History and Timeline - TechTarget"
-[10]: https://en.wikipedia.org/wiki/SHRDLU?utm_source=odishaai.org "SHRDLU"
-[11]: https://gist.github.com/gromgull/ea6cdf66d1b39c7bfddeb63e901b5ce4?utm_source=odishaai.org "The SHRDLU example dialog - GitHub Gist"
-[12]: https://users.cs.cf.ac.uk/Dave.Marshall/AI1/shrdlu.html?utm_source=odishaai.org "winograd's shrdlu - Pages supplied by users"
-[13]: https://en.wikipedia.org/wiki/Mycin "Mycin - Wikipedia"
-[14]: https://www.forbes.com/sites/gilpress/2020/04/27/12-ai-milestones-4-mycin-an-expert-system-for-infectious-disease-therapy/?utm_source=odishaai.org "12 AI Milestones: 4. MYCIN, An Expert System For Infectious ..."
-[15]: https://www.linkedin.com/pulse/future-ai-expert-systems-lead-next-chapter-martin-milani-5ugxc?utm_source=odishaai.org "The Future of AI: Expert Systems Will Lead the Next Chapter - LinkedIn"
-[16]: https://www.perplexity.ai/page/the-first-ai-winter-HD65QjFVSACU.fHaSKdwIw?utm_source=odishaai.org "The First AI Winter - Perplexity"
-[17]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6697545/?utm_source=odishaai.org "Beginnings of Artificial Intelligence in Medicine (AIM): Computational ..."
+[^1]: https://www.historyofdatascience.com/ai-winter-the-highs-and-lows-of-artificial-intelligence/?utm_source=odishaai.org "AI Winter: The Highs and Lows of Artificial Intelligence"
+[^2]: https://en.wikipedia.org/wiki/AI_winter?utm_source=odishaai.org "AI winter - Wikipedia"
+[^3]: https://www.wired.com/2012/10/dead-media-beat-early-artificial-intelligence-projects?utm_source=odishaai.org "Dead Media Beat: Early Artificial Intelligence Projects"
+[^4]: https://www.wired.com/1997/01/ffhal?utm_source=odishaai.org "Happy Birthday, Hal"
+[^5]: https://www.darpa.mil/sites/default/files/attachment/2025-02/magazine-darpa-60th-anniversary.pdf?utm_source=odishaai.org "[PDF] magazine-darpa-60th-anniversary.pdf"
+[^6]: https://en.wikipedia.org/wiki/Lighthill_report "Lighthill report - Wikipedia"
+[^7]: https://rodsmith.nz/wp-content/uploads/Lighthill_1973_Report.pdf?utm_source=odishaai.org "[PDF] Lighthill Report: Artificial Intelligence: a paper symposium"
+[^8]: https://en.wikipedia.org/wiki/AI_winter "AI winter - Wikipedia"
+[^9]: https://www.techtarget.com/searchenterpriseai/definition/AI-winter?utm_source=odishaai.org "What is AI Winter? Definition, History and Timeline - TechTarget"
+[^10]: https://en.wikipedia.org/wiki/SHRDLU?utm_source=odishaai.org "SHRDLU"
+[^11]: https://gist.github.com/gromgull/ea6cdf66d1b39c7bfddeb63e901b5ce4?utm_source=odishaai.org "The SHRDLU example dialog - GitHub Gist"
+[^12]: https://users.cs.cf.ac.uk/Dave.Marshall/AI1/shrdlu.html?utm_source=odishaai.org "winograd's shrdlu - Pages supplied by users"
+[^13]: https://en.wikipedia.org/wiki/Mycin "Mycin - Wikipedia"
+[^14]: https://www.forbes.com/sites/gilpress/2020/04/27/12-ai-milestones-4-mycin-an-expert-system-for-infectious-disease-therapy/?utm_source=odishaai.org "12 AI Milestones: 4. MYCIN, An Expert System For Infectious ..."
+[^15]: https://www.linkedin.com/pulse/future-ai-expert-systems-lead-next-chapter-martin-milani-5ugxc?utm_source=odishaai.org "The Future of AI: Expert Systems Will Lead the Next Chapter - LinkedIn"
+[^16]: https://www.perplexity.ai/page/the-first-ai-winter-HD65QjFVSACU.fHaSKdwIw?utm_source=odishaai.org "The First AI Winter - Perplexity"
+[^17]: https://pmc.ncbi.nlm.nih.gov/articles/PMC6697545/?utm_source=odishaai.org "Beginnings of Artificial Intelligence in Medicine (AIM): Computational ..."

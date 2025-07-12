@@ -35,7 +35,7 @@ The single-layer perceptron wowed the 1950s but fizzled when Minsky & Papert pro
 
 ### 2.2 2006: Hinton’s Deep Belief Networks
 
-Geoff Hinton, Ruslan Salakhutdinov, and colleagues unveiled **Deep Belief Networks (DBNs)**—a greedy, layer-wise unsupervised pre-training scheme that turned a stack of Restricted Boltzmann Machines into a deep classifier. The trick: initialize each layer close to a good region of the loss landscape, then fine-tune with supervised back-prop. ([cs.toronto.edu][1])
+Geoff Hinton, Ruslan Salakhutdinov, and colleagues unveiled **Deep Belief Networks (DBNs)**—a greedy, layer-wise unsupervised pre-training scheme that turned a stack of Restricted Boltzmann Machines into a deep classifier. The trick: initialize each layer close to a good region of the loss landscape, then fine-tune with supervised back-prop. [^1]
 
 ### 2.3 Technical Fixes
 
@@ -78,7 +78,7 @@ Try toggling `perceptron` ↔ `deep` to see how depth learns XOR in seconds. *Op
 
 ### 3.1 Data Explosion
 
-Web 2.0 birthed forums, social feeds, and user-generated photos. By 2009, the **ImageNet** project had crowdsourced 14 million labeled images across 21 k categories, dwarfing prior vision datasets. ([en.wikipedia.org][4])
+Web 2.0 birthed forums, social feeds, and user-generated photos. By 2009, the **ImageNet** project had crowdsourced 14 million labeled images across 21 k categories, dwarfing prior vision datasets. [^4]
 
 ### 3.2 GPU Computing Revolution
 
@@ -117,7 +117,7 @@ Expect ≈ 50 × speed-up on an RTX 4000-class GPU. *Open in [Colab](https://col
 
 ### 4.1 ImageNet 2012: AlexNet
 
-Alex Krizhevsky, Ilya Sutskever, and Hinton's **AlexNet** CNN halved top-5 error—from 26% to 15.3%—and won the ILSVRC 2012 challenge, igniting the CV gold-rush. ([en.wikipedia.org][6])
+Alex Krizhevsky, Ilya Sutskever, and Hinton's **AlexNet** CNN halved top-5 error—from 26% to 15.3%—and won the ILSVRC 2012 challenge, igniting the CV gold-rush. [^6]
 
 #### Architecture Diagram
 
@@ -146,7 +146,7 @@ The revolutionary aspects of AlexNet included:
 
 ### 4.2 Speech Recognition
 
-In 2012, Microsoft and U-Toronto showed deep nets shaving word-error by 20 % vs. Gaussian HMMs, paving the path for real-time on-device speech. ([cs.toronto.edu][7])
+In 2012, Microsoft and U-Toronto showed deep nets shaving word-error by 20 % vs. Gaussian HMMs, paving the path for real-time on-device speech. [^7]
 
 #### Pipeline Diagram
 
@@ -164,7 +164,7 @@ sequenceDiagram
 
 ### 4.3 Siri Launch (2011)
 
-Apple shipped Siri with iPhone 4S, mainstreaming voice assistants and driving demand for low-latency NLP on smartphones. ([youtube.com][8])
+Apple shipped Siri with iPhone 4S, mainstreaming voice assistants and driving demand for low-latency NLP on smartphones. [^8]
 
 ### 4.4 IBM Watson Jeopardy! (2011)
 
@@ -290,14 +290,14 @@ Key academic and industrial sources are hyperlinked throughout the post. A conde
 
 Enjoy the read—and happy coding!
 
-[1]: https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf?utm_source=odishaai.org "[PDF] A fast learning algorithm for deep belief nets - Computer Science"
-[2]: https://www.cs.toronto.edu/~fritz/absps/reluICML.pdf?utm_source=odishaai.org "[PDF] Rectified Linear Units Improve Restricted Boltzmann Machines"
-[3]: https://jmlr.org/papers/v15/srivastava14a.html?utm_source=odishaai.org "Dropout: A Simple Way to Prevent Neural Networks from Overfitting"
-[4]: https://en.wikipedia.org/wiki/ImageNet?utm_source=odishaai.org "ImageNet - Wikipedia"
-[5]: https://www.businessinsider.com/ian-buck-nvidia-moat-cuda-2025-6?utm_source=odishaai.org "Ian Buck built Nvidia's secret weapon. He may spend the rest of his career defending it."
-[6]: https://en.wikipedia.org/wiki/AlexNet?utm_source=odishaai.org "AlexNet - Wikipedia"
-[7]: https://www.cs.toronto.edu/~hinton/absps/DNN-2012-proof.pdf?utm_source=odishaai.org "[PDF] Deep Neural Networks for Acoustic Modeling in Speech Recognition"
-[8]: https://www.youtube.com/watch?v=SpGJNPShzRc&utm_source=odishaai.org "Siri Demo by Scott Forstall at Apple Special Event Oct. 4, 2011"
-[9]: https://www.ibm.com/history/watson-jeopardy?utm_source=odishaai.org "Watson, Jeopardy! champion | IBM"
-[10]: https://easychair.org/publications/preprint/7fzz?utm_source=odishaai.org "Odia Handwritten Character Recognition Based on Convolutional ..."
-[11]: https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf?utm_source=odishaai.org "[PDF] National Strategy for Artificial Intelligence - NITI Aayog"
+[^1]: https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf?utm_source=odishaai.org "[PDF] A fast learning algorithm for deep belief nets - Computer Science"
+[^2]: https://www.cs.toronto.edu/~fritz/absps/reluICML.pdf?utm_source=odishaai.org "[PDF] Rectified Linear Units Improve Restricted Boltzmann Machines"
+[^3]: https://jmlr.org/papers/v15/srivastava14a.html?utm_source=odishaai.org "Dropout: A Simple Way to Prevent Neural Networks from Overfitting"
+[^4]: https://en.wikipedia.org/wiki/ImageNet?utm_source=odishaai.org "ImageNet - Wikipedia"
+[^5]: https://www.businessinsider.com/ian-buck-nvidia-moat-cuda-2025-6?utm_source=odishaai.org "Ian Buck built Nvidia's secret weapon. He may spend the rest of his career defending it."
+[^6]: https://en.wikipedia.org/wiki/AlexNet?utm_source=odishaai.org "AlexNet - Wikipedia"
+[^7]: https://www.cs.toronto.edu/~hinton/absps/DNN-2012-proof.pdf?utm_source=odishaai.org "[PDF] Deep Neural Networks for Acoustic Modeling in Speech Recognition"
+[^8]: https://www.youtube.com/watch?v=SpGJNPShzRc&utm_source=odishaai.org "Siri Demo by Scott Forstall at Apple Special Event Oct. 4, 2011"
+[^9]: https://www.ibm.com/history/watson-jeopardy?utm_source=odishaai.org "Watson, Jeopardy! champion | IBM"
+[^10]: https://easychair.org/publications/preprint/7fzz?utm_source=odishaai.org "Odia Handwritten Character Recognition Based on Convolutional ..."
+[^11]: https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf?utm_source=odishaai.org "[PDF] National Strategy for Artificial Intelligence - NITI Aayog"

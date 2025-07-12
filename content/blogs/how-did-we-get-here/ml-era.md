@@ -91,7 +91,7 @@ print(clf.predict([[37.6]]))      # → array([1])
 
 ### 3.1 Decision Trees (ID3 → C4.5)
 
-ID3 introduced entropy-based node splitting ([link.springer.com][1]).  C4.5 generalised it to handle continuous features and pruning ([link.springer.com][2]).
+ID3 introduced entropy-based node splitting [^1].  C4.5 generalised it to handle continuous features and pruning [^2].
 
 ```python
 from sklearn import tree, datasets
@@ -140,7 +140,7 @@ graph LR
 
 ---
 
-## 4  AI in the 90 s – Real-World Applications
+## 4  AI in the 90s – Real-World Applications
 
 * **Credit scoring** – Neural nets cut default rates in US credit-union data ([sciencedirect.com][9]).  Indian banks began pilot scoring systems late-decade ([researchgate.net][10]).
 * **Market-basket analysis** – Agrawal & Srikant’s 1994 *Apriori* algorithm extracted shopping patterns an order of magnitude faster than predecessors ([vldb.org][11], [ibm.com][12]).
@@ -170,12 +170,12 @@ India’s software exports rocketed from \$175 M in 1990 to \$8.7 B by 2000—>5
 ### 5.2 Early AI adoption
 
 * *Banking* – ICICI experimented with neural-network loan risk models.
-* *Agriculture* – prototype decision support systems helped optimise irrigation and pest control ([researchgate.net][15]).
+* *Agriculture* – prototype decision support systems helped optimise irrigation and pest control [^15].
 * *Education* – IITs and IISc rolled out elective ML courses by 1998.
 
 ### 5.3 Odisha spotlight
 
-The **Software Technology Park of India (STPI), Bhubaneswar** opened in 1990, creating a data-link hub and incubation programmes that later hosted regional AI startups ([bhubaneswar.stpi.in][16]).
+The **Software Technology Park of India (STPI), Bhubaneswar** opened in 1990, creating a data-link hub and incubation programmes that later hosted regional AI startups [^16].
 
 
 {% mermaid(invertible=true, full_width=false) %}
@@ -284,46 +284,24 @@ Statistical learning solved many 1990s problems, yet hand-crafted features were 
 <!-- Series Outro -->
 ---
 
-### Citations
-
-1. Quinlan, “Induction of Decision Trees,” *Machine Learning* 1986 ([link.springer.com][1])
-2. Quinlan, *C4.5: Programs for Machine Learning* 1993 ([link.springer.com][2])
-3. Cortes & Vapnik, “Support-Vector Networks,” 1995 ([link.springer.com][6])
-4. IBM, “Deep Blue” history page ([ibm.com][7])
-5. Wired, “Machine Bests Man” (May 1997) ([wired.com][8])
-6. Agrawal & Srikant, “Fast Algorithms for Mining Association Rules,” VLDB 1994 ([vldb.org][11])
-7. IBM Think topic: Apriori algorithm explainer ([ibm.com][12])
-8. Mathur, “Indian IT Industry: Past, Present and Future,” 2006 ([faculty.washington.edu][13])
-9. Wired, “Bangalore: Silicon Valley of India,” 1996 ([wired.com][14])
-10. STPI Bhubaneswar official site ([bhubaneswar.stpi.in][16])
-11. KIIT history page ([kiit.ac.in][17])
-12. Lucas, “Bayesian Networks in Medicine,” 1990s survey ([cs.ru.nl][5])
-13. Pearl, *Probabilistic Reasoning in Intelligent Systems* 1988 ([amazon.com][3])
-14. Bayesian liver-diagnosis prototype ([citeseerx.ist.psu.edu][4])
-15. Credit-scoring neural network study ([sciencedirect.com][9])
-16. Market-basket analysis review ([clei.org][18])
-17. Indian bank scoring models survey ([researchgate.net][10])
-18. Agriculture DSS successes ([researchgate.net][15])
-
----
 
 *Happy learning – see you in Part 6!*
 
-[1]: https://link.springer.com/article/10.1007/BF00116251?utm_source=odishaai.org "Induction of decision trees | Machine Learning"
-[2]: https://link.springer.com/article/10.1007/BF00993309?utm_source=odishaai.org "C4.5: Programs for Machine Learning by J. Ross Quinlan. Morgan ..."
-[3]: https://www.amazon.com/Probabilistic-Reasoning-Intelligent-Systems-Representation/dp/1558604790?utm_source=odishaai.org "Probabilistic Reasoning in Intelligent Systems: Networks of ..."
-[4]: https://citeseerx.ist.psu.edu/document?doi=9640fd2100908599d1e9e28ee3c2b3cdd1a0d3f4&repid=rep1&type=pdf&utm_source=odishaai.org "[PDF] A Bayesian Network Model for Diagnosis of Liver Disorders"
-[5]: https://www.cs.ru.nl/~peterl/eunite.pdf?utm_source=odishaai.org "[PDF] Bayesian Networks in Medicine: a Model-based Approach to ..."
-[6]: https://link.springer.com/article/10.1007/BF00994018?utm_source=odishaai.org "Support-vector networks | Machine Learning"
-[7]: https://www.ibm.com/history/deep-blue?utm_source=odishaai.org "Deep Blue - IBM"
-[8]: https://www.wired.com/2011/05/0511ibm-deep-blue-beats-chess-champ-kasparov?utm_source=odishaai.org "May 11, 1997: Machine Bests Man in Tournament-Level Chess Match"
-[9]: https://www.sciencedirect.com/science/article/abs/pii/0377221795002464?utm_source=odishaai.org "A comparison of neural networks and linear scoring models in the ..."
-[10]: https://www.researchgate.net/publication/318482256_Indian_Banks_and_Credit_Scoring_Models_An_Empirical_Study?utm_source=odishaai.org "(PDF) Indian Banks and Credit Scoring Models …..An Empirical Study"
-[11]: https://www.vldb.org/conf/1994/P487.PDF?utm_source=odishaai.org "[PDF] Fast Algorithms for Mining Association Rules - VLDB Endowment"
-[12]: https://www.ibm.com/think/topics/apriori-algorithm?utm_source=odishaai.org "What is the Apriori algorithm? - IBM"
-[13]: https://faculty.washington.edu/karyiu/confer/seoul06/papers/mathur.pdf?utm_source=odishaai.org "[PDF] Indian Information Technology Industry : Past, Present and Future& ..."
-[14]: https://www.wired.com/1996/02/bangalore?utm_source=odishaai.org "Bangalore"
-[15]: https://www.researchgate.net/publication/221916044_Decision_Support_Systems_in_Agriculture_Some_Successes_and_a_Bright_Future?utm_source=odishaai.org "Decision Support Systems in Agriculture: Some Successes and a ..."
-[16]: https://bhubaneswar.stpi.in/en?utm_source=odishaai.org "STPI - Bhubaneswar - Software Technology Park of India"
-[17]: https://kiit.ac.in/about/history/?utm_source=odishaai.org "History of KIIT"
-[18]: https://www.clei.org/cleiej/index.php/cleiej/article/download/497/413?utm_source=odishaai.org "[PDF] Market basket analysis with association rules in the retail sector ..."
+[^1]: https://link.springer.com/article/10.1007/BF00116251?utm_source=odishaai.org "Induction of decision trees | Machine Learning"
+[^2]: https://link.springer.com/article/10.1007/BF00993309?utm_source=odishaai.org "C4.5: Programs for Machine Learning by J. Ross Quinlan. Morgan ..."
+[^3]: https://www.amazon.com/Probabilistic-Reasoning-Intelligent-Systems-Representation/dp/1558604790?utm_source=odishaai.org "Probabilistic Reasoning in Intelligent Systems: Networks of ..."
+[^4]: https://citeseerx.ist.psu.edu/document?doi=9640fd2100908599d1e9e28ee3c2b3cdd1a0d3f4&repid=rep1&type=pdf&utm_source=odishaai.org "[PDF] A Bayesian Network Model for Diagnosis of Liver Disorders"
+[^5]: https://www.cs.ru.nl/~peterl/eunite.pdf?utm_source=odishaai.org "[PDF] Bayesian Networks in Medicine: a Model-based Approach to ..."
+[^6]: https://link.springer.com/article/10.1007/BF00994018?utm_source=odishaai.org "Support-vector networks | Machine Learning"
+[^7]: https://www.ibm.com/history/deep-blue?utm_source=odishaai.org "Deep Blue - IBM"
+[^8]: https://www.wired.com/2011/05/0511ibm-deep-blue-beats-chess-champ-kasparov?utm_source=odishaai.org "May 11, 1997: Machine Bests Man in Tournament-Level Chess Match"
+[^9]: https://www.sciencedirect.com/science/article/abs/pii/0377221795002464?utm_source=odishaai.org "A comparison of neural networks and linear scoring models in the ..."
+[^10]: https://www.researchgate.net/publication/318482256_Indian_Banks_and_Credit_Scoring_Models_An_Empirical_Study?utm_source=odishaai.org "(PDF) Indian Banks and Credit Scoring Models …..An Empirical Study"
+[^11]: https://www.vldb.org/conf/1994/P487.PDF?utm_source=odishaai.org "[PDF] Fast Algorithms for Mining Association Rules - VLDB Endowment"
+[^12]: https://www.ibm.com/think/topics/apriori-algorithm?utm_source=odishaai.org "What is the Apriori algorithm? - IBM"
+[^13]: https://faculty.washington.edu/karyiu/confer/seoul06/papers/mathur.pdf?utm_source=odishaai.org "[PDF] Indian Information Technology Industry : Past, Present and Future& ..."
+[^14]: https://www.wired.com/1996/02/bangalore?utm_source=odishaai.org "Bangalore"
+[^15]: https://www.researchgate.net/publication/221916044_Decision_Support_Systems_in_Agriculture_Some_Successes_and_a_Bright_Future?utm_source=odishaai.org "Decision Support Systems in Agriculture: Some Successes and a ..."
+[^16]: https://bhubaneswar.stpi.in/en?utm_source=odishaai.org "STPI - Bhubaneswar - Software Technology Park of India"
+[^17]: https://kiit.ac.in/about/history/?utm_source=odishaai.org "History of KIIT"
+[^18]: https://www.clei.org/cleiej/index.php/cleiej/article/download/497/413?utm_source=odishaai.org "[PDF] Market basket analysis with association rules in the retail sector ..."

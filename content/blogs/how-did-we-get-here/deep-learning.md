@@ -272,24 +272,6 @@ As CNNs revolutionized vision and DNNs conquered speech, an even more radical id
 
 ## References
 
-Key academic and industrial sources are hyperlinked throughout the post. A condensed list appears below for quick access.
-
-1. Hinton G. E. *A Fast Learning Algorithm for Deep Belief Nets,* 2006. ([cs.toronto.edu][1])
-2. Nair V. & Hinton G. E. *Rectified Linear Units Improve Restricted Boltzmann Machines,* 2010. ([cs.toronto.edu][2])
-3. Srivastava N. et al. *Dropout: A Simple Way to Prevent Neural Networks from Overfitting,* 2014. ([jmlr.org][3])
-4. Krizhevsky A. et al. *ImageNet Classification with Deep Convolutional Neural Networks,* 2012. ([en.wikipedia.org][6])
-5. ImageNet Project Overview, 2009. ([en.wikipedia.org][4])
-6. Dahl G. E. et al. *Deep Neural Networks for Acoustic Modeling in Speech Recognition,* 2012. ([cs.toronto.edu][7])
-7. IBM. *Watson Wins Jeopardy!,* 2011. ([ibm.com][9])
-8. Apple Special Event (Oct 4 2011) Siri Demo. ([youtube.com][8])
-9. EasyChair Preprint: *Odia Handwritten Character Recognition Using CNN,* 2022. ([easychair.org][10])
-10. NITI Aayog, *National Strategy for Artificial Intelligence—AI for All,* 2018. ([niti.gov.in][11])
-11. Business Insider, *Inside NVIDIA CUDA’s Moat,* 2025. ([businessinsider.com][5])
-
----
-
-Enjoy the read—and happy coding!
-
 [^1]: https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf?utm_source=odishaai.org "[PDF] A fast learning algorithm for deep belief nets - Computer Science"
 [^2]: https://www.cs.toronto.edu/~fritz/absps/reluICML.pdf?utm_source=odishaai.org "[PDF] Rectified Linear Units Improve Restricted Boltzmann Machines"
 [^3]: https://jmlr.org/papers/v15/srivastava14a.html?utm_source=odishaai.org "Dropout: A Simple Way to Prevent Neural Networks from Overfitting"

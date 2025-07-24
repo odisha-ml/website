@@ -14,5 +14,9 @@ toc = false
 ## Odia language AI resources
 - [Awesome Odia AI](https://github.com/odisha-ml/Awesome-Odia-AI/): A curated list of awesome resources (text, audio, images, and more) about Odia language AI like Language Models, Datasets, and more.
 
+## Odisha Govt Vision
+- [Odisha Vision](/pdfs/odisha_vision_document.pdf)
+- [Odisha AI Policy](/pdfs/resolution_on_odisha_ai_policy_2025.pdf)
+
 ## Miscellaneous
 - [AI Glossary](https://glossary.odishaai.org/): A glossary of terms used in the field of AI.

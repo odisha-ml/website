@@ -7,8 +7,8 @@ tags = ["Conference"]
 
 [extra]
 toc = false
-social_media_card = "images/summit.webp"
-local_image = "images/summit.webp"
+social_media_card = "images/regional-summit-series.png"
+local_image = "images/regional-summit-series.png"
 +++
 
 ## About

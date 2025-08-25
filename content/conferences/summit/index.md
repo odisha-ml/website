@@ -23,8 +23,26 @@ A gathering of educators, policy makers, industry practitioners, entreprenures, 
 
 **Details of the summit** : is in a separate summit website.
 
-**Conference Date:** 21st December, 2025
+**Conference Date:** 21st and 22nd December, 2025
 
 **Location:** Bhubaneshwar
+
+**Organizing Committee:**
+
+- Prof. Prashant Mohapatra, University of South Florida, USA
+- Prof. Ashutosh Dutta, Johns Hopkins University, USA
+- Prof. Abani Patra, TUFTS, USA
+- Prof. Durga Madhab Mishra, NJIT, USA
+- Prof. Prasant Panigrahi, SOA, Odisha, India
+- Dr. Sukanta Mohapatra, NIST , Odisha, India
+- Dr. Ajay Kumar Mohanty, Deloitte (Retired),Washington DC, USA
+- Mr. Anjan Kumar Panda, Odisha AI, Dublin AI, San Francisco, USA
+
+**Invited Speakers:**
+
+- Prof. Chitta Baral, Arizoana State University, Tempe, Arizoana
+- Dr. Dhanada Mishra, RaSpect AI , Hong Kong
+- Pranav Khaitan, Google, Mountain View, California, USA
+- More being added..
 
 Tweet with hashtag: **[#OAISummit2025](https://x.com/hashtag/OAISummit2025)**

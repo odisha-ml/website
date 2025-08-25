@@ -29,14 +29,14 @@ A gathering of educators, policy makers, industry practitioners, entreprenures, 
 
 **Organizing Committee:**
 
-- Prof. Prashant Mohapatra, University of South Florida
-- Prof. Ashutosh Dutta, Johns Hopkins University
-- Prof. Abani Patra, TUFTS
-- Prof. Durga Madhab Mishra, NJIT
-- Prof. Prasant Panigrahi, SOA
-- Dr. Sukanta Mohapatra, NIST
-- Dr. Ajay Kumar Mohanty, Delloitte (Retired)
-- Mr. Anjan Kumar Panda, Odisha AI
+- Prof. Prashant Mohapatra, University of South Florida, USA
+- Prof. Ashutosh Dutta, Johns Hopkins University, USA
+- Prof. Abani Patra, TUFTS, USA
+- Prof. Durga Madhab Mishra, NJIT, USA
+- Prof. Prasant Panigrahi, SOA, Odisha, India
+- Dr. Sukanta Mohapatra, NIST , Odisha, India
+- Dr. Ajay Kumar Mohanty, Deloitte (Retired),Washington DC, USA
+- Mr. Anjan Kumar Panda, Odisha AI, Dublin AI, San Francisco, USA
 
 **Invited Speakers:**
 

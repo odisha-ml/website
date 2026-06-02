@@ -2,8 +2,25 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ExternalLink, Calendar, MapPin, Users, Mic } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
-import { usePageMeta } from '../utils/usePageMeta';
+import { usePageMeta, breadcrumb } from '../utils/usePageMeta';
 import Sponsorship from '../components/Sponsorship';
+
+const ORIGIN = 'https://www.odishaai.org';
+
+/* ISO 8601 dates for schema.org Event (the display `date` strings are
+   human-readable and not machine-parseable). Year-only entries use the year,
+   which is valid ISO 8601. Omitted slugs emit no Event schema. */
+const CONF_DATES = {
+  '2026': { start: '2026-10-10' },
+  summit: { start: '2025-12-21', end: '2025-12-22' },
+  'regional-summit': { start: '2025-11-14' },
+  '2025': { start: '2025-10-11' },
+  '2024': { start: '2024' },
+  '2023': { start: '2023' },
+  '2022': { start: '2022' },
+  '2021': { start: '2021' },
+  '2020': { start: '2020' },
+};
 
 /* ─── All conference data ─── */
 const CONFERENCES = {
@@ -176,8 +193,30 @@ export default function ConferenceDetail() {
   usePageMeta({
     title: conf ? conf.title : 'Conference',
     path: `/conferences/${slug}`,
-    description: conf?.desc,
+    description: conf?.about || conf?.theme,
     image: conf?.img,
+    jsonLd: conf
+      ? [
+          breadcrumb([
+            { name: 'Home', path: '/' },
+            { name: 'Conferences', path: '/conferences' },
+            { name: conf.title, path: `/conferences/${slug}` },
+          ]),
+          {
+            '@context': 'https://schema.org',
+            '@type': 'Event',
+            name: conf.title,
+            description: conf.about || conf.theme,
+            startDate: CONF_DATES[slug]?.start,
+            endDate: CONF_DATES[slug]?.end,
+            eventStatus: 'https://schema.org/EventScheduled',
+            image: conf.img ? `${ORIGIN}${conf.img}` : undefined,
+            url: `${ORIGIN}/conferences/${slug}`,
+            location: { '@type': 'Place', name: conf.location },
+            organizer: { '@id': `${ORIGIN}/#organization` },
+          },
+        ]
+      : undefined,
   });
 
   if (!conf) return (

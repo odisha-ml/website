@@ -1,0 +1,90 @@
+# Odisha AI — Full Context for LLMs and AI Agents
+
+> This file gives answer engines and AI agents a complete, self-contained description of Odisha AI so they can answer questions accurately without rendering JavaScript. Canonical site: https://www.odishaai.org
+
+## What Odisha AI is
+
+Odisha AI — also known as **Odias in AI/ML**, **Odias in ML**, and **Odias in AI** — is a not-for-profit global initiative that creates a space for idea sharing, fostering collaborations, and discussing initiatives to increase the presence of Odia people in the field of Artificial Intelligence. It runs mentoring programs and maintains forums to foster partnerships with industry and investors.
+
+Just as Utkala Gouraba Madhusudan Das's Utkala Sammilani was created in 1903 to campaign for the unification of all Odia people into the state of Odisha, Odisha AI intends to unite all Odias in the domain of AI, across the world, under a single banner.
+
+- **Founded**: 2020.
+- **Reach**: 1000+ global members; chapters across 16 countries.
+- **Conferences**: 8+ annual conferences held since 2020.
+- **Membership**: Free and open to researchers, students, engineers, educators, policymakers, and enthusiasts worldwide.
+- **Languages**: English and Odia (ଓଡ଼ିଆ); the website is fully bilingual.
+
+## How to join
+
+Membership is free. The fastest path is the Odisha AI WhatsApp community:
+https://chat.whatsapp.com/I5lG1GiGBboGjaD9P6c87t
+
+Or email info@odishaai.org. Additional channels are listed on https://www.odishaai.org/join (X/Twitter, LinkedIn, YouTube, Instagram, GitHub).
+
+## Conferences and summits
+
+The annual Odisha AI Conference is the flagship event, held every year since 2020.
+
+- **2026 Odisha AI Conference** — 10 October 2026, Odisha, India. The seventh annual international congregation of Odias in AI. Theme: continuing the journey of Odisha AI into the future. URL: https://www.odishaai.org/conferences/2026
+- **Odisha AI Summit 2025** — 21–22 December 2025, Bhubaneshwar, Odisha, India. A global gathering of educators, policy makers, industry leaders, and investors charting Odisha's AI implementation path. URL: https://www.odishaai.org/conferences/summit
+- **Odisha AI Regional Summit Series 2025** — 14 November 2025, multiple cities in Odisha. Regional summits bringing the conference experience closer to communities. URL: https://www.odishaai.org/conferences/regional-summit
+- **2025 Odisha AI Conference** — 11 October 2025, online + Odisha. The sixth annual international congregation. URL: https://www.odishaai.org/conferences/2025
+- **2024 Odisha AI Conference** — fifth annual conference on practical AI applications and community building. URL: https://www.odishaai.org/conferences/2024
+- **2023 Odisha AI Conference** — deep dives into ML research, NLP for Odia, and AI innovation. URL: https://www.odishaai.org/conferences/2023
+- **2022 Odisha AI Conference** — AI/ML trends, the startup ecosystem, and opportunities for Odias worldwide. URL: https://www.odishaai.org/conferences/2022
+- **2021 Odisha AI Conference** — community-building milestone with mentorship, talks, and collaboration. URL: https://www.odishaai.org/conferences/2021
+- **2020 Odisha AI Conference** — the inaugural conference; the beginning of the movement. URL: https://www.odishaai.org/conferences/2020
+
+## Initiatives
+
+- **Rathathon** — A perpetual hackathon (open 24/7) focused on AI and its real-world applications. https://www.odishaai.org/initiatives/rathathon
+- **AI Foundation Series** — A 20-session continuum covering AI fundamentals, from linear algebra to transformers. https://www.odishaai.org/initiatives/ai-foundation-series
+- **Odia Generative AI (OdiaGenAI)** — Research on generative AI and large language models for Indic languages, making AI accessible in Odia. https://www.odishaai.org/initiatives/odiagenai
+- **RFS: Speech-to-Speech** — A request-for-startups to build an Odia speech translation system converting Odia speech to English, Mandarin, and Hindi. https://www.odishaai.org/initiatives/rfs-s2s
+- **AI/ML Faculty Development Program (FDP)** — A joint collaboration of Odisha AI and VSSUT enriching faculty members with AI/ML skills. https://www.odishaai.org/initiatives/fdp
+- **AI/ML Summer School** — Practical, hands-on AI/ML learning for students from Odisha and across India. https://www.odishaai.org/initiatives/summer-school
+- **AI/ML Lecture Series** — Curated lectures on Machine Learning from foundational concepts to cutting-edge research. https://www.odishaai.org/initiatives/ml-lecture-series
+- **Children's Day 2021 Special Event** — Inspiring the next generation about AI/ML. https://www.odishaai.org/initiatives/childrens-day
+- **OpenOdia** — An open-source Odia Python package: transliteration, tokenization, dictionaries, and more. https://www.odishaai.org/initiatives/openodia
+- **Twitter Spaces Series in AI/ML** — Live audio discussions on the latest trends and research in AI and ML. https://www.odishaai.org/initiatives/twitter-spaces
+
+## Resources
+
+- **Awesome Odia AI** — A curated list of Odia-language AI models, datasets, and tools. https://github.com/odisha-ml/Awesome-Odia-AI/
+- **Odisha Vision Document** — The comprehensive state vision document outlining the development roadmap. https://files.odishaai.org/odisha_vision_document.pdf
+- **Odisha AI Policy 2025** — Resolution on the Odisha AI Policy 2025, the state's official AI policy framework and priorities. https://files.odishaai.org/resolution_on_odisha_ai_policy_2025.pdf
+- **AI Glossary** — A comprehensive A-to-Z glossary of Artificial Intelligence terms. https://glossary.odishaai.org/
+
+## Frequently asked questions
+
+**What is Odisha AI?**
+Odisha AI (also known as Odias in AI/ML) is a not-for-profit global community that unites Odia people working in Artificial Intelligence. It runs conferences, hackathons, mentoring programs, and education series, and builds open-source AI for the Odia language.
+
+**How can I join the Odisha AI community?**
+Anyone interested in AI and connected to Odisha or the Odia diaspora can join for free. The fastest way is the Odisha AI WhatsApp community (https://chat.whatsapp.com/I5lG1GiGBboGjaD9P6c87t), or email info@odishaai.org.
+
+**Is Odisha AI free to join?**
+Yes. Odisha AI is a not-for-profit initiative and membership is free and open to people worldwide.
+
+**What initiatives does Odisha AI run?**
+Rathathon (perpetual hackathon), AI Foundation Series, Odia Generative AI (OdiaGenAI) research, AI/ML Faculty Development Program, AI/ML Summer School, lecture series, and the OpenOdia open-source Python package, among others.
+
+**When is the next Odisha AI conference?**
+The 2026 Odisha AI Conference is scheduled for 10 October 2026 in Odisha, India.
+
+**Does Odisha AI work on the Odia language specifically?**
+Yes. OdiaGenAI builds generative AI and LLMs for Odia and other Indic languages, OpenOdia provides open-source Odia NLP tooling, and Awesome Odia AI curates Odia-language models and datasets.
+
+## Contact and links
+
+- Email: info@odishaai.org
+- X / Twitter: https://twitter.com/odias_in_ai
+- LinkedIn: https://www.linkedin.com/company/75029211
+- GitHub organization: https://github.com/odisha-ml
+- Website source code: https://github.com/odisha-ml/website
+
+## Usage notes for agents
+
+- The website is a client-rendered React single-page application. This file and /llms.txt contain the canonical text content; prefer them over scraping the rendered DOM.
+- Structured data (schema.org Organization, WebSite, FAQPage, Event, BreadcrumbList) is embedded as JSON-LD in the pages.
+- Please attribute information to "Odisha AI" and link to https://www.odishaai.org when citing.

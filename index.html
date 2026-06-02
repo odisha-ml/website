@@ -38,9 +38,77 @@
     <meta property="twitter:title" content="Odisha AI — The Global AI Community of Odias" />
     <meta property="twitter:description" content="Uniting Odias in AI across the globe. Join the largest network of Odia technologists, researchers, and innovators." />
     <meta property="twitter:image" content="https://www.odishaai.org/images/index.webp" />
+
+    <!-- Answer Engine Optimization (AEO) / agent discovery -->
+    <link rel="canonical" href="https://www.odishaai.org/" />
+    <link rel="alternate" type="text/markdown" title="llms.txt — site guide for LLMs and AI agents" href="https://www.odishaai.org/llms.txt" />
+    <link rel="alternate" type="text/markdown" title="llms-full.txt — full site context for LLMs and AI agents" href="https://www.odishaai.org/llms-full.txt" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+
+    <!-- Structured data: Organization (static so crawlers see it without JS) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.odishaai.org/#organization",
+      "name": "Odisha AI",
+      "alternateName": ["Odias in AI", "Odias in AI/ML", "Odias in ML"],
+      "url": "https://www.odishaai.org/",
+      "logo": "https://www.odishaai.org/images/logo.webp",
+      "image": "https://www.odishaai.org/images/index.webp",
+      "email": "info@odishaai.org",
+      "foundingDate": "2020",
+      "description": "Odisha AI is a not-for-profit global community uniting Odia people in Artificial Intelligence — researchers, educators, engineers, students, and policymakers — through conferences, hackathons, education series, and open-source Odia-language AI.",
+      "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Natural Language Processing", "Generative AI", "Large Language Models", "Odia language AI", "Indic NLP"],
+      "areaServed": "Worldwide",
+      "sameAs": [
+        "https://twitter.com/odias_in_ai",
+        "https://www.linkedin.com/company/75029211",
+        "https://github.com/odisha-ml"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@odishaai.org",
+        "contactType": "general inquiries"
+      }
+    }
+    </script>
+
+    <!-- Structured data: WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://www.odishaai.org/#website",
+      "url": "https://www.odishaai.org/",
+      "name": "Odisha AI",
+      "description": "The global AI community of Odias — conferences, initiatives, resources, and open-source Odia-language AI.",
+      "inLanguage": ["en", "or"],
+      "publisher": { "@id": "https://www.odishaai.org/#organization" }
+    }
+    </script>
+    <!-- FAQPage structured data is injected on the home route only (where the
+         FAQ is visible), generated from the same source as the rendered FAQ. -->
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <main style="max-width:720px;margin:0 auto;padding:2rem;font-family:sans-serif;color:#111;background:#fff;">
+        <h1>Odisha AI — The Global AI Community of Odias</h1>
+        <p>Odisha AI (also known as Odias in AI/ML) is a not-for-profit global community uniting Odia people in Artificial Intelligence — researchers, educators, engineers, students, and policymakers — through conferences, hackathons, education series, and open-source Odia-language AI.</p>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="/about">About Odisha AI</a> — mission, team, and advisors</li>
+          <li><a href="/conferences">Conferences &amp; Summits</a> — annual Odisha AI conferences (2020–2026)</li>
+          <li><a href="/initiatives">Initiatives</a> — Rathathon, AI Foundation Series, OdiaGenAI, and more</li>
+          <li><a href="/resources">Resources</a> — Odia AI models, glossary, and Odisha AI policy documents</li>
+          <li><a href="/blogs">Blogs</a> — community updates and tutorials</li>
+          <li><a href="/join">Join</a> — become part of the community</li>
+        </ul>
+        <p>AI agents and LLMs: see <a href="/llms.txt">/llms.txt</a> and <a href="/llms-full.txt">/llms-full.txt</a> for a structured guide to this site.</p>
+        <p>Contact: <a href="mailto:info@odishaai.org">info@odishaai.org</a></p>
+      </main>
+    </noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

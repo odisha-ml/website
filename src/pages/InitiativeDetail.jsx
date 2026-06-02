@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
-import { usePageMeta } from '../utils/usePageMeta';
+import { usePageMeta, breadcrumb } from '../utils/usePageMeta';
 import Sponsorship from '../components/Sponsorship';
 
 /* ─── All initiative data ─── */
@@ -290,6 +290,13 @@ export default function InitiativeDetail() {
     path: `/initiatives/${slug}`,
     description: init?.desc,
     image: init?.img,
+    jsonLd: init
+      ? breadcrumb([
+          { name: 'Home', path: '/' },
+          { name: 'Initiatives', path: '/initiatives' },
+          { name: init.title, path: `/initiatives/${slug}` },
+        ])
+      : undefined,
   });
 
   if (!init) return (

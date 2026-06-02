@@ -44,13 +44,30 @@ const STATS = [
   { num: 8, suffix: '', label: 'Annual Conferences' },
 ];
 
-
+/* ── FAQ: visible answers that mirror the FAQPage schema in index.html ── */
+const FAQS = [
+  { q: 'What is Odisha AI?', a: 'Odisha AI (also known as Odias in AI/ML) is a not-for-profit global community that unites Odia people working in Artificial Intelligence. It runs conferences, hackathons, mentoring programs, and education series, and builds open-source AI for the Odia language.' },
+  { q: 'How can I join the Odisha AI community?', a: 'Anyone interested in AI and connected to Odisha or the Odia diaspora can join for free. The fastest way is the Odisha AI WhatsApp community, or email info@odishaai.org. The Join page lists every channel.' },
+  { q: 'Is Odisha AI free to join?', a: 'Yes. Odisha AI is a not-for-profit initiative and membership is free and open to researchers, students, engineers, educators, and enthusiasts worldwide.' },
+  { q: 'What initiatives does Odisha AI run?', a: 'Initiatives include the Rathathon perpetual hackathon, the AI Foundation Series, Odia Generative AI (OdiaGenAI) research, the AI/ML Faculty Development Program, the AI/ML Summer School, lecture series, and the OpenOdia open-source Python package.' },
+  { q: 'When is the next Odisha AI conference?', a: 'The 2026 Odisha AI Conference — the seventh annual international congregation of Odias in AI — is scheduled for 10 October 2026 in Odisha, India. See the Conferences page for details.' },
+];
 
 export default function Home() {
   const { t } = useLanguage();
   usePageMeta({
     path: '/',
     description: 'Uniting Odias in AI across the globe. A not-for-profit initiative for sharing ideas, fostering collaborations, and increasing the presence of Odia people in Artificial Intelligence.',
+    keywords: 'Odisha AI, Odias in AI, Odia in ML, AI community, Machine Learning, Generative AI, Odia language AI, OdiaGenAI, Rathathon, AI conference Odisha',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: FAQS.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    },
   });
 
   return (
@@ -292,6 +309,55 @@ export default function Home() {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─────── FAQ (Answer Engine Optimized) ─────── */}
+      <section className="section" style={{ borderTop:'1px solid var(--border)' }}>
+        <div className="container">
+          <div style={{ marginBottom:'2.5rem', maxWidth:720 }}>
+            <div className="section-label">Frequently Asked</div>
+            <h2 className="section-title">Questions, answered</h2>
+            <p className="section-desc">
+              The essentials about Odisha AI — for newcomers, partners, and the AI agents reading this page.
+            </p>
+          </div>
+
+          <div style={{ maxWidth:820, display:'grid', gap:'0.85rem' }}>
+            {FAQS.map((f, i) => (
+              <details
+                key={i}
+                className="faq-item"
+                style={{
+                  background:'var(--bg-card)',
+                  border:'1px solid var(--border)',
+                  borderRadius:14,
+                  padding:'1.15rem 1.4rem',
+                }}
+              >
+                <summary
+                  style={{
+                    cursor:'pointer',
+                    listStyle:'none',
+                    display:'flex',
+                    alignItems:'center',
+                    justifyContent:'space-between',
+                    gap:'1rem',
+                    fontFamily:"'Syne', sans-serif",
+                    fontWeight:600,
+                    fontSize:'1.05rem',
+                    color:'var(--text)',
+                  }}
+                >
+                  <span>{f.q}</span>
+                  <ChevronRight size={18} className="faq-chevron" style={{ flexShrink:0, color:'var(--c1)' }} />
+                </summary>
+                <p style={{ margin:'0.9rem 0 0', color:'var(--text2)', lineHeight:1.7, fontSize:'0.97rem' }}>
+                  {f.a}
+                </p>
+              </details>
+            ))}
           </div>
         </div>
       </section>

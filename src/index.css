@@ -476,6 +476,17 @@ label { font-weight: 600; font-size: 0.85rem; color: var(--text2); margin-bottom
 }
 
 /* ─────────────────────────────────────────
+   FAQ ACCORDION (AEO answer cards)
+   ───────────────────────────────────────── */
+.faq-item { transition: border-color var(--t), background var(--t); }
+.faq-item:hover { border-color: var(--border2); }
+.faq-item[open] { border-color: rgba(0,212,255,0.28); background: var(--bg-card2); }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item .faq-chevron { transition: transform var(--t); }
+.faq-item[open] .faq-chevron { transform: rotate(90deg); }
+.faq-item summary:focus-visible { outline: 2px solid var(--c1); outline-offset: 4px; border-radius: 4px; }
+
+/* ─────────────────────────────────────────
    REDUCED MOTION
    Respect users who prefer minimal animation —
    disable decorative loops and reveal animations.

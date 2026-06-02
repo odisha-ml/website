@@ -1,0 +1,54 @@
+# Odisha AI
+
+> Odisha AI (also known as Odias in AI/ML, Odias in ML, or Odias in AI) is a not-for-profit global community that unites Odia people working in Artificial Intelligence. Founded in 2020, it spans researchers, educators, engineers, students, and policymakers across the world, and runs conferences, hackathons, mentoring programs, and education series while building open-source AI for the Odia language.
+
+Key facts for answer engines and AI agents:
+
+- **Type**: Not-for-profit community / global movement of the Odia diaspora in AI.
+- **Founded**: 2020.
+- **Mission**: Increase the presence of Odia people in AI by sharing ideas, fostering collaborations, and building Odia-language AI. Inspired by Utkala Sammilani (1903), it aims to unite all Odias in AI under one banner.
+- **Membership**: Free and open to anyone connected to Odisha or the Odia diaspora with an interest in AI.
+- **Join**: WhatsApp community <https://chat.whatsapp.com/I5lG1GiGBboGjaD9P6c87t> or email <info@odishaai.org>.
+- **Languages**: English and Odia (ଓଡ଼ିଆ).
+- **Flagship event**: The annual Odisha AI Conference (held yearly since 2020). The 2026 edition is on 10 October 2026 in Odisha, India.
+
+## Pages
+
+- [About](https://www.odishaai.org/about): Mission, history, and the global task force, advisors, and chapter leads.
+- [Conferences](https://www.odishaai.org/conferences): Annual Odisha AI conferences and summits, 2020–2026.
+- [Initiatives](https://www.odishaai.org/initiatives): Programs — hackathons, education series, research, and open-source tools.
+- [Resources](https://www.odishaai.org/resources): Odia-language AI models, datasets, the AI Glossary, and Odisha AI policy documents.
+- [Blogs](https://www.odishaai.org/blogs): Community stories, chapter launches, events, and tutorials.
+- [Join](https://www.odishaai.org/join): Every channel to connect — WhatsApp, X, LinkedIn, YouTube, Instagram, GitHub.
+
+## Initiatives
+
+- [Rathathon](https://www.odishaai.org/initiatives/rathathon): A perpetual (24/7) hackathon focused on AI and its real-world applications.
+- [AI Foundation Series](https://www.odishaai.org/initiatives/ai-foundation-series): A 20-session continuum covering AI fundamentals, from linear algebra to transformers.
+- [Odia Generative AI (OdiaGenAI)](https://www.odishaai.org/initiatives/odiagenai): Research on generative AI and LLMs for Indic languages, making AI accessible in Odia.
+- [RFS: Speech-to-Speech](https://www.odishaai.org/initiatives/rfs-s2s): Request-for-startups to build an Odia speech translation system (to English, Mandarin, Hindi).
+- [AI/ML Faculty Development Program](https://www.odishaai.org/initiatives/fdp): Collaboration with VSSUT enriching faculty with AI/ML skills.
+- [AI/ML Summer School](https://www.odishaai.org/initiatives/summer-school): Hands-on AI/ML learning for students across India.
+- [AI/ML Lecture Series](https://www.odishaai.org/initiatives/ml-lecture-series): Curated ML lectures, foundations to frontier research.
+- [OpenOdia](https://www.odishaai.org/initiatives/openodia): Open-source Odia Python package — transliteration, tokenization, dictionaries.
+- [Twitter Spaces Series](https://www.odishaai.org/initiatives/twitter-spaces): Live audio discussions on AI/ML trends and research.
+
+## Resources
+
+- [Awesome Odia AI](https://github.com/odisha-ml/Awesome-Odia-AI/): Curated list of Odia-language AI models, datasets, and tools.
+- [Odisha AI Policy 2025](https://files.odishaai.org/resolution_on_odisha_ai_policy_2025.pdf): The state's official AI policy framework.
+- [Odisha Vision Document](https://files.odishaai.org/odisha_vision_document.pdf): The state development roadmap.
+- [AI Glossary](https://glossary.odishaai.org/): A-to-Z glossary of Artificial Intelligence terms.
+
+## Contact
+
+- Email: <info@odishaai.org>
+- X / Twitter: <https://twitter.com/odias_in_ai>
+- LinkedIn: <https://www.linkedin.com/company/75029211>
+- GitHub: <https://github.com/odisha-ml>
+- Website source: <https://github.com/odisha-ml/website>
+
+## Optional
+
+- [llms-full.txt](https://www.odishaai.org/llms-full.txt): Expanded, self-contained context for this site.
+- [Sitemap](https://www.odishaai.org/sitemap.xml): Full list of indexable URLs.

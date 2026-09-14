@@ -5,6 +5,7 @@ Welcome to the official repository for the **Odisha AI Website**. This portal se
 ## 🌐 Overview
 
 The Odisha AI website is a modern, highly responsive, and beautifully designed web application built to showcase:
+
 - **Conferences & Summits**: Tracking our annual international and regional AI conferences (e.g., Odisha AI Conference 2026).
 - **Initiatives**: Highlighting ongoing programs like the Rathathon (perpetual hackathon), AI Foundation Series, and Odia GenAI research.
 - **Resources**: Centralized links to vision documents, the AI glossary, and open-source Odia AI models.
@@ -31,6 +32,7 @@ The Odisha AI website is a modern, highly responsive, and beautifully designed w
 Follow these steps to set up the project locally:
 
 ### Prerequisites
+
 Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) and [pnpm](https://pnpm.io/installation) installed on your machine.
 
 > If you don't have pnpm yet, you can install it with `npm install -g pnpm` or `corepack enable`.
@@ -38,12 +40,14 @@ Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) and [pnpm](htt
 ### Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/odisha-ml/website.git
    cd website
    ```
 
 2. **Install dependencies:**
+
    ```bash
    pnpm install
    ```
@@ -57,9 +61,11 @@ Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) and [pnpm](htt
 ### Build for Production
 
 To create an optimized production build:
+
 ```bash
 pnpm build
 ```
+
 The bundled files will be output to the `dist/` directory, ready to be deployed.
 
 You can preview the production build locally with `pnpm preview`, and lint the codebase with `pnpm lint`.
@@ -98,4 +104,10 @@ We welcome contributions from the community! Whether you want to fix a bug, add 
 - **LinkedIn**: [Odisha AI](https://www.linkedin.com/company/75029211)
 
 ---
-*Empowering the Odia ecosystem for success in an AI-first era.*
+
+_Empowering the Odia ecosystem for success in an AI-first era._
+
+### Training commits
+
+1. Today it is 14th September 2026, the session consisted of the code walkthrough of OdishaAI's wesbite and this is a
+   test pull request for the demo purpose.

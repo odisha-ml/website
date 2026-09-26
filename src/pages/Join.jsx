@@ -4,7 +4,7 @@ import { ArrowRight, ExternalLink } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
 
 const WAYS = [
-  { emoji:'💬', title:'WhatsApp Group', desc:'Join our active WhatsApp group to connect with members, share resources, and stay updated on events.', cta:'Join Now', href:'https://chat.whatsapp.com/I5lG1GiGBboGjaD9P6c87t', color:'var(--c4)' },
+  { emoji:'💬', title:'WhatsApp Group', desc:'Join our active WhatsApp group to connect with members, share resources, and stay updated on events.', cta:'Join Now', href:'https://chat.whatsapp.com/HEfoBJHKqjzJIDMfoTsAZp', color:'var(--c4)' },
   { emoji:'🐦', title:'Follow on Twitter/X', desc:'Get real-time updates on events, research, and community news from @odias_in_ai.', cta:'Follow Us', href:'https://twitter.com/odias_in_ai', color:'var(--c1)' },
   { emoji:'💼', title:'LinkedIn Community', desc:'Connect professionally with Odia AI practitioners, researchers, and industry leaders worldwide.', cta:'Connect', href:'https://www.linkedin.com/company/75029211', color:'var(--c1)' },
   { emoji:'📺', title:'YouTube Channel', desc:'Watch recorded sessions, conference talks, lectures, and tutorial videos on our YouTube channel.', cta:'Subscribe', href:'https://www.youtube.com/@OdiasInML', color:'var(--c3)' },
@@ -43,7 +43,7 @@ export default function Join() {
             <p style={{ fontSize:'1rem', lineHeight:1.8, marginBottom:'1.5rem' }}>
               {t('home.joinDesc')}
             </p>
-            <a href="https://chat.whatsapp.com/I5lG1GiGBboGjaD9P6c87t" target="_blank" rel="noopener noreferrer"
+            <a href="https://chat.whatsapp.com/HEfoBJHKqjzJIDMfoTsAZp" target="_blank" rel="noopener noreferrer"
               className="btn btn-glow" style={{ fontSize:'1.05rem', padding:'0.85rem 2rem' }}>
               {t('home.joinAction')} <ArrowRight size={16}/>
             </a>

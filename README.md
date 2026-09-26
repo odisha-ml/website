@@ -42,12 +42,12 @@ Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) installed on y
 
 2. **Install dependencies:**
    ```bash
-   npm install
+   pnpm install
    ```
 
 3. **Run the development server:**
    ```bash
-   npm run dev
+   pnpm dev
    ```
    Open [http://localhost:5176](http://localhost:5176) (or the port provided in your terminal) to view the app in the browser.
 
@@ -55,7 +55,7 @@ Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) installed on y
 
 To create an optimized production build:
 ```bash
-npm run build
+pnpm build
 ```
 The bundled files will be output to the `dist/` directory, ready to be deployed.
 
@@ -87,7 +87,7 @@ We welcome contributions from the community! Whether you want to fix a bug, add 
 
 ## 📧 Contact & Community
 
-- **Join us on WhatsApp**: [Odisha AI Community](https://chat.whatsapp.com/I5lG1GiGBboGjaD9P6c87t)
+- **Join us on WhatsApp**: [Odisha AI Community](https://chat.whatsapp.com/HEfoBJHKqjzJIDMfoTsAZp)
 - **Email**: info@odishaai.org
 - **Twitter / X**: [@odias_in_ai](https://twitter.com/odias_in_ai)
 - **LinkedIn**: [Odisha AI](https://www.linkedin.com/company/75029211)

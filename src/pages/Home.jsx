@@ -25,7 +25,7 @@ function Counter({ end, suffix = '' }) {
 }
 
 const CONFERENCES = [
-  { year: '2026', slug: '2026', title: '2026 Odisha AI Conference', date: '10 Oct 2026', desc: 'Upcoming annual conference bringing together the Odia AI community for talks, workshops, and networking.', img: '/images/conference-covers/2026.webp', tag: 'Upcoming' },
+  { year: '2026', slug: '2026', title: '2026 Odisha AI Conference', date: '10 Oct 2026', desc: 'Vision to Impact — a global platform in Bhubaneswar exploring how AI can transform Odisha, India and the world.', img: '/images/conference-covers/2026.webp', tag: 'Upcoming' },
   { year: '2025', slug: 'summit', title: 'Odisha AI Summit 2025', date: '21 Dec 2025', desc: 'Global gathering in Bhubaneshwar — educators, policy makers, industry leaders, and investors charting Odisha\'s AI path.', img: '/images/summit.webp', tag: 'Past' },
   { year: '2024', slug: '2024', title: '2024 Odisha AI Conference', date: '2024', desc: 'Annual conference bringing together the Odia AI community for talks, workshops, and networking.', img: '/images/conference-covers/2024.webp', tag: 'Past' },
 ];
@@ -300,7 +300,7 @@ export default function Home() {
             {t('home.joinDesc')}
           </p>
           <div style={{ display:'flex', gap:'1rem', justifyContent:'center', flexWrap:'wrap' }}>
-            <a href="https://chat.whatsapp.com/I5lG1GiGBboGjaD9P6c87t" target="_blank" rel="noopener noreferrer" className="btn btn-glow" style={{ fontSize:'1rem', padding:'0.85rem 2rem' }}>
+            <a href="https://chat.whatsapp.com/HEfoBJHKqjzJIDMfoTsAZp" target="_blank" rel="noopener noreferrer" className="btn btn-glow" style={{ fontSize:'1rem', padding:'0.85rem 2rem' }}>
               {t('home.joinAction')} <ArrowUpRight size={16}/>
             </a>
             <Link to="/about" className="btn btn-outline" style={{ fontSize:'1rem', padding:'0.85rem 2rem' }}>

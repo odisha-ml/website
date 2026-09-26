@@ -31,7 +31,7 @@ export default function Navbar() {
     <nav className="navbar" style={{ borderBottomColor: scrolled ? 'rgba(255,255,255,0.06)' : 'transparent' }}>
       <div className="navbar-inner">
         <Link to="/" className="nav-brand">
-          <div className="nav-brand-dot" />
+          <img src="/images/odisha-ai-logo.svg" alt="Odisha AI logo" className="nav-brand-logo" />
           Odisha AI
         </Link>
 

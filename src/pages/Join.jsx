@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ExternalLink } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
+import { usePageMeta } from '../utils/usePageMeta';
 
 const WAYS = [
   { emoji:'💬', title:'WhatsApp Group', desc:'Join our active WhatsApp group to connect with members, share resources, and stay updated on events.', cta:'Join Now', href:'https://chat.whatsapp.com/HEfoBJHKqjzJIDMfoTsAZp', color:'var(--c4)' },
@@ -14,6 +15,11 @@ const WAYS = [
 
 export default function Join() {
   const { t } = useLanguage();
+  usePageMeta({
+    title: 'Join',
+    path: '/join',
+    description: 'Join the Odisha AI community — connect on WhatsApp, Twitter/X, LinkedIn, YouTube, Instagram, and GitHub, and help build the future of AI for Odias.',
+  });
 
   return (
     <div>

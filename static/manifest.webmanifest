@@ -1,0 +1,23 @@
+{
+  "name": "Odisha AI — The Global AI Community of Odias",
+  "short_name": "Odisha AI",
+  "description": "Uniting Odias in AI across the globe. A not-for-profit initiative for sharing ideas, fostering collaborations, and increasing the presence of Odia people in Artificial Intelligence.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#050510",
+  "icons": [
+    {
+      "src": "/icons/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/images/logo.webp",
+      "sizes": "any",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}

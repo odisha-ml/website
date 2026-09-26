@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
+import { usePageMeta } from '../utils/usePageMeta';
 import Sponsorship from '../components/Sponsorship';
 
 /* ─── All initiative data ─── */
@@ -284,6 +285,12 @@ export default function InitiativeDetail() {
   const { slug } = useParams();
   const init = INITIATIVES[slug];
   const { t } = useLanguage();
+  usePageMeta({
+    title: init ? init.title : 'Initiative',
+    path: `/initiatives/${slug}`,
+    description: init?.desc,
+    image: init?.img,
+  });
 
   if (!init) return (
     <div style={{ minHeight:'60vh', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', gap:'1.5rem' }}>

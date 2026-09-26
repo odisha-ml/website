@@ -1,6 +1,7 @@
 import React from 'react';
 import { ExternalLink, FileText, Globe, BookOpen, Code } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
+import { usePageMeta } from '../utils/usePageMeta';
 
 const SECTIONS = [
   {
@@ -64,6 +65,11 @@ function ResourceCard({ item, color }) {
 
 export default function Resources() {
   const { t } = useLanguage();
+  usePageMeta({
+    title: 'Resources',
+    path: '/resources',
+    description: 'Curated Odia language AI resources, datasets, tools, the AI Glossary, and policy documents from the Odisha AI community.',
+  });
 
   return (
     <div>

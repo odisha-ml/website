@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
+import { usePageMeta } from '../utils/usePageMeta';
 
 const ALL_INITIATIVES = [
   { slug:'rfs-s2s',            title:'🎤 RFS: Speech-to-Speech',           desc:'New RFS open exclusively to Odisha AI Fundamentals S2S and Odisha AI community — build an Odia Speech translation system converting to English, Mandarin and Hindi.', img:'/images/initiatives/rfs-s2s.png', tags:['rfs','hackathon','odia'], color:'var(--c2)' },
@@ -28,6 +29,11 @@ const TAG_COLORS = {
 export default function Initiatives() {
   const { t } = useLanguage();
   const [active, setActive] = useState('All');
+  usePageMeta({
+    title: 'Initiatives',
+    path: '/initiatives',
+    description: 'Hackathons, education series, research, and open-source tools from Odisha AI — Rathathon, AI Foundation Series, OdiaGenAI, OpenOdia, and more.',
+  });
   const filtered = active === 'All' ? ALL_INITIATIVES : ALL_INITIATIVES.filter(i => i.tags.includes(active));
 
   return (
@@ -72,7 +78,7 @@ export default function Initiatives() {
               style={{ textDecoration:'none', color:'inherit', display:'flex', flexDirection:'column', overflow:'hidden' }}
             >
               <div style={{ overflow:'hidden', position:'relative', flexShrink:0 }}>
-                <img src={init.img} alt={init.title} className="img-card-cover" style={{ height:195 }}
+                <img src={init.img} alt={init.title} className="img-card-cover" style={{ height:195 }} loading="lazy" decoding="async"
                   onError={e=>{ e.currentTarget.style.display='none'; }}
                 />
                 <div style={{ position:'absolute', inset:0, background:'linear-gradient(to top, rgba(0,0,0,0.55), transparent)' }} />

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, ExternalLink, MapPin } from 'lucide-react';
 import JourneyTimeline from '../components/JourneyTimeline';
 import { useLanguage } from '../utils/LanguageContext';
+import { usePageMeta } from '../utils/usePageMeta';
 
 const TASK_FORCE = [
   { name: 'Abhijeet Parida', url: 'https://www.linkedin.com/in/a-parida/' },
@@ -55,6 +56,11 @@ function Section({ label, title, children }) {
 
 export default function About() {
   const { t } = useLanguage();
+  usePageMeta({
+    title: 'About',
+    path: '/about',
+    description: 'Our mission, story, and the global task force, advisors, and chapter leads behind Odisha AI — a not-for-profit community uniting Odias in Artificial Intelligence.',
+  });
 
   return (
     <div>

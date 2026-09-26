@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { parseMarkdown } from '../utils/markdownParser';
 import { ArrowRight, Clock, Calendar } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
+import { usePageMeta } from '../utils/usePageMeta';
 
 const blogFiles = import.meta.glob('../../content/blogs/**/*.md', { query: '?raw', import: 'default' });
 
@@ -10,6 +11,11 @@ export default function Blogs() {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
   const { t } = useLanguage();
+  usePageMeta({
+    title: 'Blog',
+    path: '/blogs',
+    description: 'Stories, announcements, and writing from the Odisha AI community — chapter launches, events, research, and AI education across the globe.',
+  });
 
   useEffect(() => {
     const load = async () => {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+/* Fonts are loaded via <link> in index.html (preconnect + non-blocking). */
 
 /* ─────────────────────────────────────────
    DESIGN TOKENS
@@ -28,7 +28,7 @@
   --r4: 32px;
   --t: 0.35s cubic-bezier(0.4,0,0.2,1);
   --shadow: 0 8px 40px rgba(0,0,0,0.6);
-  --mono: 'JetBrains Mono', monospace;
+  --mono: 'JetBrains Mono', 'Noto Sans Oriya', monospace;
 }
 
 /* ─────────────────────────────────────────
@@ -38,7 +38,7 @@
 html { scroll-behavior:smooth; }
 
 body {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Space Grotesk', 'Noto Sans Oriya', sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.65;
@@ -60,8 +60,10 @@ body::before {
   pointer-events: none;
 }
 
-h1,h2,h3,h4 { font-family: 'Syne', sans-serif; font-weight: 700; color: var(--text); line-height: 1.15; }
-h1 { font-size: clamp(2.8rem,6vw,5rem); letter-spacing:-0.03em; }
+/* Latin display = Syne; Odia script falls back to Anek Odia (Syne has no Odia glyphs).
+   line-height 1.25 gives Odia matras/conjuncts vertical room so they aren't clipped. */
+h1,h2,h3,h4 { font-family: 'Syne', 'Anek Odia', sans-serif; font-weight: 700; color: var(--text); line-height: 1.25; }
+h1 { font-size: clamp(2.8rem,6vw,5rem); letter-spacing:-0.02em; }
 h2 { font-size: clamp(2rem,4vw,3rem); letter-spacing:-0.02em; }
 h3 { font-size: clamp(1.15rem,2.5vw,1.5rem); }
 
@@ -70,6 +72,45 @@ a { color: var(--c1); text-decoration: none; transition: color var(--t); }
 a:hover { color: #fff; }
 
 img { display: block; max-width: 100%; }
+
+/* ─────────────────────────────────────────
+   ACCESSIBILITY
+───────────────────────────────────────── */
+/* Skip-to-content link — visible only on keyboard focus */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100px;
+  z-index: 1000;
+  padding: 0.7rem 1.2rem;
+  background: var(--c1);
+  color: #000;
+  font-weight: 600;
+  border-radius: var(--r2);
+  transition: top 0.2s ease;
+}
+.skip-link:focus {
+  top: 1rem;
+  color: #000;
+}
+
+/* Visible keyboard focus ring for interactive elements */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--c1);
+  outline-offset: 2px;
+  border-radius: var(--r1);
+}
+/* Don't double up the outline when the element already shows a focus box */
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline-offset: 0;
+}
 
 /* ─────────────────────────────────────────
    LAYOUT
@@ -432,4 +473,26 @@ label { font-weight: 600; font-size: 0.85rem; color: var(--text2); margin-bottom
   .container { padding: 0 0.85rem; }
   h1 { font-size: 1.85rem; }
   .stat-num { font-size: 2rem; }
+}
+
+/* ─────────────────────────────────────────
+   REDUCED MOTION
+   Respect users who prefer minimal animation —
+   disable decorative loops and reveal animations.
+───────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Keep staggered content visible (their start state is opacity:0) */
+  .fade-up, .fade-in, .stagger > * { opacity: 1 !important; }
+
+  /* Stop continuously-looping decorative motion entirely */
+  .ticker-inner { animation: none !important; }
 }

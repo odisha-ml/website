@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm';
 import { parseMarkdown } from '../utils/markdownParser';
 import { ArrowLeft, Calendar } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
+import { usePageMeta } from '../utils/usePageMeta';
 
 const blogFiles = import.meta.glob('../../content/blogs/**/*.md', { query: '?raw', import: 'default' });
 
@@ -14,6 +15,10 @@ export default function BlogPost() {
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
   const { t } = useLanguage();
+  usePageMeta({
+    title: blog ? blog.title : 'Blog',
+    path: `/blogs/${slug}`,
+  });
 
   useEffect(() => {
     const load = async () => {

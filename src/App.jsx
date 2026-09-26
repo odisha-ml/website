@@ -20,19 +20,22 @@ function App() {
     <LanguageProvider>
       <Router>
         <div className="app">
+          <a href="#main-content" className="skip-link">Skip to content</a>
           <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/blogs" element={<Blogs />} />
-            <Route path="/blogs/*" element={<BlogPost />} />
-            <Route path="/conferences" element={<Events />} />
-            <Route path="/conferences/:slug" element={<ConferenceDetail />} />
-            <Route path="/initiatives" element={<Initiatives />} />
-            <Route path="/initiatives/:slug" element={<InitiativeDetail />} />
-            <Route path="/resources" element={<Resources />} />
-            <Route path="/join" element={<Join />} />
-          </Routes>
+          <main id="main-content">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/blogs" element={<Blogs />} />
+              <Route path="/blogs/*" element={<BlogPost />} />
+              <Route path="/conferences" element={<Events />} />
+              <Route path="/conferences/:slug" element={<ConferenceDetail />} />
+              <Route path="/initiatives" element={<Initiatives />} />
+              <Route path="/initiatives/:slug" element={<InitiativeDetail />} />
+              <Route path="/resources" element={<Resources />} />
+              <Route path="/join" element={<Join />} />
+            </Routes>
+          </main>
           <Footer />
         </div>
       </Router>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
+import { usePageMeta } from '../utils/usePageMeta';
 
 const ALL = [
   { slug: '2026',            title: '2026 Odisha AI Conference',             date: '10 Oct 2026',    location: 'Bhubaneswar, Odisha',    img: '/images/conference-covers/2026.webp',      tag: 'Upcoming', desc: 'Vision to Impact — making Odisha the Intellectual AI Capital of the World.' },
@@ -17,6 +18,11 @@ const ALL = [
 
 export default function Conferences() {
   const { t } = useLanguage();
+  usePageMeta({
+    title: 'Conferences',
+    path: '/conferences',
+    description: 'Explore Odisha AI conferences and summits from 2020 to 2026 — annual international gatherings of Odias in Artificial Intelligence.',
+  });
 
   return (
     <div>
@@ -58,7 +64,7 @@ export default function Conferences() {
               style={{ textDecoration:'none', color:'inherit', overflow:'hidden', display:'flex', flexDirection:'column' }}
             >
               <div style={{ position:'relative', overflow:'hidden' }}>
-                <img src={c.img} alt={c.title}
+                <img src={c.img} alt={c.title} loading="lazy" decoding="async"
                   style={{ width:'100%', height:220, objectFit:'cover', transition:'transform 0.5s ease' }}
                   onMouseOver={e=>e.currentTarget.style.transform='scale(1.05)'}
                   onMouseOut={e=>e.currentTarget.style.transform='scale(1)'}

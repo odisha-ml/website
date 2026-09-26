@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, ArrowUpRight, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
+import { usePageMeta } from '../utils/usePageMeta';
 
 /* ── Animated counter ── */
 function Counter({ end, suffix = '' }) {
@@ -47,6 +48,10 @@ const STATS = [
 
 export default function Home() {
   const { t } = useLanguage();
+  usePageMeta({
+    path: '/',
+    description: 'Uniting Odias in AI across the globe. A not-for-profit initiative for sharing ideas, fostering collaborations, and increasing the presence of Odia people in Artificial Intelligence.',
+  });
 
   return (
     <div>
@@ -54,7 +59,7 @@ export default function Home() {
       <section style={{ position:'relative', minHeight:'92vh', display:'flex', alignItems:'center', overflow:'hidden' }}>
         {/* BG image with overlay */}
         <div style={{ position:'absolute', inset:0, zIndex:0 }}>
-          <img src="/images/index.webp" alt="Odisha AI"
+          <img src="/images/index.webp" alt="" aria-hidden="true" fetchPriority="high" decoding="async"
             style={{ width:'100%', height:'100%', objectFit:'cover', objectPosition:'center', filter:'brightness(0.18) saturate(0.7)' }}
           />
           {/* gradient overlay */}
@@ -131,7 +136,7 @@ export default function Home() {
             {CONFERENCES.map((c,i) => (
               <Link to="/conferences" key={i} className="card card-glow" style={{ textDecoration:'none', color:'inherit', display:'flex', flexDirection:'column' }}>
                 <div style={{ overflow:'hidden', borderRadius:'var(--r3) var(--r3) 0 0' }}>
-                  <img src={c.img} alt={c.title} className="img-card-cover" style={{ height:200 }} />
+                  <img src={c.img} alt={c.title} className="img-card-cover" style={{ height:200 }} loading="lazy" decoding="async" />
                 </div>
                 <div style={{ padding:'1.5rem', display:'flex', flexDirection:'column', gap:'0.75rem', flex:1 }}>
                   <div style={{ display:'flex', gap:'0.5rem', alignItems:'center' }}>
@@ -166,7 +171,7 @@ export default function Home() {
             {INITIATIVES.map((init,i) => (
               <Link to="/initiatives" key={i} className="card card-glow-purple" style={{ textDecoration:'none', color:'inherit', display:'flex', flexDirection:'column' }}>
                 <div style={{ overflow:'hidden', borderRadius:'var(--r3) var(--r3) 0 0', position:'relative' }}>
-                  <img src={init.img} alt={init.title} className="img-card-cover" style={{ height:180 }} />
+                  <img src={init.img} alt={init.title} className="img-card-cover" style={{ height:180 }} loading="lazy" decoding="async" />
                   <div style={{ position:'absolute', inset:0, background:'linear-gradient(to top, rgba(0,0,0,0.5), transparent)' }} />
                 </div>
                 <div style={{ padding:'1.5rem', flex:1, display:'flex', flexDirection:'column', gap:'0.75rem' }}>
@@ -222,6 +227,8 @@ export default function Home() {
             <div className="blog-feature-img" style={{ flex:'0 0 45%', background:'var(--bg3)' }}>
               <img src="/images/blogs/gscc-chapter.webp"
                 alt="GSCC Chapter"
+                loading="lazy"
+                decoding="async"
                 onError={e => { e.currentTarget.src='https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80'; }}
                 style={{ width:'100%', height:'100%', objectFit:'cover', minHeight:280 }}
               />

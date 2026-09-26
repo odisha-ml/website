@@ -35,7 +35,7 @@ export default function Navbar() {
           Odisha AI
         </Link>
 
-        <div className={`nav-links ${open ? 'open' : ''}`}>
+        <div id="nav-links" className={`nav-links ${open ? 'open' : ''}`}>
           {NAV_LINKS.map(l => (
             <Link
               key={l.to}
@@ -72,7 +72,13 @@ export default function Navbar() {
           <Link to="/join" className="btn btn-glow" style={{ padding: '0.5rem 1.2rem', fontSize: '0.82rem' }}>
             {t('nav.join')}
           </Link>
-          <button className="nav-mobile-btn" onClick={() => setOpen(!open)} aria-label="Toggle menu">
+          <button
+            className="nav-mobile-btn"
+            onClick={() => setOpen(!open)}
+            aria-label="Toggle menu"
+            aria-expanded={open}
+            aria-controls="nav-links"
+          >
             {open ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>

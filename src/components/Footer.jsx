@@ -27,7 +27,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div style={{ marginBottom:'1rem', display:'flex', alignItems:'center', gap:'0.5rem' }}>
-              <div style={{ width:10, height:10, borderRadius:'50%', background:'var(--grad)' }} />
+              <img src="/images/odisha-ai-logo.svg" alt="Odisha AI logo" style={{ width:34, height:34, objectFit:'contain', flexShrink:0 }} />
               <span style={{ fontFamily:"'Syne',sans-serif", fontSize:'1.3rem', fontWeight:800 }}>Odisha AI</span>
             </div>
             <p style={{ fontSize:'0.875rem', color:'var(--text3)', lineHeight:1.8, maxWidth:280 }}>
@@ -76,7 +76,7 @@ export default function Footer() {
             {[
               ['/about', t('nav.about')],
               ['/join', t('nav.join')],
-              ['https://chat.whatsapp.com/I5lG1GiGBboGjaD9P6c87t', t('home.joinAction')],
+              ['https://chat.whatsapp.com/HEfoBJHKqjzJIDMfoTsAZp', t('home.joinAction')],
               ['https://umami.ekathi.com/share/CAyEwBULBAzB4DCB/www.odishaai.org/', 'Analytics'],
             ].map(([to,lbl]) => {
               const ext = to.startsWith('http');

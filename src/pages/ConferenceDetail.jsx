@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, ExternalLink, Calendar, MapPin, Users, Mic } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ExternalLink, Calendar, MapPin, Users, Mic } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
 import { usePageMeta } from '../utils/usePageMeta';
 import Sponsorship from '../components/Sponsorship';
@@ -9,14 +9,99 @@ import Sponsorship from '../components/Sponsorship';
 const CONFERENCES = {
   '2026': {
     title: '2026 Odisha AI Conference',
+    eyebrow: 'Vision to Impact',
+    tagline: 'Making Odisha the Intellectual AI Capital of the World',
+    heroCta: { label: 'Explore the Conference', target: 'conference-details' },
     date: '10 October 2026',
-    location: 'Odisha, India',
+    location: 'Bhubaneswar, Odisha',
     img: '/images/conference-covers/2026.webp',
     status: 'Upcoming',
     hashtag: '#OAIConf2026',
     hashtagUrl: 'https://x.com/hashtag/OAIConf2026',
-    theme: 'Continuing the journey of Odisha AI into the future',
-    about: `The 2026 Odisha AI Conference marks the seventh annual gathering of the global Odia AI community. Scheduled for 10th October 2026, this event will bring together researchers, practitioners, policymakers, and entrepreneurs.`,
+    theme: 'Vision to Impact — Making Odisha the Intellectual AI Capital of the World',
+    about: `A global platform bringing together visionaries, innovators, entrepreneurs, researchers, businesses, policymakers and young minds to explore how Artificial Intelligence can transform Odisha, India and the world.`,
+    sections: [
+      {
+        kicker: 'About the Conference',
+        heading: 'From Vision to Impact',
+        paragraphs: [
+          'Artificial Intelligence is reshaping how the world builds, discovers, works and lives.',
+          'Vision to Impact is a conference built around a larger question:',
+        ],
+        callout: 'How do we transform AI from an emerging technology into meaningful impact for people, businesses, science and society?',
+        after: [
+          'The conference brings together perspectives from Odisha, India and the international technology ecosystem to explore the complete AI landscape — from sovereign AI and frontier research to startups, enterprises, industries and society.',
+          'The program connects global technology conversations with Odisha\'s own aspirations, talent and opportunities — creating a platform for ideas that can move from vision to execution and ultimately to impact.',
+        ],
+      },
+      {
+        kicker: 'The Vision',
+        heading: 'Making Odisha the Intellectual AI Capital of the World',
+        paragraphs: [
+          'The conference looks beyond simply adopting AI.',
+          'It asks how Odisha can become a place where AI ideas are imagined, researched, built, deployed and scaled.',
+          'From young students and researchers to entrepreneurs, businesses and policymakers, the conference aims to create a broader ecosystem around AI.',
+        ],
+      },
+      {
+        kicker: 'From Odisha to the World',
+        heading: 'A Global AI Conversation with Odisha at the Centre',
+        paragraphs: ['The conference connects multiple levels of participation:'],
+        flow: ['Odisha', 'India', 'Global'],
+        after: [
+          'The program includes dedicated sessions for Odisha districts, national perspectives and international participation, creating a platform where local ideas can connect with national and global technology ecosystems.',
+        ],
+      },
+      {
+        kicker: 'Who Should Attend?',
+        heading: 'Built for the whole AI ecosystem',
+        items: [
+          { title: 'Students & Young Minds', desc: 'Discover opportunities in AI, research, entrepreneurship and technology.' },
+          { title: 'Founders & Startups', desc: 'Explore AI applications, opportunities, partnerships and the path from use case to scalable company.' },
+          { title: 'Businesses', desc: 'Understand how AI is transforming enterprises, industries and business models.' },
+          { title: 'Researchers & Scientists', desc: 'Connect AI with scientific discovery and frontier research.' },
+          { title: 'Technology Leaders', desc: 'Engage with conversations around sovereign AI, deep tech and the future of intelligent systems.' },
+          { title: 'Policymakers & Institutions', desc: 'Explore how AI can contribute to national, state and societal transformation.' },
+          { title: 'Global Technology Community', desc: 'Connect international expertise with India\'s and Odisha\'s emerging AI ecosystem.' },
+        ],
+      },
+      {
+        kicker: 'Why This Conference Matters',
+        heading: 'The Future Is Not Just About AI. It\'s About What We Do With It.',
+        paragraphs: ['The real opportunity lies beyond algorithms and models. It lies in:'],
+        steps: [
+          'Ideas becoming research.',
+          'Research becoming technology.',
+          'Technology becoming businesses.',
+          'Businesses creating opportunities.',
+          'Innovation reaching communities.',
+          'And technology creating measurable impact.',
+        ],
+        after: ['That is the journey from Vision to Impact.'],
+      },
+      {
+        kicker: 'Coming Soon',
+        heading: 'More details will be announced',
+        paragraphs: ['The programme is being finalised. The following will be published here once confirmed:'],
+        items: [
+          { title: 'Speaker Lineup', desc: 'Keynote, national and international speakers.' },
+          { title: 'Partners', desc: 'Institutional, industry and community partners.' },
+          { title: 'Registration', desc: 'How to register and attend in Bhubaneswar.' },
+          { title: 'Session Details', desc: 'Detailed descriptions for each session and track.' },
+        ],
+      },
+    ],
+    closing: {
+      heading: 'From Odisha to the World. From Vision to Impact.',
+      paragraphs: [
+        'The next chapter of AI will not be written by technology alone.',
+        'It will be shaped by the people who imagine new possibilities, build new systems, create new businesses, advance scientific discovery and apply technology to real problems.',
+        'Vision to Impact brings these conversations together with one ambitious aspiration:',
+      ],
+      highlight: 'Make Odisha the Intellectual AI Capital of the World.',
+      meta: '10 October 2026 • Bhubaneswar, Odisha',
+      cta: { label: 'Be Part of the Vision', to: '/join' },
+    },
     organizers: [],
     speakers: [],
     links: [],
@@ -169,6 +254,59 @@ function InfoPill({ icon, label, value }) {
   );
 }
 
+/* ─── Structured content section (kicker, heading, paragraphs, callout, flow, steps, items) ─── */
+const paraStyle = { lineHeight:1.85, marginBottom:'1rem', color:'var(--text2)' };
+
+function ContentSection({ section }) {
+  return (
+    <div style={{ marginBottom:'3rem' }}>
+      <div style={{ fontSize:'0.68rem', fontFamily:"'JetBrains Mono',monospace", color:'var(--c1)', textTransform:'uppercase', letterSpacing:'0.1em', marginBottom:'0.4rem' }}>{section.kicker}</div>
+      <h2 style={{ fontSize:'1.3rem', marginBottom:'1.25rem' }}>{section.heading}</h2>
+
+      {section.paragraphs?.map((p, i) => <p key={i} style={paraStyle}>{p}</p>)}
+
+      {section.callout && (
+        <p style={{ borderLeft:'3px solid var(--c1)', paddingLeft:'1.25rem', fontSize:'1.1rem', fontWeight:600, lineHeight:1.6, margin:'0.5rem 0 1.5rem' }}>{section.callout}</p>
+      )}
+
+      {section.flow && (
+        <div style={{ display:'flex', alignItems:'center', gap:'0.75rem', flexWrap:'wrap', margin:'0.5rem 0 1.5rem' }}>
+          {section.flow.map((f, i) => (
+            <React.Fragment key={f}>
+              {i > 0 && <ArrowRight size={18} style={{ color:'var(--c1)' }} />}
+              <span className="tag tag-green" style={{ fontSize:'0.85rem', padding:'0.4rem 1rem' }}>{f}</span>
+            </React.Fragment>
+          ))}
+        </div>
+      )}
+
+      {section.steps && (
+        <ol style={{ listStyle:'none', padding:0, margin:'0.5rem 0 1.5rem', display:'flex', flexDirection:'column', gap:'0.5rem' }}>
+          {section.steps.map((step, i) => (
+            <li key={i} style={{ display:'flex', alignItems:'center', gap:'0.85rem', fontWeight:600 }}>
+              <span style={{ width:26, height:26, borderRadius:'50%', background:'var(--grad)', color:'#000', display:'flex', alignItems:'center', justifyContent:'center', fontSize:'0.72rem', fontWeight:700, flexShrink:0 }}>{i + 1}</span>
+              {step}
+            </li>
+          ))}
+        </ol>
+      )}
+
+      {section.items && (
+        <div className="grid-2" style={{ gap:'0.75rem', marginBottom:'1rem' }}>
+          {section.items.map((it, i) => (
+            <div key={i} className="card" style={{ padding:'1.25rem', borderLeft:'3px solid var(--c2)' }}>
+              <div style={{ fontWeight:600, fontSize:'0.95rem', marginBottom:'0.35rem' }}>{it.title}</div>
+              <div style={{ fontSize:'0.82rem', color:'var(--text3)', lineHeight:1.6 }}>{it.desc}</div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {section.after?.map((p, i) => <p key={i} style={paraStyle}>{p}</p>)}
+    </div>
+  );
+}
+
 export default function ConferenceDetail() {
   const { slug } = useParams();
   const conf = CONFERENCES[slug];
@@ -218,6 +356,9 @@ export default function ConferenceDetail() {
             <span className={`tag ${isUpcoming ? 'tag-green' : ''}`} style={{ fontSize:'0.68rem' }}>{conf.status}</span>
             <span className="tag" style={{ fontSize:'0.68rem' }}>Conference</span>
           </div>
+          {conf.eyebrow && (
+            <div style={{ fontFamily:"'JetBrains Mono',monospace", fontSize:'0.8rem', fontWeight:600, color:'var(--c1)', textTransform:'uppercase', letterSpacing:'0.16em', marginBottom:'0.6rem' }}>{conf.eyebrow}</div>
+          )}
           {/* ── TITLE — highly visible ── */}
           <h1 style={{
             fontFamily:"'Syne',sans-serif",
@@ -229,13 +370,24 @@ export default function ConferenceDetail() {
             marginBottom:'0.85rem',
             textShadow:'0 2px 40px rgba(0,0,0,1), 0 0 80px rgba(0,0,0,0.8)',
           }}>{conf.title}</h1>
+          {conf.tagline && (
+            <p style={{ fontSize:'clamp(1rem,2vw,1.25rem)', fontWeight:600, color:'rgba(255,255,255,0.85)', margin:'0 0 1rem', maxWidth:720, textShadow:'0 2px 20px rgba(0,0,0,1)' }}>{conf.tagline}</p>
+          )}
           {/* accent line */}
           <div style={{ width:64, height:3, borderRadius:2, background:'var(--grad)' }} />
+          {conf.heroCta && (
+            <button type="button" className="btn btn-glow"
+              style={{ marginTop:'1.5rem', width:'fit-content' }}
+              onClick={() => document.getElementById(conf.heroCta.target)?.scrollIntoView({ behavior:'smooth' })}
+            >
+              {conf.heroCta.label}
+            </button>
+          )}
         </div>
       </div>
 
       {/* ── Content ── */}
-      <div className="container" style={{ paddingTop:'3rem', paddingBottom:'5rem' }}>
+      <div id="conference-details" className="container" style={{ paddingTop:'3rem', paddingBottom:'5rem', scrollMarginTop:'72px' }}>
         {/* page title repeated for clarity */}
         <div style={{ marginBottom:'2.5rem', paddingBottom:'2rem', borderBottom:'1px solid var(--border)' }}>
           <div style={{ fontSize:'0.68rem', fontFamily:"'JetBrains Mono',monospace", color:'var(--text3)', textTransform:'uppercase', letterSpacing:'0.1em', marginBottom:'0.5rem' }}>
@@ -265,6 +417,22 @@ export default function ConferenceDetail() {
                 <p key={i} style={{ lineHeight:1.85, marginBottom:'1rem', color:'var(--text2)' }}>{para}</p>
               ))}
             </div>
+
+            {/* Structured content sections */}
+            {conf.sections?.map((s, i) => <ContentSection key={i} section={s} />)}
+
+            {/* Closing call-to-action */}
+            {conf.closing && (
+              <div className="card" style={{ padding:'2.25rem', marginBottom:'3rem', background:'linear-gradient(135deg, rgba(48,209,88,0.07), rgba(0,212,255,0.05))', borderColor:'rgba(48,209,88,0.18)' }}>
+                <h2 style={{ fontSize:'clamp(1.3rem,2.5vw,1.7rem)', marginBottom:'1.25rem' }}>{conf.closing.heading}</h2>
+                {conf.closing.paragraphs.map((p, i) => (
+                  <p key={i} style={{ lineHeight:1.85, marginBottom:'0.9rem', color:'var(--text2)' }}>{p}</p>
+                ))}
+                <p style={{ fontFamily:"'Syne',sans-serif", fontSize:'1.2rem', fontWeight:800, margin:'1.25rem 0 0.75rem' }}>{conf.closing.highlight}</p>
+                <div style={{ fontSize:'0.75rem', fontFamily:"'JetBrains Mono',monospace", color:'var(--text3)', textTransform:'uppercase', letterSpacing:'0.08em', marginBottom:'1.5rem' }}>{conf.closing.meta}</div>
+                <Link to={conf.closing.cta.to} className="btn btn-glow">{conf.closing.cta.label}</Link>
+              </div>
+            )}
 
             {/* Organizing Committee */}
             {conf.organizers.length > 0 && (

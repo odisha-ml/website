@@ -5,7 +5,7 @@ import { useLanguage } from '../utils/LanguageContext';
 import { usePageMeta } from '../utils/usePageMeta';
 
 const ALL = [
-  { slug: '2026',            title: '2026 Odisha AI Conference',             date: '10 Oct 2026',    location: 'Odisha, India',          img: '/images/conference-covers/2026.webp',      tag: 'Upcoming', desc: 'Seventh annual international congregation of Odias in AI.' },
+  { slug: '2026',            title: '2026 Odisha AI Conference',             date: '10 Oct 2026',    location: 'Bhubaneswar, Odisha',    img: '/images/conference-covers/2026.webp',      tag: 'Upcoming', desc: 'Vision to Impact — making Odisha the Intellectual AI Capital of the World.' },
   { slug: 'summit',          title: 'Odisha AI Summit 2025',                date: '21–22 Dec 2025',  location: 'Bhubaneshwar, India', img: '/images/summit.webp',                        tag: 'Past',     desc: 'Global gathering of educators, policy makers, and investors charting Odisha\'s AI implementation path.' },
   { slug: 'regional-summit', title: 'Odisha AI Regional Summit Series 2025', date: '14 Nov 2025',    location: 'Multiple Cities, Odisha', img: '/images/regional-summit-series.png',     tag: 'Past',     desc: 'Regional summits bringing the AI conference experience closer to communities across Odisha.' },
   { slug: '2025',            title: '2025 Odisha AI Conference',             date: '11 Oct 2025',    location: 'Online + Odisha, India', img: '/images/conference-covers/2025.webp',      tag: 'Past',     desc: 'Sixth annual international congregation — from first light of the day to the last.' },
@@ -49,7 +49,7 @@ export default function Conferences() {
           <div style={{ flex:1 }}>
             <span className="tag tag-green" style={{ marginBottom:'0.75rem', display:'inline-flex' }}>{t('conferences.upcoming')}</span>
             <h3 style={{ fontSize:'1.4rem', marginBottom:'0.5rem' }}>2026 Odisha AI Conference</h3>
-            <p style={{ fontSize:'0.9rem' }}>10 October 2026 • Odisha, India — The seventh annual international congregation of Odias in AI.</p>
+            <p style={{ fontSize:'0.9rem' }}>10 October 2026 • Bhubaneswar, Odisha — Vision to Impact: Making Odisha the Intellectual AI Capital of the World.</p>
           </div>
           <span style={{ display:'flex', alignItems:'center', gap:'0.4rem', color:'var(--c1)', fontWeight:700, fontSize:'0.9rem', whiteSpace:'nowrap' }}>
             {t('common.learnMore')} <ChevronRight size={16}/>

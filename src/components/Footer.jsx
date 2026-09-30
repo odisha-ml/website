@@ -76,7 +76,7 @@ export default function Footer() {
             {[
               ['/about', t('nav.about')],
               ['/join', t('nav.join')],
-              ['https://chat.whatsapp.com/HEfoBJHKqjzJIDMfoTsAZp', t('home.joinAction')],
+              ['https://chat.whatsapp.com/GPJvjoB7cGt0nR68jvgrr1', t('home.joinAction')],
               ['https://umami.ekathi.com/share/CAyEwBULBAzB4DCB/www.odishaai.org/', 'Analytics'],
             ].map(([to,lbl]) => {
               const ext = to.startsWith('http');

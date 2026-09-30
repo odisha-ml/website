@@ -8,6 +8,7 @@ import Blogs from './pages/Blogs';
 import BlogPost from './pages/BlogPost';
 import Events from './pages/Events';
 import ConferenceDetail from './pages/ConferenceDetail';
+import ConferenceRegister from './pages/ConferenceRegister';
 import Initiatives from './pages/Initiatives';
 import InitiativeDetail from './pages/InitiativeDetail';
 import Resources from './pages/Resources';
@@ -30,6 +31,7 @@ function App() {
               <Route path="/blogs/*" element={<BlogPost />} />
               <Route path="/conferences" element={<Events />} />
               <Route path="/conferences/:slug" element={<ConferenceDetail />} />
+              <Route path="/conferences/2026/register" element={<ConferenceRegister />} />
               <Route path="/initiatives" element={<Initiatives />} />
               <Route path="/initiatives/:slug" element={<InitiativeDetail />} />
               <Route path="/resources" element={<Resources />} />

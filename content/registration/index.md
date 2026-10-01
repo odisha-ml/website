@@ -11,4 +11,4 @@ toc = false
 +++
 
 ## WhatsApp Group
-Join our [WhatsApp group](https://chat.whatsapp.com/HEfoBJHKqjzJIDMfoTsAZp) to get in touch with us.
+Join our [WhatsApp group](https://chat.whatsapp.com/GPJvjoB7cGt0nR68jvgrr1) to get in touch with us.

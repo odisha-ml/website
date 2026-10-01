@@ -92,7 +92,7 @@ We welcome contributions from the community! Whether you want to fix a bug, add 
 
 ## 📧 Contact & Community
 
-- **Join us on WhatsApp**: [Odisha AI Community](https://chat.whatsapp.com/HEfoBJHKqjzJIDMfoTsAZp)
+- **Join us on WhatsApp**: [Odisha AI Community](https://chat.whatsapp.com/GPJvjoB7cGt0nR68jvgrr1)
 - **Email**: info@odishaai.org
 - **Twitter / X**: [@odias_in_ai](https://twitter.com/odias_in_ai)
 - **LinkedIn**: [Odisha AI](https://www.linkedin.com/company/75029211)

@@ -1,21 +1,24 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, ExternalLink, Calendar, MapPin, Users, Mic, Ticket } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ExternalLink, Calendar, MapPin, Users, Mic, Ticket, Video, Copy, Check, Clock } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
 import { usePageMeta } from '../utils/usePageMeta';
 import Sponsorship from '../components/Sponsorship';
 
 /* ─── All conference data ─── */
-const CONFERENCES = {
+export const CONFERENCES = {
   '2026': {
     title: '2026 Odisha AI Conference',
     eyebrow: 'Vision to Impact',
     tagline: 'Making Odisha the Intellectual AI Capital of the World',
     heroCta: { label: 'Explore the Conference', target: 'conference-details' },
     register: '/conferences/2026/register',
+    meetUrl: 'https://meet.google.com/xwb-tjjh-pip',
+    meetStart: '9 October 2026 · 9:00 PM IST',
     date: '10 October 2026',
     location: 'Hybrid',
     img: '/images/conference-covers/2026.webp',
+    poster: '/images/conference-covers/2026-poster.jpg',
     status: 'Upcoming',
     hashtag: '#OAIConf2026',
     hashtagUrl: 'https://x.com/hashtag/OAIConf2026',
@@ -255,6 +258,43 @@ function InfoPill({ icon, label, value }) {
   );
 }
 
+/* ─── Prominent "join online" banner for the live meeting link ─── */
+function MeetBanner({ url, start }) {
+  const [copied, setCopied] = React.useState(false);
+  const display = url.replace(/^https?:\/\//, '');
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch { /* clipboard unavailable — link is still visible to copy manually */ }
+  };
+
+  return (
+    <div className="meet-banner">
+      <div className="meet-banner-inner">
+        <div className="meet-banner-icon"><Video size={26} /></div>
+        <div className="meet-banner-text">
+          <div className="meet-banner-kicker"><span className="live-dot" /> Join Online</div>
+          <div className="meet-banner-title">Attend the conference live on Google Meet</div>
+          {start && (
+            <div className="meet-banner-time"><Clock size={15} /> Starts {start}</div>
+          )}
+          <a href={url} target="_blank" rel="noopener noreferrer" className="meet-banner-link">{display}</a>
+        </div>
+        <div className="meet-banner-actions">
+          <a href={url} target="_blank" rel="noopener noreferrer" className="btn btn-glow meet-banner-join">
+            <Video size={18} /> Join Google Meet <ExternalLink size={14} />
+          </a>
+          <button type="button" className="btn btn-outline" onClick={copy} aria-live="polite">
+            {copied ? <><Check size={15} /> Copied</> : <><Copy size={15} /> Copy link</>}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 /* ─── Structured content section (kicker, heading, paragraphs, callout, flow, steps, items) ─── */
 const paraStyle = { lineHeight: 1.85, marginBottom: '1rem', color: 'var(--text2)' };
 
@@ -400,6 +440,8 @@ export default function ConferenceDetail() {
 
       {/* ── Content ── */}
       <div id="conference-details" className="container" style={{ paddingTop: '3rem', paddingBottom: '5rem', scrollMarginTop: '72px' }}>
+        {conf.meetUrl && <MeetBanner url={conf.meetUrl} start={conf.meetStart} />}
+
         {/* page title repeated for clarity */}
         <div style={{ marginBottom: '2.5rem', paddingBottom: '2rem', borderBottom: '1px solid var(--border)' }}>
           <div style={{ fontSize: '0.68rem', fontFamily: "'JetBrains Mono',monospace", color: 'var(--text3)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.5rem' }}>
@@ -491,6 +533,11 @@ export default function ConferenceDetail() {
 
           {/* Right — sidebar */}
           <div className="detail-sidebar" style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', position: 'sticky', top: '84px' }}>
+            {conf.meetUrl && (
+              <a href={conf.meetUrl} target="_blank" rel="noopener noreferrer" className="btn btn-glow" style={{ justifyContent: 'center', width: '100%', padding: '0.85rem 1.2rem', fontWeight: 700 }}>
+                <span className="live-dot live-dot-dark" /> Join Live on Google Meet
+              </a>
+            )}
             {conf.register && (
               <div className="card" style={{ padding: '1.5rem', marginBottom: '0.5rem', background: 'linear-gradient(135deg, rgba(0,212,255,0.10), rgba(191,90,242,0.08))', borderColor: 'rgba(0,212,255,0.25)' }}>
                 <span className="tag tag-green" style={{ fontSize: '0.65rem' }}>Registration Open</span>
@@ -502,6 +549,7 @@ export default function ConferenceDetail() {
               </div>
             )}
             <InfoPill icon={<Calendar size={16} />} label={t('common.started')} value={conf.date} />
+            {conf.meetStart && <InfoPill icon={<Clock size={16} />} label="Online Start" value={conf.meetStart} />}
             <InfoPill icon={<MapPin size={16} />} label="Location" value={conf.location} />
             <InfoPill icon={<span style={{ fontSize: '0.9rem' }}>📋</span>} label="Status" value={conf.status} />
 

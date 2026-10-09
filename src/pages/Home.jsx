@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ArrowUpRight, ChevronRight } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, ChevronRight, Calendar, Clock, Globe, Video, Ticket, ExternalLink } from 'lucide-react';
+import { CONFERENCES as CONFERENCE_DETAILS } from './ConferenceDetail';
 import { useLanguage } from '../utils/LanguageContext';
 import { usePageMeta } from '../utils/usePageMeta';
 
@@ -26,7 +27,7 @@ function Counter({ end, suffix = '' }) {
 }
 
 const CONFERENCES = [
-  { year: '2026', slug: '2026', title: '2026 Odisha AI Conference', date: '10 Oct 2026', desc: 'Vision to Impact — a global platform exploring how AI can transform Odisha, India and the world.', img: '/images/conference-covers/2026.webp', tag: 'Upcoming' },
+  { year: '2026', slug: '2026', title: '2026 Odisha AI Conference', date: '10 Oct 2026', desc: 'Vision to Impact — a global platform exploring how AI can transform Odisha, India and the world.', img: '/images/conference-covers/2026-poster.jpg', imgPos: 'center 30%', tag: 'Upcoming' },
   { year: '2025', slug: 'summit', title: 'Odisha AI Summit 2025', date: '21 Dec 2025', desc: 'Global gathering in Bhubaneshwar — educators, policy makers, industry leaders, and investors charting Odisha\'s AI path.', img: '/images/summit.webp', tag: 'Past' },
   { year: '2024', slug: '2024', title: '2024 Odisha AI Conference', date: '2024', desc: 'Annual conference bringing together the Odia AI community for talks, workshops, and networking.', img: '/images/conference-covers/2024.webp', tag: 'Past' },
 ];
@@ -43,6 +44,68 @@ const STATS = [
   { num: 16, suffix: '', label: 'Chapter Countries' },
   { num: 8, suffix: '', label: 'Annual Conferences' },
 ];
+
+/* Featured upcoming conference — data comes from the conference detail page */
+function ConferenceSpotlight() {
+  const conf = CONFERENCE_DETAILS['2026'];
+  const detailPath = '/conferences/2026';
+  const chip = (icon, text) => (
+    <span className="spotlight-chip">{icon}{text}</span>
+  );
+
+  return (
+    <section className="section" style={{ position:'relative', overflow:'hidden' }}>
+      <div aria-hidden style={{ position:'absolute', top:'10%', left:'-10%', width:480, height:480, borderRadius:'50%', background:'radial-gradient(circle, rgba(0,212,255,0.08) 0%, transparent 70%)', pointerEvents:'none' }} />
+      <div className="container" style={{ position:'relative' }}>
+        <div className="spotlight-card">
+          <div className="spotlight-grid">
+            {/* Cover */}
+            <Link to={detailPath} className="spotlight-media" aria-label={conf.title}>
+              <img src={conf.poster || conf.img} alt={conf.title} loading="lazy" decoding="async" />
+              <span className="tag tag-green spotlight-badge"><span className="live-dot" /> {conf.status}</span>
+            </Link>
+
+            {/* Content */}
+            <div className="spotlight-body">
+              <div className="section-label">Featured Conference</div>
+              <div style={{ fontFamily:"'JetBrains Mono',monospace", fontSize:'0.75rem', fontWeight:600, color:'var(--c1)', textTransform:'uppercase', letterSpacing:'0.14em', marginBottom:'0.5rem' }}>{conf.eyebrow}</div>
+              <h2 style={{ fontSize:'clamp(1.6rem,3.4vw,2.4rem)', lineHeight:1.15, marginBottom:'0.75rem' }}>{conf.title}</h2>
+              <p style={{ fontWeight:600, color:'var(--text)', margin:'0 0 0.75rem', lineHeight:1.5 }}>{conf.tagline}</p>
+              <p style={{ color:'var(--text2)', lineHeight:1.75, margin:'0 0 1.25rem', fontSize:'0.95rem' }}>{conf.about}</p>
+
+              <div style={{ display:'flex', flexWrap:'wrap', gap:'0.5rem', marginBottom:'1.5rem' }}>
+                {chip(<Calendar size={14} />, conf.date)}
+                {conf.meetStart && chip(<Clock size={14} />, `Online from ${conf.meetStart}`)}
+                {chip(<Globe size={14} />, conf.location)}
+              </div>
+
+              <div className="spotlight-actions">
+                {conf.meetUrl && (
+                  <a href={conf.meetUrl} target="_blank" rel="noopener noreferrer" className="btn btn-glow" style={{ padding:'0.85rem 1.6rem', fontWeight:700 }}>
+                    <Video size={18} /> Join Live on Google Meet <ExternalLink size={14} />
+                  </a>
+                )}
+                {conf.register && (
+                  <Link to={conf.register} className="btn btn-outline">
+                    <Ticket size={16} /> Register
+                  </Link>
+                )}
+                <Link to={detailPath} className="btn btn-ghost">
+                  Conference Details <ArrowRight size={15} />
+                </Link>
+              </div>
+              {conf.meetUrl && (
+                <a href={conf.meetUrl} target="_blank" rel="noopener noreferrer" className="meet-banner-link" style={{ marginTop:'0.9rem', fontSize:'0.8rem' }}>
+                  {conf.meetUrl.replace(/^https?:\/\//, '')}
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 
 
@@ -96,6 +159,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ─────── FEATURED: 2026 CONFERENCE ─────── */}
+      <ConferenceSpotlight />
+
       {/* ─────── STATS ─────── */}
       <div style={{ background:'var(--bg2)', borderTop:'1px solid var(--border)', borderBottom:'1px solid var(--border)' }}>
         <div className="container" style={{ padding:'3rem 2rem' }}>
@@ -136,7 +202,7 @@ export default function Home() {
             {CONFERENCES.map((c,i) => (
               <Link to="/conferences" key={i} className="card card-glow" style={{ textDecoration:'none', color:'inherit', display:'flex', flexDirection:'column' }}>
                 <div style={{ overflow:'hidden', borderRadius:'var(--r3) var(--r3) 0 0' }}>
-                  <img src={c.img} alt={c.title} className="img-card-cover" style={{ height:200 }} loading="lazy" decoding="async" />
+                  <img src={c.img} alt={c.title} className="img-card-cover" style={{ height:200, objectPosition: c.imgPos || 'center' }} loading="lazy" decoding="async" />
                 </div>
                 <div style={{ padding:'1.5rem', display:'flex', flexDirection:'column', gap:'0.75rem', flex:1 }}>
                   <div style={{ display:'flex', gap:'0.5rem', alignItems:'center' }}>

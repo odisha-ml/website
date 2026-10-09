@@ -5,7 +5,7 @@ import { useLanguage } from '../utils/LanguageContext';
 import { usePageMeta } from '../utils/usePageMeta';
 
 const ALL = [
-  { slug: '2026',            title: '2026 Odisha AI Conference',             date: '10 Oct 2026',    location: 'Hybrid',    img: '/images/conference-covers/2026.webp',      tag: 'Upcoming', desc: 'Vision to Impact — making Odisha the Intellectual AI Capital of the World.' },
+  { slug: '2026',            title: '2026 Odisha AI Conference',             date: '10 Oct 2026',    location: 'Hybrid',    img: '/images/conference-covers/2026-poster.jpg', imgPos: 'center 30%', tag: 'Upcoming', desc: 'Vision to Impact — making Odisha the Intellectual AI Capital of the World.' },
   { slug: 'summit',          title: 'Odisha AI Summit 2025',                date: '21–22 Dec 2025',  location: 'Bhubaneshwar, India', img: '/images/summit.webp',                        tag: 'Past',     desc: 'Global gathering of educators, policy makers, and investors charting Odisha\'s AI implementation path.' },
   { slug: 'regional-summit', title: 'Odisha AI Regional Summit Series 2025', date: '14 Nov 2025',    location: 'Multiple Cities, Odisha', img: '/images/regional-summit-series.png',     tag: 'Past',     desc: 'Regional summits bringing the AI conference experience closer to communities across Odisha.' },
   { slug: '2025',            title: '2025 Odisha AI Conference',             date: '11 Oct 2025',    location: 'Online + Odisha, India', img: '/images/conference-covers/2025.webp',      tag: 'Past',     desc: 'Sixth annual international congregation — from first light of the day to the last.' },
@@ -65,7 +65,7 @@ export default function Conferences() {
             >
               <div style={{ position:'relative', overflow:'hidden' }}>
                 <img src={c.img} alt={c.title} loading="lazy" decoding="async"
-                  style={{ width:'100%', height:220, objectFit:'cover', transition:'transform 0.5s ease' }}
+                  style={{ width:'100%', height:220, objectFit:'cover', objectPosition: c.imgPos || 'center', transition:'transform 0.5s ease' }}
                   onMouseOver={e=>e.currentTarget.style.transform='scale(1.05)'}
                   onMouseOut={e=>e.currentTarget.style.transform='scale(1)'}
                 />

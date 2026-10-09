@@ -1,9 +1,81 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, ExternalLink, Calendar, MapPin, Users, Mic, Ticket, Video, Copy, Check, Clock } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ExternalLink, Calendar, MapPin, Users, Mic, Ticket, Video, Copy, Check, Clock, X } from 'lucide-react';
 import { useLanguage } from '../utils/LanguageContext';
 import { usePageMeta } from '../utils/usePageMeta';
 import Sponsorship from '../components/Sponsorship';
+
+const SCHEDULE_2026 = [
+  { day: 'Friday, 9 October', items: [
+    ['9:00 PM', 'Prayers at the Sree Jagannatha Temple'],
+    ['9:13 PM', 'Program Begins — First Ray on Earth'],
+    ['9:15 PM', 'Mun Sei Kalinga'],
+    ['9:18 PM', 'Making Odisha AI the Intellectual AI Capital of the World'],
+    ['9:30 PM', 'Keynote 1: End to End AI — Sovereign AI'],
+    ['10:30 PM', 'End to End AI — Big Business'],
+    ['11:30 PM', 'End to End AI — Small Business'],
+  ]},
+  { day: 'Saturday, 10 October', items: [
+    ['12:30 AM', 'End to End AI — Startups'],
+    ['1:30 AM', 'End to End AI — Science'],
+    ['2:30 AM', 'International — End to End AI: Frontier Tech'],
+    ['3:30 AM', 'International — End to End AI: Usage Tech'],
+    ['4:30 AM', 'International — End to End AI: Society'],
+    ['5:30 AM', 'Puri: Mangala Alati'],
+    ['6:30 AM', 'Keynote 2'],
+    ['6:31 AM', 'From the Gateway of India: Making Odisha AI the Intellectual AI Capital of the World'],
+    ['7:30 AM', 'International — Europe: Sofia & Germany Panel'],
+    ['8:30 AM', 'International Panel — AI for Children'],
+    ['8:55 AM', 'Odisha Districts — Angul: Making Odisha the Intellectual AI Capital of the World'],
+    ['9:00 AM', 'Odisha Districts — Angul'],
+    ['9:30 AM', 'End to End AI — Frontier Tech Research'],
+    ['10:00 AM', 'End to End AI — Use Case to Unicorn Case'],
+    ['10:05 AM', 'Vision: Odisha as AI Capital — Digital Infrastructure Along Corridors to Support AI Growth'],
+    ['10:40 AM', 'AI for a Climate-Resilient Odisha: From Local Knowledge to Global Implements'],
+    ['11:25 AM', 'End to End AI — Stories: Feeds from Fields'],
+    ['11:35 AM', 'AI: Upskilling and Upscaling'],
+    ['11:50 AM', 'Intelligence Management at Scale, Leveraging AI'],
+    ['12:05 PM', 'Transformations in Civil Engineering'],
+    ['12:05 PM', 'Panel: Emerging Superhighways in AI Times'],
+    ['12:25 PM', 'Energy Intelligence'],
+    ['12:35 PM', 'AI: Manufacturing in Chemical Industries'],
+    ['12:35 PM', 'Transition: Feeds from Fields'],
+    ['1:00 PM', 'National — Transforming the Talent Pool'],
+    ['1:10 PM', 'Odisha — Engineering: VSSUT'],
+    ['1:20 PM', 'Specialization: End to End AI — Math'],
+    ['3:30 PM', 'National — Feeds from Fields'],
+    ['3:33 PM', 'International — Netherlands: AI Expressway, Angul to Amsterdam'],
+    ['4:00 PM', 'International — Netherlands: The Superhighway Design Details'],
+    ['4:30 PM', 'National Session'],
+    ['4:45 PM', 'Odisha Districts — Balangir: Making Odisha the Intellectual AI Capital of the World'],
+    ['5:00 PM', 'Jajpur: AI Vision for Odisha from the Jajpur Soccer Field'],
+    ['5:05 PM', 'Jajpur Representatives'],
+    ['5:30 PM', 'Odisha Districts — Representatives'],
+    ['5:31 PM', 'From Marine Drive, Mumbai: Making Odisha the Intellectual AI Capital of the World'],
+    ['6:30 PM', 'Odisha Hackathon Feeds'],
+    ['7:30 PM', 'Odisha Districts — Hackathon Feeds'],
+    ['8:30 PM', 'Odisha — Ministerial Messages'],
+    ['9:30 PM', 'International — Dubai Panel'],
+    ['10:30 PM', 'Keynote 3: Engineering Superintelligence Superhighways from Odisha to Everywhere in the World'],
+    ['11:30 PM', 'International — UK'],
+  ]},
+  { day: 'Sunday, 11 October', items: [
+    ['12:30 AM', 'International — Hawaii & Africa'],
+    ['1:30 AM', 'International — USA: Engineering AI Superhighways from Odisha to USA with Love'],
+    ['2:30 AM', 'International — Sweden: Making Odisha the Intellectual AI Capital of the World'],
+    ['3:30 AM', 'International — Dubai Panel'],
+    ['4:30 AM', 'International — Singapore Panel'],
+    ['5:16 AM', 'Odisha — Day First Light: Building Unicorns from Odisha'],
+    ['5:30 AM', 'Keynote 4: Superhighways to Superintelligence and Abundance'],
+    ['5:30 AM', 'International — South America Panel'],
+    ['6:30 AM', 'International — Europe 3 Panel'],
+    ['7:30 AM', 'International — Australia & NZ Panel'],
+    ['8:30 AM', 'National — Delhi: The Policy Paradigms from the Capital'],
+    ['9:30 AM', 'National Session'],
+    ['10:30 AM', 'General Body Meeting — Impact and Scoping the Future of Odisha AI'],
+    ['10:44 AM', 'Conclusion — Vote of Thanks · Last Ray on Earth'],
+  ]},
+];
 
 /* ─── All conference data ─── */
 export const CONFERENCES = {
@@ -15,6 +87,7 @@ export const CONFERENCES = {
     register: '/conferences/2026/register',
     meetUrl: 'https://meet.google.com/xwb-tjjh-pip',
     meetStart: '9 October 2026 · 9:00 PM IST',
+    schedule: SCHEDULE_2026,
     date: '10 October 2026',
     location: 'Hybrid',
     img: '/images/conference-covers/2026.webp',
@@ -348,10 +421,62 @@ function ContentSection({ section }) {
   );
 }
 
+function ScheduleModal({ schedule, title, onClose }) {
+  useEffect(() => {
+    const onKey = e => { if (e.key === 'Escape') onClose(); };
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    window.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      window.removeEventListener('keydown', onKey);
+    };
+  }, [onClose]);
+
+  return (
+    <div onClick={onClose} style={{ position: 'fixed', inset: 0, zIndex: 1000, background: 'rgba(0,0,0,0.75)', backdropFilter: 'blur(6px)', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
+      <div role="dialog" aria-modal="true" aria-labelledby="schedule-title" onClick={e => e.stopPropagation()}
+        style={{ width: '100%', maxWidth: 720, maxHeight: '88vh', display: 'flex', flexDirection: 'column', background: 'var(--bg2)', border: '1px solid var(--border2)', borderRadius: 'var(--r3)', boxShadow: 'var(--shadow)', overflow: 'hidden' }}
+      >
+        <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '1rem', padding: '1.5rem 1.5rem 1.25rem', borderBottom: '1px solid var(--border)' }}>
+          <div>
+            <div style={{ fontSize: '0.68rem', fontFamily: "'JetBrains Mono',monospace", color: 'var(--c1)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '0.4rem' }}>Program Schedule · All times IST</div>
+            <h2 id="schedule-title" style={{ fontSize: 'clamp(1.1rem,2.5vw,1.4rem)', fontWeight: 800, margin: 0 }}>{title}</h2>
+          </div>
+          <button type="button" onClick={onClose} aria-label="Close schedule"
+            style={{ flexShrink: 0, width: 36, height: 36, borderRadius: '50%', border: '1px solid var(--border2)', background: 'transparent', color: 'var(--text)', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}
+          >
+            <X size={18} />
+          </button>
+        </div>
+
+        <div style={{ overflowY: 'auto', padding: '0.5rem 1.5rem 1.5rem' }}>
+          {schedule.map(group => (
+            <div key={group.day} style={{ marginTop: '1.25rem' }}>
+              <div style={{ position: 'sticky', top: 0, zIndex: 1, background: 'var(--bg2)', padding: '0.5rem 0', fontFamily: "'Syne',sans-serif", fontWeight: 800, fontSize: '0.95rem', color: 'var(--c2)' }}>{group.day}</div>
+              <ol style={{ listStyle: 'none', margin: 0, padding: 0, borderLeft: '2px solid var(--border2)', marginLeft: '0.35rem' }}>
+                {group.items.map(([time, event], i) => (
+                  <li key={i} style={{ position: 'relative', display: 'grid', gridTemplateColumns: '5.5rem 1fr', gap: '1rem', padding: '0.6rem 0 0.6rem 1.25rem' }}>
+                    <span style={{ position: 'absolute', left: -6, top: '0.95rem', width: 10, height: 10, borderRadius: '50%', background: 'var(--c1)', boxShadow: '0 0 10px var(--c1)' }} />
+                    <span style={{ fontFamily: "'JetBrains Mono',monospace", fontSize: '0.8rem', color: 'var(--c1)', paddingTop: '0.1rem', whiteSpace: 'nowrap' }}>{time}</span>
+                    <span style={{ fontSize: '0.92rem', color: 'var(--text)', lineHeight: 1.5 }}>{event}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function ConferenceDetail() {
   const { slug } = useParams();
   const conf = CONFERENCES[slug];
   const { t } = useLanguage();
+  const [scheduleOpen, setScheduleOpen] = useState(false);
+  const closeSchedule = React.useCallback(() => setScheduleOpen(false), []);
   usePageMeta({
     title: conf ? conf.title : 'Conference',
     path: `/conferences/${slug}`,
@@ -449,6 +574,9 @@ export default function ConferenceDetail() {
           </div>
           <h2 style={{ fontSize: 'clamp(1.4rem,3vw,2rem)', fontWeight: 800, margin: 0 }}>{conf.title}</h2>
         </div>
+        {scheduleOpen && conf.schedule && (
+          <ScheduleModal schedule={conf.schedule} title={conf.title} onClose={closeSchedule} />
+        )}
 
         <div className="detail-layout" style={{ display: 'grid', gridTemplateColumns: '1fr 340px', gap: '3rem', alignItems: 'start' }}>
 
@@ -546,6 +674,13 @@ export default function ConferenceDetail() {
                 <Link to={conf.register} className="btn btn-glow" style={{ justifyContent: 'center', width: '100%' }}>
                   <Ticket size={16} /> Register Now
                 </Link>
+                {conf.schedule && (
+                  <button type="button" className="btn btn-outline" onClick={() => setScheduleOpen(true)}
+                    style={{ justifyContent: 'center', width: '100%', marginTop: '0.75rem' }}
+                  >
+                    <Clock size={16} /> View Schedule
+                  </button>
+                )}
               </div>
             )}
             <InfoPill icon={<Calendar size={16} />} label={t('common.started')} value={conf.date} />
